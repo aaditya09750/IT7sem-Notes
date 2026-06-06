@@ -31,15 +31,15 @@ Each subject (where available) ships the canonical MUSA-published QB as the prim
 
 ### Repeated Question Shortlists
 
-`*_Repeated_Questions.pdf` files distill the high-frequency university paper questions for last-minute prep.
+`Repeated_Questions.pdf` files distill the high-frequency university paper questions for last-minute prep.
 
 ### Theory Frequency Reports
 
-`*Theory*.pdf` files list every theoretical question extracted from 5 university papers (Dec 2023, Jul 2024, May 2024, Apr/May 2025, Dec 2025), sorted by frequency, with paper-codes attached so you can see exactly when and how often each topic was asked. Numerical/calculation problems are excluded so theory revision stays focused.
+`Theory.pdf` files list every theoretical question extracted from 5 university papers (Dec 2023, Jul 2024, May 2024, Apr/May 2025, Dec 2025), sorted by frequency, with paper-codes attached so you can see exactly when and how often each topic was asked. Numerical/calculation problems are excluded so theory revision stays focused.
 
 ### Complete Answer Keys
 
-`*Complete Answers*.pdf` files provide worked answers aligned to the QB, so revision and self-testing happen in one place.
+`*Complete Answers.pdf` files provide worked answers aligned to the QB, so revision and self-testing happen in one place.
 
 ### Syllabus Reference
 
