@@ -13,11 +13,10 @@ A subject-wise archive of TE IT Semester VII revision material - MUSA question b
 
 ## Indexed Subjects
 
-* **Wireless Technology (WT)** - MUSA QB, Qp, repeated questions, theory frequency report, complete answers, simple-English answers - see [WT/](WT/)
-* **Web X.0 (WebX)** - MUSA QB, Qp, repeated questions, theory frequency report, complete answers - see [WebX/](WebX/)
-* **Artificial Intelligence & Data Science - I (AIDS)** - MUSA QB, Qp, repeated questions, theory frequency report, complete answers - see [AIDS/](AIDS/)
-* **Data Mining & Business Intelligence (DMBI)** - MUSA QB, Qp, numericals, theoretical bank, theory frequency report, complete answers - see [DMBI/](DMBI/)
-* **Ethical Hacking and Forensics (EHF, DLOC-II)** - MUSA QB, Qp, repeated questions, theory frequency report, complete answers - see [EHF/](EHF/)
+*   **AI & DS II** - see [AI & DS II/](AI%20&%20DS%20II/)
+*   **Cyber Security & Laws** - see [Cyber Security & Laws/](Cyber%20Security%20&%20Laws/)
+*   **Internet Of Everything** - see [Internet Of Everything/](Internet%20Of%20Everything/)
+*   **Software Testing & QA** - see [Software Testing & QA/](Software%20Testing%20&%20QA/)
 
 ## Core Features
 
@@ -25,92 +24,30 @@ A subject-wise archive of TE IT Semester VII revision material - MUSA question b
 
 Every subject is a self-contained folder. Question banks, papers, and answer keys for one subject never spill over into another, so you can clone a single folder and have everything you need for that exam.
 
-### MUSA Question Banks
+### PYQ PDFs
 
-Each subject (where available) ships the canonical MUSA-published QB as the primary revision source.
-
-### Repeated Question Shortlists
-
-`Repeated_Questions.pdf` files distill the high-frequency university paper questions for last-minute prep.
-
-### Theory Frequency Reports
-
-`Theory.pdf` files list every theoretical question extracted from 5 university papers (Dec 2023, Jul 2024, May 2024, Apr/May 2025, Dec 2025), sorted by frequency, with paper-codes attached so you can see exactly when and how often each topic was asked. Numerical/calculation problems are excluded so theory revision stays focused.
-
-### Complete Answer Keys
-
-`*Complete Answers.pdf` files provide worked answers aligned to the QB, so revision and self-testing happen in one place.
-
-### Syllabus Reference
-
-The official [Sem 7 Syllabus.pdf](Sem%207%20Syllabus.pdf) lives at the repo root for quick scope checks.
-
-### Cross-Subject Difference Sheet
-
-[All Difference Sem7 IT.pdf](All%20Difference%20Sem7%20IT.pdf) consolidates the recurring "differentiate between X and Y" answers across every subject in one place.
-
-### Q1 5-Marks Repetition Analysis
-
-[5 Marks Imp....pdf](5%20Marks%20Imp....pdf) is a 17-page frequency study of the compulsory 20-mark Question 01 (5-mark sub-questions) across all 5 core IT subjects, drawn from 25 university papers (May 2023 - May 2025). Sub-questions are grouped by semantic equivalence and ranked by repetition - the single highest-yield section to drill before any exam.
+Each subject folder contains a `PYQ.pdf` file, which includes Previous Year Questions for revision.
 
 ## Repository Structure
 
 ```text
 IT7sem Notes/
-|-- README.md                          <- this file
-|-- Sem 7 Syllabus.pdf                 <- official syllabus reference
-|-- All Difference Sem7 IT.pdf         <- cross-subject "differentiate" answers
-|-- 5 Marks Imp....pdf                 <- Q1 5-marks repetition analysis (25 papers)
-|
-|-- AIDS/                              <- Artificial Intelligence & Data Science - I
-|   |-- Ai&ds MUSA.pdf                     (MUSA question bank)
-|   |-- AIDS Qp.pdf                        (university question paper)
-|   |-- AIDS_Repeated_Questions.pdf        (high-frequency shortlist)
-|   |-- AIDS Theory....pdf                 (theory questions sorted by frequency, 5 papers)
-|   `-- AIDS Complete Answers....pdf       (worked answer key)
-|
-|-- DMBI/                              <- Data Mining & Business Intelligence
-|   |-- DMBI MUSA.pdf                      (MUSA question bank)
-|   |-- DMBI Qp.pdf                        (university question paper)
-|   |-- DMBI Numericals.pdf                (quantitative practice)
-|   |-- DMBI Theoretical.pdf               (theory bank)
-|   |-- DMBI Theory....pdf                 (theory questions sorted by frequency, 5 papers)
-|   `-- DMBI Complete Answers....pdf       (worked answer key)
-|
-|-- EHF/                               <- Ethical Hacking and Forensics (DLOC-II)
-|   |-- EHF Musa.pdf                       (MUSA question bank)
-|   |-- EHF Qp.pdf                         (university question paper)
-|   |-- EHF_Repeated_Questions.pdf         (high-frequency shortlist)
-|   |-- EHF Theory....pdf                  (theory questions sorted by frequency, 5 papers)
-|   `-- EHF Complete Answers....pdf        (worked answer key)
-|
-|-- WT/                                <- Wireless Technology
-|   |-- WT MUSA.pdf                        (MUSA question bank)
-|   |-- WT Qp.pdf                          (university question paper)
-|   |-- WT_Repeated_Questions.pdf          (high-frequency shortlist)
-|   |-- WT Theory....pdf                   (theory questions sorted by frequency, 5 papers)
-|   |-- WT Ans....pdf                      (simple-English worked answers, 47 pages)
-|   `-- WT Complete Answers....pdf         (worked answer key)
-|
-`-- WebX/                              <- Web X.0 (Web Technologies)
-    |-- web x MUSA.pdf                     (MUSA question bank)
-    |-- WEB.X Qp.pdf                       (university question paper)
-    |-- WebXO_Repeated_Questions.pdf       (high-frequency shortlist)
-    |-- WEB.X Theory....pdf                (theory questions sorted by frequency, 5 papers)
-    `-- WebX Complete Answers....pdf       (worked answer key)
+|-- README.md
+|-- AI & DS II/
+|   `-- AI&DS PYQ.pdf
+|-- Cyber Security & Laws/
+|   `-- CS&L PYQ.pdf
+|-- Internet Of Everything/
+|   `-- IOE PYQ.pdf
+`-- Software Testing & QA/
+    `-- Software Testing & QA PYQ.pdf
 ```
 
 ## File Naming Convention
 
-| Suffix                                         | Purpose                                                                                         |
-| ---------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `<Subject> MUSA.pdf`                           | MUSA-published canonical question bank                                                          |
-| `<Subject> Qp.pdf`                             | University question paper(s)                                                                    |
-| `<Subject>_Repeated_Questions.pdf`             | Curated high-frequency repeated questions                                                       |
-| `<Subject> Theory....pdf`                      | All theoretical questions across 5 university papers, sorted by frequency (numericals excluded) |
-| `<Subject> Ans....pdf`                         | Simple-English worked answers (plain-language style, easier on first reads)                     |
-| `<Subject> Complete Answers....pdf`            | Full worked answer key aligned to the QB                                                        |
-| `<Subject> Numericals.pdf` / `Theoretical.pdf` | Subject-specific splits (DMBI)                                                                  |
+| Suffix       | Purpose                                             |
+| :----------- | :-------------------------------------------------- |
+| `<Subject> PYQ.pdf` | Previous Year Questions for the subject. |
 
 Stick to this convention when adding new files - it keeps subject folders predictable and makes future tooling (search, indexing, the planned study portal) trivial to wire up.
 
@@ -119,12 +56,12 @@ Stick to this convention when adding new files - it keeps subject folders predic
 ### Browse a Subject
 
 ```bash
-# Wireless Technology
-start WT/                        # Windows
-open WT/                         # macOS
+# AI & DS II
+start "AI & DS II/"                        # Windows
+open "AI & DS II/"                         # macOS
 
 # Or open a specific PDF directly
-start "WT/WT MUSA.pdf"
+start "AI & DS II/AI&DS PYQ.pdf"
 ```
 
 ### Download a Single Subject Folder
@@ -136,7 +73,7 @@ GitHub does not support folder-only downloads natively. Use one of:
 git clone --filter=blob:none --no-checkout https://github.com/aaditya09750/IT7sem-Notes.git
 cd IT7sem-Notes
 git sparse-checkout init --clone
-git sparse-checkout set WT
+git sparse-checkout set "AI & DS II"
 git checkout main
 ```
 
@@ -147,30 +84,26 @@ git clone https://github.com/aaditya09750/IT7sem-Notes.git
 
 ## Adding a New Subject
 
-1. **Create a folder** at the repo root using the subject's standard abbreviation, e.g. `FLAT/`.
-2. **Drop in the PDFs** following the naming convention above:
+1.  **Create a folder** at the repo root using the subject's full name, e.g. `New Subject/`.
+2.  **Drop in the PDFs** following the naming convention above:
 
-   * `FLAT MUSA.pdf` - MUSA QB
-   * `FLAT Qp.pdf` - question paper(s)
-   * `FLAT_Repeated_Questions.pdf` - shortlist
-   * `FLAT Theory....pdf` - theory frequency report
-   * `FLAT Complete Answers....pdf` - answer key
-3. **Update this README** - add the subject to the **Indexed Subjects** list and the **Repository Structure** tree.
-4. **Stage with `git mv`** if you are moving existing files - it preserves history and keeps the diff readable.
+    *   `New Subject/New Subject PYQ.pdf` - Previous Year Questions
+3.  **Update this README** - add the subject to the **Indexed Subjects** list and the **Repository Structure** tree.
+4.  **Stage with `git mv`** if you are moving existing files - it preserves history and keeps the diff readable.
 
 ## Adding a New File to an Existing Subject
 
 ```bash
-# Example: adding a fresh question paper to WT
-git add "WT/WT May2025 Qp.pdf"
-git commit -m "chore(WT): May 2025 question paper added"
+# Example: adding a fresh PYQ to AI & DS II
+git add "AI & DS II/AI&DS PYQ.pdf"
+git commit -m "chore(AI & DS II): updated PYQ"
 ```
 
 Keep commit messages in the existing style - `feat:`, `chore:`, or `feat(<subject>):` scoped prefixes match the rest of the log.
 
 ## Roadmap
 
-This folder is the source of truth for an upcoming **`it7-study-portal`** - a Next.js 15 + Drizzle (SQLite) + Auth.js v5 web app that will index every PDF, expose subject-wise search, and surface MUSA + repeated-question drills directly in the browser. PDFs will keep living here; the portal will read them via a `PDF_CONTENT_DIR` pointer rather than duplicating files.
+This folder is the source of truth for an upcoming **`it7-study-portal`** - a Next.js 15 + Drizzle (SQLite) + Auth.js v5 web app that will index every PDF, expose subject-wise search, and surface PYQ drills directly in the browser. PDFs will keep living here; the portal will read them via a `PDF_CONTENT_DIR` pointer rather than duplicating files.
 
 ## License
 
