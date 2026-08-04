@@ -1,0 +1,7 @@
+pymupdf
+pypdf
+pytesseract
+pdf2image
+pillow
+numpy
+requests

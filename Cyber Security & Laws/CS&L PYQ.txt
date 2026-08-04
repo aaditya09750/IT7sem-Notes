@@ -1,0 +1,230 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: CYBER SECURITY & LAWS (CS&L)
+COMPLETE ARCHIVE OF ALL 5 QUESTION PAPERS (EXACT TRANSCRIPTION FROM PDF)
+================================================================================
+
+================================================================================
+QUESTION PAPER 1: 13/06/2025 (QP CODE: 10055704)
+================================================================================
+
+Paper / Subject Code: 42686 / Cyber Security Laws
+13/06/2025 BE IT SEM-VII C-SCHEME CYBER SECURITY LAWS QP CODE: 10055704
+
+Duration: 3 hours                                               Max. Marks: 80
+
+N.B.:
+1) Question No.1 is compulsory.
+2) Attempt any THREE questions out of remaining FIVE questions.
+3) Figures to the right indicates full marks.
+4) Assume suitable data if necessary.
+
+Q1 Attempt any FOUR of the following: (20)
+   a. What are Mobile Vulnerabilities?
+   b. What are different Security Risks for Organizations?
+   c. Difference between virus and worm.
+   d. How cybercrimes differ from most terrestrial crimes?
+   e. Explain the objectives of IT Act 2000.
+
+Q.2
+   a. What is WIPO? List treaties prepared by WIPO. (10)
+   b. Explain about the impact of Cybercrimes in Social Engineering. (10)
+
+Q.3
+   a. Explain steps for SQL Injection attack. How to prevent SQL Injection attacks? (10)
+   b. Explain E-contracts and its different types. (10)
+
+Q.4
+   a. What is Cybercrime? Who are Cybercriminals? Explain. (10)
+   b. What is e-commerce? Discuss types of e-commerce. (10)
+
+Q.5
+   a. What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain. (10)
+   b. What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe? (10)
+
+Q.6 Write short notes on any FOUR: (20)
+   a. Digital evidence
+   b. HIPAA
+   c. Buffer overflow attack
+   d. Planning of cyberattacks by criminal
+   e. Vishing attack
+   f. Trojan horse and backdoor
+
+
+================================================================================
+QUESTION PAPER 2: 25/11/2024 (QP CODE: 10055703)
+================================================================================
+
+Paper / Subject Code: 42384 / Cyber Security Laws
+25/11/2024 CSE-AIML/IT/EXTC/MECH SEM-VII C SCHEME ILOC-CSL QP CODE: 10055703
+
+Duration: 3 hours                                               Max. Marks: 80
+
+N.B.:
+1) Question No.1 is compulsory.
+2) Attempt any THREE questions out of remaining FIVE questions.
+3) Figures to the right indicates full marks.
+4) Assume suitable data if necessary.
+
+Q1 Attempt any FOUR of the following: (20)
+   a. What is Cybercrime? Who are Cybercriminals? Explain.
+   b. How Cybercrimes differs from most terrestrial crimes?
+   c. What are different Security Risks for Organizations?
+   d. Outline the challenges for securing data in business perspective.
+
+Q.2
+   a. What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe? (10)
+   b. What is digital evidence? Where one can find it. (10)
+
+Q.3
+   a. Explain different types of Cybercrimes. (10)
+   b. What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain. (10)
+
+Q.4
+   a. Explain Steps for SQL Injection attack. How to prevent SQL Injection attacks? (10)
+   b. Discuss steps involved in planning of cyberattacks by criminal. (10)
+
+Q.5
+   a. What is vishing attack? How it works? How to protect from vishing attack? (10)
+   b. What is e-commerce? Discuss types of e-commerce. (10)
+
+Q.6 Write short notes on any FOUR: (20)
+   a. Cyberstalking and harassment
+   b. HIPAA
+   c. Buffer overflow attack
+   d. Botnets
+   e. DOS attack
+   f. Mobile/Cell Phone attacks
+
+
+================================================================================
+QUESTION PAPER 3: 03/01/2024 (QP CODE: 10038595)
+================================================================================
+
+Paper / Subject Code: 41984 / Cyber Security & Laws
+1T00537 - B.E.(Electrical/Extc/IT/Mechanical/CSE/Etrx Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 19) (C Scheme) / 42286/42488/42686/42884/42384/42586 - Cyber Security & Laws  QP CODE: 10038595  DATE : 3 JAN 2024
+
+Duration: 3 hours                                               Max. Marks: 80
+
+N.B. :
+(1) Question No 1 is Compulsory.
+(2) Attempt any three questions out of the remaining five.
+(3) All questions carry equal marks.
+(4) Assume suitable data, if required and state it clearly.
+
+Q.1 Attempt any FOUR: [20]
+   a. Explain how criminals plan the attack.
+   b. Explain various security challenges posed by mobile devices.
+   c. Explain need of Cyber law in India.
+   d. Explain E-contracts and its different types.
+   e. What are Botnets? How it is exploit by attacker to cause cyber-attack?
+
+Q.2
+   a. Explain the classification of cybercrimes with examples. [10]
+   b. Explain Phishing and Identity theft in detail. [10]
+
+Q.3
+   a. Explain different buffer overflow attacks also explain how to mitigate buffer overflow attack. [10]
+   b. Explain electronic banking in India and what are laws related to electronic banking in India. [10]
+
+Q.4
+   a. What do you understand by DOS and DDOS attack? Explain in detail. [10]
+   b. Write a note on Intellectual Property Aspects in cyber law. [10]
+
+Q.5
+   a. Explain SQL injection attack. State different countermeasure to prevent the attack. [10]
+   b. Explain the objectives and features of IT Act 2000. [10]
+
+Q.6
+   a. Explain the term evidence and different types of evidences. [10]
+   b. Write key IT requirements for SOX and HIPAA. [10]
+
+
+================================================================================
+QUESTION PAPER 4: 26/06/2023 (QP CODE: 10026426)
+================================================================================
+
+Paper / Subject Code: 42686 / Cyber Security Laws
+1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 19) (C Scheme) / 42686 - Cyber Security Laws  QP CODE: 10026426  DATE: 26/06/2023
+
+Duration: 3 hours                                               Max. Marks: 80
+
+N.B.:
+1) Question No.1 is compulsory.
+2) Attempt any THREE questions out of remaining FIVE questions.
+3) Figures to the right indicates full marks.
+4) Assume suitable data if necessary.
+
+Q1 Attempt any FOUR of the following: (20)
+   a. List General guidelines for password policies.
+   b. Difference between virus and worm.
+   c. How cybercrimes differs from most terrestrial crimes?
+   d. What are different Security Risks for Organizations?
+   e. What are Mobile Vulnerabilities?
+
+Q.2
+   a. Discuss steps involved in planning of cyberattacks by criminal. (10)
+   b. What is vishing attack? How it works? How to protect from vishing attack? (10)
+
+Q.3
+   a. What is e-commerce? Discuss types of e-commerce. (10)
+   b. Explain E-contracts and its different types. (10)
+
+Q.4
+   a. What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain. (10)
+   b. What is Cybercrime? Who are Cybercriminals? Explain. (10)
+
+Q.5
+   a. What is digital evidence? Where one can find it. (10)
+   b. What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe? (10)
+
+Q.6 Write short notes on any FOUR: (20)
+   a. Cyberdefamation
+   b. HIPAA
+   c. Buffer overflow attack
+   d. Steganography
+   e. DDOS attack
+   f. Trojan horse and backdoor
+
+
+================================================================================
+QUESTION PAPER 5: 19/12/2022 (QP CODE: 10015878)
+================================================================================
+
+Paper / Subject Code: 42686 / Cyber Security Laws
+1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R-19-20) (C Scheme) / 42686 - Cyber Security Laws  QP CODE: 10015878  DATE: 19/12/2022
+
+Duration: 3hrs                                                  Max. Marks: 80
+
+N.B. :
+(1) Question No 1 is Compulsory.
+(2) Attempt any three questions out of the remaining five.
+(3) All questions carry equal marks.
+(4) Assume suitable data, if required and state it clearly.
+
+Q.1 Attempt any FOUR: [20]
+   a. Differentiate between cybercrime and cyber fraud.
+   b. Explain various threats associated with cloud computing.
+   c. Explain methods of password cracking.
+   d. Explain E-contracts and its different types.
+   e. Explain different attack vectors in cyber security.
+
+Q.2
+   a. Explain the classification of cybercrimes with examples. [10]
+   b. Explain various types of credit card frauds. [10]
+
+Q.3
+   a. Explain different buffer overflow attacks also explain how to mitigate buffer overflow attack. [10]
+   b. Explain electronic banking in India and what are laws related to electronic banking in India. [10]
+
+Q.4
+   a. What do you understand by DOS and DDOS attack? Explain in detail. [10]
+   b. Write a note on Intellectual Property Aspects in cyber law. [10]
+
+Q.5
+   a. Explain the objectives and features of IT Act 2000. [10]
+   b. What are Botnets? How it is exploit by attacker to cause cyber attack? [10]
+
+Q.6
+   a. Explain SQL injection attack. State different countermeasure to prevent the attack. [10]
+   b. Explain what is Information Security Standard and Explain HIPAA act in detail. [10]

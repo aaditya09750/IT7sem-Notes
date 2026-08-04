@@ -1,0 +1,236 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: INFORMATION RETRIEVAL SYSTEM (IRS)
+COMPLETE ARCHIVE OF ALL QUESTION PAPERS (EXACT TRANSCRIPTION & SEQUENTIAL ORDER)
+================================================================================
+
+================================================================================
+QUESTION PAPER 1: 10/06/2025 (QP CODE: 10082376 / 82376)
+================================================================================
+
+Paper / Subject Code: 42680 / Information Retrieval Systems (DLOC - IV)
+10/06/2025 BE IT SEM-VII C-SCHEME IRS QP CODE: 10082376
+
+Time: 3 hours                                                    Max. Marks: 80
+
+N.B
+1. Q.1 is compulsory
+2. Attempt any three from the remaining five questions.
+3. Assume suitable data, if required and state it clearly.
+
+Q 1 Attempt all. (20 marks)
+   a. Recall objectives of Information Retrieval Process
+   b. Differentiate between Information versus Data Retrieval.
+   c. Identify the various task performed by web search engine.
+   d. Importance of metadata and its types.
+
+Q 2. Attempt all. (20 marks)
+   a. Show taxonomy of IR models and recall browsing models in detail.
+   b. Consider a very small collection C that consists in the following three documents:
+      • d1: "beautiful garden"
+      • d2: "evening garden time"
+      • d3: "garden time is beautiful"
+      Given the following query: "garden time", calculate the rank of each document using vector space retrieval model. (Use tf-idf vector for the query, and compute the score of each document in C relative to this query, using the cosine similarity measure.)
+
+Q 3. Attempt all. (20 marks)
+   a. Explain Boolean Models in detail with example.
+   b. Explain Natural language modelling issues and its solution.
+
+Q 4. Attempt all. (20 marks)
+   a. What is the purpose of using keyword based query? Briefly explain any 3 types of keyword based queries.
+   b. Apply Boyer Moore algorithm to construct bad match table and find the index of the given pattern for the string below with steps:
+      String: STUDENTS ARE SMART I LIKE SMART STUDENTS
+      Pattern: SMART
+
+Q 5. Attempt all. (20 marks)
+   a. Summarize various visualization techniques with respect to user interface design.
+   b. Construct a Suffixs, suffix trie and suffix tree, suffix array and supra index for the above sample text:
+      Roses are red. Red roses are beautiful. Many people like red roses.
+
+Q 6. Write short note on (20 marks)
+   a. Different types of Information Systems
+   b. Different markup languages and its applications.
+
+
+================================================================================
+QUESTION PAPER 2: NOV 25 / 20.11.25 (QP CODE: 95849)
+================================================================================
+
+Paper / Subject Code: 42680 / Information Retrieval Systems (DLOC - IV)
+BE sem VII | C-scheme | IT / Nov 25 / 20.11.25  QP CODE: 95849
+
+Time: 3-hour                                                    Max. Marks: 80
+
+N.B
+1. Q.1 is compulsory
+2. Attempt any three from the remaining five questions.
+3. Each Question carries 20 marks.
+4. Assume suitable data, if required and state it clearly.
+
+Q1 Attempt all (20M)
+   a. Differentiate between Data Retrieval and Information Retrieval.
+   b. Describe meta searchers and its merits with example.
+   c. A mobile banking app wants to improve how it presents account activity and financial trends to users. As a UX designer, you are tasked to recommend appropriate visualization techniques to make the interface more intuitive and informative.
+   d. Explain the Retrieval Process with neat labelled diagram
+
+Q 2. Attempt all. (20M)
+   a. What is Structured text retrieval Models? Explain different types with example.
+   b. Consider the following documents:
+      D1: I went to the park to play             D2: park is nearby to play
+      D3: going to the park is fun              D4: park nearby play
+      Apply vector model to rank the above documents.
+
+Q 3. Attempt all. (20M)
+   a. What is the purpose of using keyword-based query? Briefly explain any 3 types of keyword-based queries.
+   b. What is Meta search engine? Explain in detail.
+
+Q 4. Attempt all. (20M)
+   a. Describe the process of creating an inverted index with an example. How can this process be optimized using block addressing?
+   b. What is Query Specification? Describe direct manipulation and natural language in the context to Boolean query formulation.
+
+Q 5. Attempt all. (20M)
+   a. Explain the concept of Video Information Retrieval (VIR) and Image Information Retrieval (IIR). Describe at least three techniques used in VIR and three techniques used in IIR. Discuss how these retrieval techniques can improve user experience in a multimedia search interface with example.
+   b. A college is developing a student result management system in any software language stores a list of student names who appeared for an exam, allows duplicates (students appearing in multiple sessions) and display all names in the order they were added.
+      Identify:
+      1. The starting point of the program and explain its purpose.
+      2. Describe how the List and Collection interfaces can be used in this case.
+      3. Briefly explain the advantages of using the Collection Framework in such applications.
+
+Q 6. Write short note any two: (20M)
+   a. Explain how a user relevance feedback model can be applied to improve search results in search recommendation engine.
+   b. Summarize different issues for modelling natural language
+   c. Importance of Context in Information retrieval
+
+
+================================================================================
+QUESTION PAPER 3: 14/12/2024 (QP CODE: 10065526 / 65526)
+================================================================================
+
+Paper / Subject Code: 42680 / Information Retrieval Systems (DLOC - IV)
+14/12/2024 IT SEM-VII C SCHEME IRS (DLOC-IV) QP CODE: 10065526
+
+Time: 3-Hours                                                    Max. Marks: 80
+
+N.B
+1. Q.1 is compulsory
+2. Attempt any three from the remaining five questions.
+3. Assume suitable data, if required and state it clearly.
+
+Q1 Attempt all (20M)
+   a. Discuss Objective of IRS.
+   b. Illustrate different markup languages with its applications.
+   c. Explain the process of Structured Text retrieval model.
+   d. Illustrate different types of keyword-based queries.
+
+Q 2. Attempt all. (20M)
+   a. Consider the following documents:
+      D1: I went to the park to play             D2: park is nearby to play
+      D3: going to the park is fun              Q: park nearby play
+      Apply vector model to rank the above documents.
+   b. Write different issues for modeling natural language and find solution for it.
+
+Q 3. Attempt all. (20M)
+   a. Explain Suffixes, Suffix Trie and Suffix tree, Suffix array and Supra Index with example.
+   b. Define Multimedia information retrieval. Discuss Multimedia indexing and searching.
+
+Q 4. Attempt all. (20M)
+   a. Discuss Huffman Algorithm in detail with suitable example.
+   b. What is inverted Index? Describe the process of creating an inverted index without stop words for the following example:
+      This is a text. A text has many words. Words are made from letters.
+
+Q 5. Attempt all. (20M)
+   a. Discuss various phases of text preprocessing within a document. Discuss any one application for the same.
+   b. Explain Probabilistic Retrieval Model. Compare and contrast Belief Network Model and Inference Network Model.
+
+Q 6. Write short note (20M)
+   a. User relevance feedback
+   b. Information Retrieval in digital libraries
+   c. Starting points
+   d. Interface support for the search process
+
+
+================================================================================
+QUESTION PAPER 4: JUNE 12, 2024 (QP CODE: 10056741 / 56741)
+================================================================================
+
+Paper / Subject Code: 42680 / Information Retrieval Systems (DLOC - IV)
+June 12, 2024 10:30 am - 01:30 pm 1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 2019-20) (C Scheme) / 42680 - Information Retrieval Systems (DLOC - IV)  QP CODE: 10056741
+
+Time: 3 Hours                                                    Max. Marks: 80
+
+N.B
+1. Q.1 is compulsory
+2. Attempt any three from the remaining five questions.
+3. Each Question carries 20 marks.
+4. Assume suitable data, if required and state it clearly.
+
+Q 1 Attempt all. (20 marks)
+   a. Discuss Objective of IRS
+   b. Define data modeling ? Explain any two types of data models.
+   c. Compare and contrast Proximity Queries and Wildcard Queries .
+   d. What is the purpose of a search engine?. List the steps of search operation by search engine.
+
+Q 2. Attempt all. (20 marks)
+   a. What is User relevance feedback: How this will contribute to get results.
+   b. Discuss various phases of text preprocessing within a document. Discuss any one application for the same.
+
+Q 3. Attempt all. (20 marks)
+   a. Discuss automatic local analysis, with suitable examples.
+   b. What is human-computer interaction? List and discuss any four design principles for information access interfaces
+
+Q 4. Attempt all. (20 marks)
+   a. What is the purpose of using keyword based query? Briefly explain any 3 types of keyword based queries.
+   b. What is the starting point? Explain list of collections and overviews in detail.
+
+Q 5. Attempt all. (20 marks)
+   a. Summarize two visualization techniques with respect to user interface design.
+   b. Describe the process of creating an inverted index with an example. How can this process be optimized using block addressing?
+
+Q 6. Write short note on: (any two) (20 marks)
+   a. Sequential Search
+   b. Document clustering
+   c. Interface support for the search process
+   d. Multimedia indexing
+
+
+================================================================================
+QUESTION PAPER 5: 22/06/2023 (QP CODE: 10029885 / 29885)
+================================================================================
+
+Paper / Subject Code: 42680 / Information Retrieval Systems (DLOC - IV)
+1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 19) (C Scheme) / 42680 - Information Retrieval Systems (DLOC - IV)  QP CODE: 10029885  DATE : 22/06/2023
+
+Duration: ( 3 Hours )                                           Total Marks : 80
+
+N B
+1. Q.1 is compulsory
+2. Attempt any three from the remaining five questions.
+3. Each Question carries 20 marks.
+
+Q 1 Attempt all questions (20 marks)
+   1. Explain Classic Information Retrieval models.
+   2. Define Natural Language with features and applications.
+   3. List and define different parameters to judge the quality of information.
+   4. Explain search engine Architecture
+
+Q 2 Attempt all questions (20 marks)
+   1. Explain Relevance Feedback. Discuss the contribution of relevance feedback for quality IR.
+   2. Discuss automatic local analysis, with suitable example.
+
+Q 3 Attempt all questions (20 marks)
+   1. Discuss Multimedia IR Model
+   2. What is human-computer interaction? List and discuss any four design principles for information access interfaces..
+
+Q 4 Attempt all questions (20 marks)
+   1. Explain Object Oriented and Object Relational DBMS.
+   2. Write a note on Scalar and Metrics Clusters.
+
+Q 5 Attempt all questions (20 marks)
+   1. Describe the process of creating an inverted index with an example. How can this process be optimized using block addressing?
+   2. What is Query Specification? Describe direct manipulation and natural language in the context to Boolean query formulation.
+
+Q 6 Write a note on: (20 marks)
+   1. Lexical analysis.
+   2. Web information retrieval system
+   3. Automatic feature extraction.
+   4. Statistical text compression and Dictionary based text compression

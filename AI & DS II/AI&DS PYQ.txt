@@ -1,0 +1,309 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: AI & DS II (ARTIFICIAL INTELLIGENCE & DATA SCIENCE - II)
+COMPLETE ARCHIVE OF ALL 6 QUESTION PAPERS (EXACT QUESTION MAPPING & SEQUENCE)
+================================================================================
+
+================================================================================
+QUESTION PAPER 1: DEC-2025 / NOV 25 (QP CODE: 84098)
+================================================================================
+
+Paper / Subject Code: 42671 / AI and DS - II
+BE IT sem-VII DEC-2025 / BE sem VII / IT / C-scheme / NOV 25 / 10.11.25  QP CODE: 84098
+
+Duration: 03 Hours                                              Max. Marks: 80
+
+Instructions:
+(1) Question No. 1 is compulsory.
+(2) Attempt any THREE questions out of remaining FIVE questions (Q.2 to Q.6).
+(3) Assume suitable data wherever necessary.
+(4) Figures to right indicate full marks.
+
+Q.1 Answer the following (Any four):
+   a. Describe the role of utility and expected utility in decision theory with example. (05)
+   b. Discuss the limitations of deterministic approaches and how probabilistic reasoning addresses these limitations with example. (05)
+   c. How does Bayes Theorem determines the probability of an event with uncertain knowledge? Give one example of it. (05)
+   d. Compare between ANN and RNN. (05)
+   e. Explain Markov Decision Process Model (MDP). List two applications of it. (05)
+   f. A medical test for a disease is 99% accurate (i.e., it gives correct results 99% of the time). The disease is rare and affects 1 in 10,000 people. Use Bayes' Theorem to calculate the probability that a person who tests positive actually has the disease. Interpret your result. (05)
+
+Q.2
+   a. List Design Principles of Cognitive system and justify the role of NLP in enabling adaptability, contextual understanding, and user interaction within cognitive architectures. (10)
+   b. Explain the role of representing knowledge in taxonomies and ontologies, and how advanced analytics can be applied to cognitive systems. (10)
+
+Q.3
+   a. Explain different types of membership functions used in fuzzy logic with suitable examples. Differentiate between crisp sets and fuzzy sets in terms of their structure, interpretation, and applicability in real-world scenarios. (10)
+   b. Using Mamdani fuzzy model design a fuzzy model controller to determine the wash time of domestic washing machine. Assume the inputs are dirt & grease on cloths. Use three descriptors for each input variable & five descriptors for output variables. Derive necessary membership functions & required fuzzy rules for the application. (10)
+
+Q.4
+   a. Explain Architecture of CNN in detail. List any two applications of it. (10)
+   b. What are all the objective of using LSTM? Explain its architecture. (10)
+
+Q.5
+   a. Explain any 4 Metrics for evaluating classifier performance. Discuss on Hold out method and random sampling. (10)
+   b. How Bagging and Boosting handle bias-variance trade-off differently, and analyze their effectiveness in dealing with noisy data and overfitting. Explain with algorithmic such as Random Forest and AdaBoost. (10)
+
+Q.6
+   a. Explain the role of machine learning in multimodal applications. Discuss how different data modalities (text, audio, image, and video) are integrated to improve the performance and user experience of these systems with real time applications. (10)
+   b. Explain Metrics for Evaluating Classifier Performance. (10)
+
+
+================================================================================
+QUESTION PAPER 2: 02/06/2025 (QP CODE: 10084099 / 84099)
+================================================================================
+
+Paper / Subject Code: 42671 / AI and DS - II
+02/06/2025  BE IT  SEM-VII  C-SCHEME  AI AND DS-II  QP CODE: 10084099
+
+Duration: 03 Hours                                              Max. Marks: 80
+
+Instructions:
+(1) Question No. 1 is compulsory.
+(2) Attempt any THREE questions out of remaining FIVE questions (Q.2 to Q.6).
+(3) Assume suitable data wherever necessary.
+(4) Figures to right indicate full marks.
+
+Q.1 Answer the following (Any four):
+   a. Implement AND function using Mc-Culloch-Pitts neuron? (05)
+   b. Discuss the limitations of deterministic approaches and how probabilistic reasoning addresses these limitations with example. (05)
+   c. Discuss different activation function used in Neural Network. (05)
+   d. Compare between ANN and RNN. (05)
+   e. Describe the role of utility and expected utility in decision theory with example. (05)
+   f. Differentiate between Fuzziness and Probability. (05)
+
+Q.2
+   a. Explain the component of ANN architecture. (10)
+   b. Explain the role of representing knowledge in taxonomies and ontologies, and how advanced analytics can be applied to cognitive systems. (10)
+
+Q.3
+   a. Explain different types of membership functions used in fuzzy logic with suitable examples. Differentiate between crisp sets and fuzzy sets in terms of their structure, interpretation, and applicability in real-world scenarios. (10)
+   b. Using Mamdani fuzzy model design a fuzzy model controller to determine the wash time of domestic washing machine. Assume the inputs are dirt & grease on cloths. Use three descriptors for each input variable & five descriptors for output variables. Derive necessary membership functions & required fuzzy rules for the application. (10)
+
+Q.4
+   a. Explain Architecture of CNN in detail. List any two applications of it. (10)
+   b. What is Bayesian Belief Network? Explain inferencing with example. (10)
+
+Q.5
+   a. Explain any 4 Metrics for evaluating classifier performance. Discuss any two cross validation methods. (10)
+   b. How Bagging and Boosting handle bias-variance trade-off differently, and analyze their effectiveness in dealing with noisy data and overfitting. Explain with algorithmic such as Random Forest and AdaBoost. (10)
+
+Q.6
+   a. Explain the role of machine learning in multimodal applications. Discuss how different data modalities (text, audio, image, and video) are integrated to improve performance. (10)
+   b. Define Defuzzification? Explain any two methods of Defuzzification. (10)
+
+
+================================================================================
+QUESTION PAPER 3: 12/11/2024 (QP CODE: 10067845)
+================================================================================
+
+Paper / Subject Code: 42671 / AI and DS - II
+12/11/2024  IT  SEM-VII  C SCHEME  AI AND DS-II  QP CODE: 10067845
+
+Time: 3 Hours                                                    Max. Marks: 80
+
+Instructions:
+(1) Question 1 is Compulsory.
+(2) Assume suitable data wherever required but justify it.
+(3) Solve any THREE from Question No. 2 to 6.
+(4) Figure to the right indicates full marks.
+
+Q.1 (5 marks each):
+   (a) Explain Bayes theorem. (05)
+   (b) Consider two fuzzy sets:
+       A = 0.3/1 + 0.4/2 + 0.5/3 + 0.6/4
+       B = 0.1/1 + 0.2/2 + 0.2/3 + 0.1/4
+       Find the algebraic sum, algebraic product, bounded sum, and bounded difference of the given fuzzy sets. (05)
+   (c) Explain McCulloch-Pitts neuron with an example. (05)
+   (d) Explain bootstrap for sampling. (05)
+
+Q.2 (10 marks each):
+   (a) Explain Ensemble Methods. (10)
+   (b) Define Cognitive Computing. Draw a neat diagram of components of the cognitive system and explain the components. (10)
+
+Q.3 (10 marks each):
+   (a) Explain the components of ANN architecture. (10)
+   (b) Perform a case-study on video recommendation system (data science based). (10)
+
+Q.4 (10 marks each):
+   (a) Define Defuzzification. Discuss any two methods of defuzzification? (10)
+   (b) What is the Bayesian Belief Network? Illustrate with an example. (10)
+
+Q.5 (10 marks each):
+   (a) Describe Natural Language Processing in Support of a Cognitive System. (10)
+   (b) Explain in detail the Long Short-Term Memory Network with an example. (10)
+
+Q.6 (10 marks each):
+   (a) Define Accuracy, precision, and recall. Evaluate performance of classifier 1 and classifier 2 on the basis of above evaluation parameters, given following confusion matrix, where F = actual fraud, F' = predicted fraud, N = actual no fraud, N' = predicted no fraud:
+
+       Classifier 1:
+       +-------------+------------+------------+
+       |             |  F' (Pred) |  N' (Pred) |
+       +-------------+------------+------------+
+       | F (Actual)  |     20     |     10     |
+       | N (Actual)  |     10     |     60     |
+       +-------------+------------+------------+
+
+       Classifier 2:
+       +-------------+------------+------------+
+       |             |  F' (Pred) |  N' (Pred) |
+       +-------------+------------+------------+
+       | F (Actual)  |      0     |     15     |
+       | N (Actual)  |      5     |     80     |
+       +-------------+------------+------------+ (10)
+
+   (b) Write a short note on- Trends in Data Science for audio. (10)
+
+
+================================================================================
+QUESTION PAPER 4: MAY / JUNE 2024 (QP CODE: 10056808 / 56808)
+================================================================================
+
+1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 2019-20) (C Scheme) / 42671 - AI and DS - II  QP CODE: 10056808
+
+Duration: 3hr.                                                  Max. Marks: 80
+
+Instructions:
+(1) Question one is Compulsory.
+(2) Assume suitable data wherever required but justify it.
+(3) Solve any THREE from Question No. 2 to 6.
+(4) Figure to the right indicate full marks.
+
+Q1
+   (a) From a standard deck of playing cards, a single card is drawn. The probability that the card is king is 4/52, then calculate posterior probability P(King|Face), which means the drawn face card is a king card. (05)
+   (b) Describe the Centroid method of defuzzification. Include its formula and discuss its advantages and disadvantages compared to other defuzzification methods. (05)
+   (c) List down different applications of Deep Learning. And explain it. (05)
+   (d) Compare and contrast Bagging and Boosting with their application. (05)
+
+Q2
+   (a) How do you explain random forest? Does random forest need pruning, explain in detail? (10)
+   (b) Describe how cognitive computing can be applied in healthcare. Provide specific examples of tasks or problems that cognitive computing can help address, and explain the potential benefits. (10)
+
+Q3
+   (a) Explain how an autoencoder can be used for dimensionality reduction. Include a brief description of how the encoder and decoder parts of the network work in this context. (10)
+   (b) List three industries where data science is extensively used and briefly describe one application in each industry. (10)
+
+Q4
+   (a) Using Mamdani fuzzy model design a fuzzy logic controller to determine the wash time of domestic washing machine. Assume the inputs are dirt and grease on clothes. Use three descriptors for each input variable and five descriptor for output variables. Derive necessary membership functions and required fuzzy rules for the application. (10)
+   (b) What is a Markov Decision Process (MDP)? List its primary components. Explain in detail. (10)
+
+Q5
+   (a) What is cognitive computing, and how does it differ from traditional computing? List the process of building a cognitive application. (10)
+   (b) Describe the architecture of a typical CNN. What are the main components, and how do they contribute to the network's performance in image recognition tasks? (10)
+
+Q6
+   (a) Let's consider a binary classification problem where we have built a classifier to predict whether a transaction is fraudulent (positive class) or legitimate (negative class). After training the classifier and testing it on a dataset, we obtain the following confusion matrix:
+
+       +----------------------+--------------------+--------------------+
+       |                      | Actual Legitimate  | Actual Fraudulent  |
+       +----------------------+--------------------+--------------------+
+       | Predicted Legitimate |        850         |         30         |
+       | Predicted Fraudulent |         20         |        100         |
+       +----------------------+--------------------+--------------------+
+
+       Calculate Accuracy, Precision, Recall and F1-score. (10)
+
+   (b) Briefly explain Data science for Multimodal applications. (10)
+
+
+================================================================================
+QUESTION PAPER 5: 26-DEC-2023 (QP CODE: 10038602 / 38602)
+================================================================================
+
+Paper / Subject Code: 42671 / AI and DS - II
+26-Dec-2023 10:30 am - 01:30 pm  1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R-19) (C Scheme) / 42671 - AI and DS - II  QP CODE: 10038602
+
+Duration: 3hr.                                                  Max. Marks: 80
+
+Instructions:
+(1) Question one is Compulsory.
+(2) Assume suitable data wherever required but justify it.
+(3) Solve any THREE from Question No. 2 to 6.
+(4) Figure to the right indicate full marks.
+
+Q.1
+   (a) From below given probability distribution find P (~ Cavity | Toothache):
+
+       +------------+------------------+------------------+
+       |            |    Toothache     |   ~ Toothache    |
+       |            +--------+---------+--------+---------+
+       |            | Catch  | ~ Catch | Catch  | ~ Catch |
+       +------------+--------+---------+--------+---------+
+       |  Cavity    | 0.108  |  0.012  | 0.072  |  0.008  |
+       | ~ Cavity   | 0.016  |  0.064  | 0.144  |  0.576  |
+       +------------+--------+---------+--------+---------+ (05)
+
+   (b) Define defuzzification and State the necessity of the defuzzification process. (05)
+   (c) Implement AND function using Mc-Culloch-Pitts neuron (take binary data)? (05)
+   (d) What is the significance of ROC curves? (05)
+
+Q.2
+   (a) State Ensemble methods and describe anyone. (10)
+   (b) Illustrate usage of taxonomies and ontologies for knowledge representation in cognitive system. (10)
+
+Q.3
+   (a) Explain the components of CNN architecture. (10)
+   (b) Perform a case study on book recommendation system (data science based). (10)
+
+Q.4
+   (a) Describe the Properties of Fuzzy Sets with an example. (10)
+   (b) Illustrate inferencing in Bayesian Belief Network with an example. (10)
+
+Q.5
+   (a) List and explain the design principles of Cognitive System. (10)
+   (b) State and elaborate the applications of deep learning. (10)
+
+Q.6
+   (a) Calculate Accuracy, Precision, Recall, Sensitivity and Specificity for the following example:
+
+       +-------------------------+--------------------+-------------------+
+       |       Actual Class      | Buys_Computer=yes  | Buys_Computer=no  |
+       | Predicted Class         |                    |                   |
+       +-------------------------+--------------------+-------------------+
+       | Buys_Computer = yes     |        6954        |        46         |
+       | Buys_Computer = no      |         412        |       2588        |
+       +-------------------------+--------------------+-------------------+ (10)
+
+   (b) Write a short note on- Data Science for Multi modal applications. (10)
+
+
+================================================================================
+QUESTION PAPER 6: 14/06/2023 (QP CODE: 10027194 / 27194)
+================================================================================
+
+1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 19) (C Scheme) / 42671 - AI and DS - II  QP CODE: 10027194  DATE : 14/06/2023
+
+Duration: 3hr.                                                  Max. Marks: 80
+
+Instructions:
+(1) Question one is Compulsory.
+(2) Assume suitable data wherever required but justify it.
+(3) Solve any THREE from Question No. 2 to 6.
+(4) Figure to the right indicate full marks.
+
+Q1
+   (a) Which are the various metrics for evaluating the classifier performance? (10)
+   (b) Briefly explain CNN architecture with detailed? (10)
+
+Q2
+   (a) Explain the XOR function using McCulloch-Pitts model (use binary data representation) (10)
+   (b) How do you explain random forest? Does random forest need pruning, explain in detail? (10)
+
+Q3
+   (a) What is need of Markov Decision Processes? Explain MDP in detail. (10)
+   (b) Explain the process of building a cognitive application? (10)
+
+Q4
+   (a) Using Mamdani fuzzy model design a fuzzy logic controller to determine the wash time of domestic washing machine. Assume the inputs are dirt and grease on clothes. Use three descriptors for each input variable and five descriptor for output variables. Derive necessary membership functions and required fuzzy rules for the application. (10)
+   (b) What are the essential components of Autoencoder explain in detail? Which activation function is best for autoencoder. (10)
+
+Q5
+   (a) How does class imbalanced affect on classification? What are the ways to solve class imbalanced problem. (10)
+   (b) Explain Data science for Multimodal applications? (10)
+
+Q6 Write Short Note on Any Four: (20)
+   (a) Holdout method
+   (b) LSTM
+   (c) Defuzzification Methods
+   (d) Design Principles for Cognitive Systems
+   (e) Bayes Theorem
+   (f) Application of Data science for text

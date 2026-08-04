@@ -1,116 +1,129 @@
 # IT SEM 7 NOTES - QUESTION BANK & ANSWER ARCHIVE
 
-![PDF](https://img.shields.io/badge/Format-PDF-EC1C24?style=for-the-badge\&logo=adobeacrobatreader\&logoColor=white)
-![University](https://img.shields.io/badge/Mumbai_University-R--19_C_Scheme-1F3A68?style=for-the-badge\&logo=googlescholar\&logoColor=white)
-![Branch](https://img.shields.io/badge/Branch-Information_Technology-2E5C8A?style=for-the-badge\&logo=bookstack\&logoColor=white)
-![Semester](https://img.shields.io/badge/Semester-VII-8B3A3A?style=for-the-badge\&logo=readthedocs\&logoColor=white)
-![Subjects](https://img.shields.io/badge/Subjects-5-FF6B35?style=for-the-badge\&logo=files\&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge\&logo=opensourceinitiative\&logoColor=white)
+![Format](https://img.shields.io/badge/Format-PDF%20%7C%20TXT-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)
+![University](https://img.shields.io/badge/Mumbai_University-R--19_C_Scheme-1F3A68?style=for-the-badge&logo=googlescholar&logoColor=white)
+![Branch](https://img.shields.io/badge/Branch-Information_Technology-2E5C8A?style=for-the-badge&logo=bookstack&logoColor=white)
+![Semester](https://img.shields.io/badge/Semester-VII-8B3A3A?style=for-the-badge&logo=readthedocs&logoColor=white)
+![Subjects](https://img.shields.io/badge/Subjects-5-FF6B35?style=for-the-badge&logo=files&logoColor=white)
+![Automation](https://img.shields.io/badge/OCR-PyMuPDF_%2C_Tesseract_%2C_Vision_AI-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
-A subject-wise archive of TE IT Semester VII revision material - MUSA question banks, university question papers, repeated-question shortlists, theory-question frequency reports, the compulsory Q1 5-marks repetition analysis, and full answer keys. Each subject lives in its own self-contained folder so a single subject can be downloaded, printed, or shared without dragging the rest of the repo along.
+A subject-wise revision archive of TE IT Semester VII Previous Year Question (PYQ) Papers for Mumbai University (R-19 C-Scheme). 
+
+Each subject folder contains both **original PDF exam archives** and **100% human-verified, clean text transcriptions (`.txt`)**. All background watermarks (`muquestionpapers.com`, tracking codes `464X...`), misplaced questions, and formatting errors have been stripped and corrected across all papers.
 
 **Maintainer:** Aaditya Gunjal - TE IT, Mumbai University
 
-## Indexed Subjects
-
-*   **AI & DS II** - see [AI & DS II/](AI%20&%20DS%20II/)
-*   **Cyber Security & Laws** - see [Cyber Security & Laws/](Cyber%20Security%20&%20Laws/)
-*   **Information Retrieval System** - see [Information Retrieval System/](Information%20Retrieval%20System/)
-*   **Internet Of Everything** - see [Internet Of Everything/](Internet%20Of%20Everything/)
-*   **Software Testing & QA** - see [Software Testing & QA/](Software%20Testing%20&%20QA/)
-
-## Core Features
-
-### Subject-Wise Isolation
-
-Every subject is a self-contained folder. Question banks, papers, and answer keys for one subject never spill over into another, so you can clone a single folder and have everything you need for that exam.
-
-### PYQ PDFs
-
-Each subject folder contains a `PYQ.pdf` file, which includes Previous Year Questions for revision.
+---
 
 ## Repository Structure
 
 ```text
 IT7sem Notes/
-|-- README.md
-|-- AI & DS II/
-|   `-- AI&DS PYQ.pdf
-|-- Cyber Security & Laws/
-|   `-- CS&L PYQ.pdf
-|-- Information Retrieval System/
-|   `-- IRS PYQ.pdf
-|-- Internet Of Everything/
-|   `-- IOE PYQ.pdf
-`-- Software Testing & QA/
-    `-- Software Testing & QA PYQ.pdf
+├── README.md
+├── scripts/
+│   ├── ocr_pdf_extractor.py        # AI & OCR Extraction Pipeline
+│   └── requirements.txt            # Python Dependencies
+├── AI & DS II/
+│   ├── AI&DS PYQ.pdf               # PDF Source Archive (8 Pages)
+│   └── AI&DS PYQ.txt               # Clean Text Transcription (6 Papers)
+├── Cyber Security & Laws/
+│   ├── CS&L PYQ.pdf                # PDF Source Archive (5 Pages)
+│   └── CS&L PYQ.txt               # Clean Text Transcription (5 Papers)
+├── Information Retrieval System/
+│   ├── IRS PYQ.pdf                 # PDF Source Archive (5 Pages)
+│   └── IRS PYQ.txt                 # Clean Text Transcription (5 Papers)
+├── Internet Of Everything/
+│   ├── IOE PYQ.pdf                 # PDF Source Archive (6 Pages)
+│   └── IOE PYQ.txt                 # Clean Text Transcription (6 Papers)
+└── Software Testing & QA/
+    ├── Software Testing & QA PYQ.pdf# PDF Source Archive (3 Pages)
+    └── Software Testing & QA PYQ.txt# Clean Text Transcription (2 Papers)
 ```
 
-## File Naming Convention
+---
 
-| Suffix       | Purpose                                             |
-| :----------- | :-------------------------------------------------- |
-| `<Subject> PYQ.pdf` | Previous Year Questions for the subject. |
+## Subject Index & Question Paper Inventory
 
-Stick to this convention when adding new files - it keeps subject folders predictable and makes future tooling (search, indexing, the planned study portal) trivial to wire up.
+### 1. [AI & DS II](./AI%20%26%20DS%20II/)
 
-## Quick Start
+*   **[AI&DS PYQ.pdf](./AI%20%26%20DS%20II/AI%26DS%20PYQ.pdf)** | **[AI&DS PYQ.txt](./AI%20%26%20DS%20II/AI%26DS%20PYQ.txt)** (310 Lines)
+*   **Question Papers Indexed (6 Papers)**:
+    1. **Paper 1**: DEC-2025 (QP Code: 10082377) — *Naive Bayes, Decision Tree, Logistic Regression, CNN, RNN*
+    2. **Paper 2**: 02/06/2025 (QP Code: 10084099) — *SVM, Random Forest, K-Means, Confusion Matrix Evaluation*
+    3. **Paper 3**: 12/11/2024 (QP Code: 10067845) — *Bootstrap Sampling, Ensemble Methods, Cognitive Computing, Video Recommendation Case-Study, Defuzzification, Bayesian Belief Network*
+    4. **Paper 4**: May / June 2024 (QP Code: 10056808) — *PCA, Clustering, Deep Learning Architectures*
+    5. **Paper 5**: 26/12/2023 (QP Code: 10038481) — *Association Rule Mining, Apriori Algorithm, Neural Networks*
+    6. **Paper 6**: 14/06/2023 (QP Code: 10026425) — *Supervised vs Unsupervised Learning, Evaluation Metrics*
 
-### Browse a Subject
+### 2. [Cyber Security & Laws](./Cyber%20Security%20%26%20Laws/)
+
+*   **[CS&L PYQ.pdf](./Cyber%20Security%20%26%20Laws/CS%26L%20PYQ.pdf)** | **[CS&L PYQ.txt](./Cyber%20Security%20%26%20Laws/CS%26L%20PYQ.txt)** (231 Lines)
+*   **Question Papers Indexed (5 Papers)**:
+    1. **Paper 1**: 13/06/2025 (QP Code: 10055704) — *Mobile Vulnerabilities, WIPO Treaties, SQL Injection, E-contracts, Cyber Cafe Security*
+    2. **Paper 2**: 25/11/2024 (QP Code: 10055703) — *Digital Evidence, Planning Cyberattacks, Vishing Attacks, Botnets, HIPAA*
+    3. **Paper 3**: 03/01/2024 (QP Code: 10038595) — *Buffer Overflow Mitigation, E-banking Laws, DOS/DDOS, IT Act 2000, SOX & HIPAA*
+    4. **Paper 4**: 26/06/2023 (QP Code: 10026426) — *Password Policies, Virus vs Worm, Steganography, Cyberdefamation*
+    5. **Paper 5**: 19/12/2022 (QP Code: 10015878) — *Cybercrime vs Cyber Fraud, Cloud Computing Threats, Credit Card Frauds*
+
+### 3. [Information Retrieval System](./Information%20Retrieval%20System/)
+
+*   **[IRS PYQ.pdf](./Information%20Retrieval%20System/IRS%20PYQ.pdf)** | **[IRS PYQ.txt](./Information%20Retrieval%20System/IRS%20PYQ.txt)** (237 Lines)
+*   **Question Papers Indexed (5 Papers)**:
+    1. **Paper 1**: 10/06/2025 (QP Code: 10082376) — *Vector Space Ranking, Boyer Moore Algorithm, Suffix Trees/Arrays, Visualization Techniques*
+    2. **Paper 2**: 20/11/2025 (QP Code: 95849) — *Structured Text Retrieval, Meta Searchers, Mobile UX Visualization, Video & Image IR (VIR/IIR)*
+    3. **Paper 3**: 14/12/2024 (QP Code: 10065526) — *Vector Model Ranking, Huffman Algorithm, Inverted Index Construction, Probabilistic Models*
+    4. **Paper 4**: 12/06/2024 (QP Code: 10056741) — *Search Engine Operations, Proximity vs Wildcard Queries, User Relevance Feedback*
+    5. **Paper 5**: 22/06/2023 (QP Code: 10029885) — *Classic IR Models, Object Relational DBMS, Scalar & Metrics Clusters*
+
+### 4. [Internet Of Everything](./Internet%20Of%20Everything/)
+
+*   **[IOE PYQ.pdf](./Internet%20Of%20Everything/IOE%20PYQ.pdf)** | **[IOE PYQ.txt](./Internet%20Of%20Everything/IOE%20PYQ.txt)** (251 Lines)
+*   **Question Papers Indexed (6 Papers)**:
+    1. **Paper 1**: 04/06/2025 (QP Code: 10083969) — *Smart Objects, AMQP Architecture, IoTWF Architecture, LoRaWAN, Forest Fire Detection*
+    2. **Paper 2**: 14/11/2024 (QP Code: 10067160) — *Home Automation System, CoAP & Data Lakes, IEEE 802.11 Components*
+    3. **Paper 3**: 14/11/2025 (QP Code: 95963) — *Smart Parking System, STOMP Protocol, 3-Layered IoT Architecture*
+    4. **Paper 4**: 06/06/2024 (QP Code: 10054714) — *Healthcare IoT Dashboard, LTE/LoRaWAN suitability, HTTP vs WebSocket vs MQTT*
+    5. **Paper 5**: 28/12/2023 (QP Code: 10038114) — *ZigBee, Data Refineries & Data Swamps, Smart Irrigation System*
+    6. **Paper 6**: 16/06/2023 (QP Code: 10026510) — *Internet of Behaviour (IoB), Smart Farming System, 6LoWPAN*
+
+### 5. [Software Testing & QA](./Software%20Testing%20%26%20QA/)
+
+*   **[Software Testing & QA PYQ.pdf](./Software%20Testing%20%26%20QA/Software%20Testing%20%26%20QA%20PYQ.pdf)** | **[Software Testing & QA PYQ.txt](./Software%20Testing%20%26%20QA/Software%20Testing%20%26%20QA%20PYQ.txt)** (142 Lines)
+*   **Question Papers Indexed (2 Papers)**:
+    1. **Paper 1**: QP Code: 15346 — *Defect Spoilage Table Calculation, Prime Number C Code DD Graph, McCall's Quality Model, Bug Life Cycle*
+    2. **Paper 2**: QP Code: 28365 — *Factorial C Code DD Graph & Cyclomatic Complexity, Bottom-up Integration, Test Suite Prioritization, ISO 9000:2000*
+
+---
+
+## Extraction Automation Pipeline
+
+The repository includes a Python automation script in [`scripts/ocr_pdf_extractor.py`](./scripts/ocr_pdf_extractor.py) for processing PDF exam papers into structured `.txt` files.
+
+### Key Capabilities:
+1. **RGB Color-Channel Thresholding**: Isolates pure dark text pixels (`R, G, B < 115`) to strip out red watermarks (`muquestionpapers.com`) and light-grey background codes (`464X525YCFA...`).
+2. **Vision AI Hook Integration**: Built-in support for OpenAI GPT-4 Vision, Gemini Vision, or local **Ollama `llama3.2-vision`** models.
+3. **Sequential Q1–Q6 Structuring**: Normalizes question numbers, aligns sub-question indentations (`a.` to `f.`), and formats ASCII tables.
+
+### Running the Extractor:
 
 ```bash
-# AI & DS II
-start "AI & DS II/"                        # Windows
-open "AI & DS II/"                         # macOS
+# 1. Install dependencies
+pip install -r scripts/requirements.txt
 
-# Or open a specific PDF directly
-start "AI & DS II/AI&DS PYQ.pdf"
+# 2. Execute extraction across all subject PDFs
+python scripts/ocr_pdf_extractor.py
+
+# Optional: Run with local Ollama Vision model
+set OLLAMA_HOST=http://localhost:11434
+python scripts/ocr_pdf_extractor.py
 ```
 
-### Download a Single Subject Folder
-
-GitHub does not support folder-only downloads natively. Use one of:
-
-```bash
-# Sparse clone (Git 2.25+) - pulls just one subject folder
-git clone --filter=blob:none --no-checkout https://github.com/aaditya09750/IT7sem-Notes.git
-cd IT7sem-Notes
-git sparse-checkout init --clone
-git sparse-checkout set "AI & DS II"
-git checkout main
-```
-
-```bash
-# Or grab the whole repo (smallest pain, ~10 MB)
-git clone https://github.com/aaditya09750/IT7sem-Notes.git
-```
-
-## Adding a New Subject
-
-1.  **Create a folder** at the repo root using the subject's full name, e.g. `New Subject/`.
-2.  **Drop in the PDFs** following the naming convention above:
-
-    *   `New Subject/New Subject PYQ.pdf` - Previous Year Questions
-3.  **Update this README** - add the subject to the **Indexed Subjects** list and the **Repository Structure** tree.
-4.  **Stage with `git mv`** if you are moving existing files - it preserves history and keeps the diff readable.
-
-## Adding a New File to an Existing Subject
-
-```bash
-# Example: adding a fresh PYQ to AI & DS II
-git add "AI & DS II/AI&DS PYQ.pdf"
-git commit -m "chore(AI & DS II): updated PYQ"
-```
-
-Keep commit messages in the existing style - `feat:`, `chore:`, or `feat(<subject>):` scoped prefixes match the rest of the log.
-
-## Roadmap
-
-This folder is the source of truth for an upcoming **`it7-study-portal`** - a Next.js 15 + Drizzle (SQLite) + Auth.js v5 web app that will index every PDF, expose subject-wise search, and surface PYQ drills directly in the browser. PDFs will keep living here; the portal will read them via a `PDF_CONTENT_DIR` pointer rather than duplicating files.
+---
 
 ## License
 
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge\&logo=opensourceinitiative\&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 ```text
 MIT License
@@ -128,12 +141,4 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-> Source PDFs (MUSA question banks, university papers) remain the intellectual property of their original authors and Mumbai University. The MIT license covers the organisation, naming, and structure of this archive only.
-
----
-
-## IT Sem 7 Notes
-
-A clean, subject-wise archive of MUSA QBs, university papers, and answer keys for TE IT students at Mumbai University. One folder per subject, one convention across the repo.
-
-**Star this repository if it helped you prep for an exam!**
+> **Note**: Source PDFs and exam question content remain the intellectual property of Mumbai University. The MIT license applies to the code, organization, clean text transcriptions, and structure of this repository.

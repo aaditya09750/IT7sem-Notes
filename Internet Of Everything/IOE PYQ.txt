@@ -1,0 +1,250 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: INTERNET OF EVERYTHING (IOE)
+COMPLETE ARCHIVE OF ALL 6 QUESTION PAPERS (EXACT TRANSCRIPTION & SEQUENTIAL ORDER)
+================================================================================
+
+================================================================================
+QUESTION PAPER 1: 04/06/2025 (QP CODE: 10083969)
+================================================================================
+
+Paper / Subject Code: 42672 / Internet of Everything
+04/06/2025 BE IT SEM-VII C-SCHEME IOE QP CODE: 10083969
+
+Time: [3 hrs]                                                   [80 Marks]
+
+Note : 1. Question 1 is compulsory
+       2. Answer any three out of remaining questions
+       3. Assume suitable data where required
+
+Q1 Solve any four
+   a) Define Smart Object in IoT and its characteristics. (5 marks)
+   b) Write short note on RFID (5 marks)
+   c) Draw the Architecture diagram of Advanced Message Queuing Protocol (AMQP) with advantages (5 marks)
+   d) Explain the importance of IoT Data Analytics. (5 marks)
+   e) Explain data acquisition in IoT. (5 marks)
+
+Q2
+   a) Describe IoT World Forum (IoTWF) standardized architecture. (10 marks)
+   b) State various operating modes of Zigbee and its topologies with diagrams. (10 marks)
+
+Q3
+   a) Draw and explain the architecture of MQTT with diagram. (10 marks)
+   b) Explain working of Constraint Application Layer protocol (CoAP). (10 marks)
+
+Q4
+   a) Illustrate the following i) How to create and visualize alerts in IoT? ii) What are the main challenges of IoT? (10 marks)
+   b) Explain the following terms: i) CoAP ii) Internet of Behaviour (10 marks)
+
+Q5
+   a) Explain the architecture of LoRaWAN with its major characteristics. (10 marks)
+   b) Design the Forest Fire Detection system using IoT sensors. (10 marks)
+
+Q6
+   a) Describe IoT enabled Smart Home Automation. (10 marks)
+   b) Explain the role of NoSQL in IoT data analytics. (10 marks)
+
+
+================================================================================
+QUESTION PAPER 2: 14/11/2024 (QP CODE: 10067160)
+================================================================================
+
+Paper / Subject Code: 42672 / Internet of Everything
+14/11/2024 IT SEM-VII C SCHEME IOE QP CODE: 10067160
+
+Time: [3 hrs]                                                   [80 Marks]
+
+Note: 1. Question 1 is compulsory
+      2. Answer any three out of remaining questions
+      3. Assume suitable data where required
+
+Q1 Solve any 4
+   a) Explain functional blocks of IoT. (5)
+   b) Explain the importance of IoT Data Analytics. (5)
+   c) Write a short note on Near Field Communication. (5)
+   d) Define the following i) Fog Computing ii) Internet of Behaviour (IoB). (5)
+   e) Differentiate briefly Physical design of IoT and Logical design of IoT. (5)
+
+Q2
+   a) Explain the IOT enabled Home Automation system with respect to sensors, Actuators, framework, protocols, data analysis and security. (10)
+   b) Explain the following terms i) CoAP ii) Data Lakes. (10)
+
+Q3
+   a) Explain the architecture of LoRaWAN with its major Characteristics (10)
+   b) Illustrate the components of IEEE 802.11 architecture with advantages (10)
+
+Q4
+   a) Explain effective Data Visualization methods With suitable example (10)
+   b) Explain in brief the MQTT Architecture with Advantages. (10)
+
+Q5
+   a) State the Comparison's of all Protocols used in IOT for cloud Edge. (10)
+   b) Describe the Architecture of Advanced Message Queuing Protocol (AMQP) with major application. (10)
+
+Q6
+   a) Elaborate briefly the simplified 3 layered IoT architecture with neat diagram, (10)
+   b) Describe the role of NoSQL in IoT Data Analytics Challenges. (10)
+
+
+================================================================================
+QUESTION PAPER 3: NOV 24 / 14.11.25 (QP CODE: 95963)
+================================================================================
+
+Paper / Subject Code: 42672 / Internet of Everything
+BE sem VII | IT | C-scheme | Nov 24 / 14.11.25  qp code - 95963
+
+Time (3 Hours)                                                  [Total Marks 80]
+
+Note: 1. Question 1 is compulsory
+      2. Answer any three out of remaining questions
+      3. Assume suitable data where required
+
+Q1 Solve any 4
+   a) Define smart object and its Characteristics in brief. (5)
+   b) Define the following i) Fog Computing ii) Internet of Behaviour (IoB). (5)
+   c) Differentiate briefly Physical design of IoT and Logical design of IoT. (5)
+   d) Explain the importance of IoT Data Analytics. (5)
+   e) Write a short note on Near Field Communication. (5)
+
+Q2
+   a) Explain the IOT enabled Smart Parking system with respect to sensors, Actuators, framework, protocols, data analysis and security. (10)
+   b) Explain the following terms i) Constrained Application Protocol ii) Streaming Text Oriented Message Protocol (10)
+
+Q3
+   a) Elaborate briefly the simplified 3 layered IoT architecture with neat diagram, (10)
+   b) Describe the role of NoSQL in IoT Data Analytics Challenges. (10)
+
+Q4
+   a) Explain effective Data Visualization methods With suitable example (10)
+   b) Explain in brief the MQTT Architecture with Advantages. (10)
+
+Q5
+   a) State the Comparison's of all Protocols used in IOT for cloud Edge. (10)
+   b) Describe the Architecture of Advanced Message Queuing Protocol (AMQP) with major application. (10)
+
+Q6
+   a) Explain the architecture of RFID with its major applications. (10)
+   b) Illustrate the components of IEEE 802.11 architecture with advantages (10)
+
+
+================================================================================
+QUESTION PAPER 4: JUNE 6, 2024 (QP CODE: 10054714)
+================================================================================
+
+Paper / Subject Code: 42672 / Internet of Everything
+June 6, 2024 10:30 am - 01:30 pm 1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 2019-20) (C Scheme) / 42672 - Internet of Everything  QP CODE: 10054714
+
+Time: 3 hrs                                                     Marks: 80
+
+Note: 1. Question 1 is compulsory
+      2. Answer any three out of remaining questions
+      3. Assume suitable data where required
+
+Q1 Solve any 4
+   a) Explain Bluetooth Low Energy(BLE) role (5)
+   b) Briefly elaborate the COAP (5)
+   c) Explain data retention strategy. (5)
+   d) Explain the concept of I-IoT and its similarity with IoT (5)
+   e) Explain the characteristic of IoT (5)
+
+Q2
+   a) How can IoT analytics be effectively utilized within IoT-based healthcare systems? Additionally, what are some essential parameters that should be incorporated into the patient dashboard for comprehensive monitoring and management of health data? (10)
+   b) Evaluate long-range communication systems and protocols such as LTE, LTE-A, LoRa, and LoRaWAN in the context of IoT connectivity. Discuss their suitability for different IoT use cases based on factors like coverage, data rate, power consumption, and scalability. (10)
+
+Q3
+   a) Define the role of analytics in IoT technology and elaborate the challenges associated with it. (10)
+   b) Elaborate the need of new network architecture in IoT. (10)
+
+Q4
+   a) Compare edge, fog and cloud computing w.r.t to its hierarchy. (10)
+   b) Consider smart smoke detection system. Elaborate its working and list down the different types of sensors and actuators required during the deployment scenario. (10)
+
+Q5
+   a) Explain the role of HTTP, WebSocket, and MQTT in IoT communication. Compare and contrast these protocols in terms of their characteristics, suitability for different IoT scenarios, and support for real-time data transmission. (10)
+   b) Discuss the functional blocks of IoT architecture, highlighting their roles and interactions. Provide examples to illustrate the importance of each block in the overall functionality of IoT systems. (10)
+
+Q6
+   a) Elaborate the Smart Object with diagram and describe its characteristics. (10)
+   b) Explain the following access technologies with applications area of each: 1) IEEE 802.15.4 2) Z-wave 3) LTE-A (10)
+
+
+================================================================================
+QUESTION PAPER 5: 28-DEC-2023 (QP CODE: 10038114)
+================================================================================
+
+Paper / Subject Code: 42672 / Internet of Everything
+28-Dec-2023 10:30 am - 01:30 pm 1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 19) (C Scheme) / 42672 - Internet of Everything  QP CODE: 10038114
+
+Time : [3 hrs]                                                  [80 Marks]
+
+Note : 1. Question 1 is compulsory
+       2. Answer any three out of remaining questions
+       3. Assume suitable data where required
+
+Q1 Solve any 4
+   a) Explain ZigBee in brief. (5)
+   b) Explain the Need of lightweight new communications protocols for IoT. (5)
+   c) Explain data retention strategy. (5)
+   d) Write a short note on I-IoT (5)
+   e) Explain functional blocks of IoT (5)
+
+Q2
+   a) Elaborate in detail the strategies to organize Data for IoT Analytics. (10)
+   b) Illustrate the role of Data refineries in preventing data lakes to turn into data swamps (10)
+
+Q3
+   a) Describe the communication system and protocols involved in long range communication system of IoT (10)
+   b) With neat diagram, elaborate briefly the simplified 3 layered IoT architecture. (10)
+
+Q4
+   a) Differentiate and give Hierarchy between Edge, Fog, and Cloud computing (10)
+   b) Consider Smart Irrigation system. Elaborate its working with block diagram and list down the different types of sensors and actuators required during the deployment scenario. (10)
+
+Q5
+   a) Elaborate MQTT with its working in details and two advantages over COAP. (10)
+   b) Illustrate 3 methods for effective Data Visualization (10)
+
+Q6
+   a) Define sensor, actuators and their role and classifications in brief. (10)
+   b) Explain the following access technologies with applications area of each: 1) IEEE 802.15.4 2) RFID (10)
+
+
+================================================================================
+QUESTION PAPER 6: 16/06/2023 (QP CODE: 10026510)
+================================================================================
+
+Paper / Subject Code: 42672 / Internet of Everything
+1T01237 - B.E.(Information Technology Engineering)(SEM-VII)(Choice Base Credit Grading System ) (R- 19) (C Scheme) / 42672 - Internet of Everything  QP CODE: 10026510  DATE: 16/06/2023
+
+[3 hrs]                                                         [80 Marks]
+
+Note : 1. Question 1 is compulsory.
+       2. Answer any three out of remaining questions.
+       3. Assume suitable data where required.
+
+Q1 Solve any 4
+   a) What is the Internet of Behaviour (IoB) and why is it the future? (5)
+   b) Compare and contrast IoT data analytics and IoT network analytics. (5)
+   c) Briefly elaborate the Advanced Message Queuing Protocol(AMQP) (5)
+   d) While designing the IoT based smoke detection system what all parameters need to be considered before choosing the required sensor. (5)
+   e) Explain applications of Bluetooth Low Energy (BLE) (5)
+
+Q2
+   a) Compare and contrast Edge, Fog, and Cloud Computing. Explain their usage with an example. (10)
+   b) Consider smart farming system. Elaborate its working and list down the different types of sensors and actuators required during the deployment scenario (10)
+
+Q3
+   a) Describe IoT World Forum (IoTWF) Standardized Architecture (10)
+   b) Explain the architecture of LoRaWAN with its major Characteristics (10)
+
+Q4
+   a) Explain ecosystem for IoT enabled Smart Home Automation with respect to sensors, actuators, framework, protocols, storage, data analysis, security etc. (10)
+   b) State advantages of data visualisation. Give different tools used for it. (10)
+
+Q5
+   a) Elaborate the Smart Object with diagram and describe all the essential components required to make the object into the smart object. (10)
+   b) Explain the following access technologies with applications area of each: 1) Zigbee 2) RFID 3) 6LoWPAN 4) CoAP (10)
+
+Q6
+   a) Draw and explain Architecture of MQTT with diagram (10)
+   b) Elaborate the need of new network architecture in IoT. (10)
