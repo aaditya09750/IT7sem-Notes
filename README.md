@@ -15,6 +15,7 @@ A subject-wise archive of TE IT Semester VII revision material - MUSA question b
 
 *   **AI & DS II** - see [AI & DS II/](AI%20&%20DS%20II/)
 *   **Cyber Security & Laws** - see [Cyber Security & Laws/](Cyber%20Security%20&%20Laws/)
+*   **Information Retrieval System** - see [Information Retrieval System/](Information%20Retrieval%20System/)
 *   **Internet Of Everything** - see [Internet Of Everything/](Internet%20Of%20Everything/)
 *   **Software Testing & QA** - see [Software Testing & QA/](Software%20Testing%20&%20QA/)
 
@@ -37,6 +38,8 @@ IT7sem Notes/
 |   `-- AI&DS PYQ.pdf
 |-- Cyber Security & Laws/
 |   `-- CS&L PYQ.pdf
+|-- Information Retrieval System/
+|   `-- IRS PYQ.pdf
 |-- Internet Of Everything/
 |   `-- IOE PYQ.pdf
 `-- Software Testing & QA/
