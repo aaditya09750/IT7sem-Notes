@@ -1,0 +1,447 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: CYBER SECURITY & LAWS (CS&L)
+SUBJECT CODE: 42686 / 42384 / 41984
+QUESTION BANK: ORDERED BY REPETITION FREQUENCY (5 MARKS & 10 MARKS)
+ARCHIVE COVERAGE: ALL 5 QUESTION PAPERS (2022 - 2025)
+================================================================================
+
+EXAM PAPERS ANALYZED:
+1. 13/06/2025 (QP CODE: 10055704)
+2. 25/11/2024 (QP CODE: 10055703)
+3. 03/01/2024 (QP CODE: 10038595)
+4. 26/06/2023 (QP CODE: 10026426)
+5. 19/12/2022 (QP CODE: 10015878)
+
+================================================================================
+SUMMARY TABLE OF CONTENTS
+================================================================================
+SECTION 1: 5 MARKS QUESTIONS (RANKED BY REPETITION FREQUENCY)
+  • 1.1 REPEATED 4 TIMES (HIGHEST FREQUENCY)
+  • 1.2 REPEATED 3 TIMES
+  • 1.3 REPEATED 2 TIMES
+  • 1.4 APPEARED 1 TIME
+
+SECTION 2: 10 MARKS QUESTIONS (RANKED BY REPETITION FREQUENCY)
+  • 2.1 REPEATED 4 TIMES (HIGHEST FREQUENCY - 10 MARKS)
+  • 2.2 REPEATED 3 TIMES
+  • 2.3 REPEATED 2 TIMES
+  • 2.4 APPEARED 1 TIME
+
+================================================================================
+================================================================================
+SECTION 1: 5 MARKS QUESTIONS (ORDERED BY REPETITION FREQUENCY)
+================================================================================
+================================================================================
+
+--------------------------------------------------------------------------------
+1.1 REPEATED 4 TIMES (HIGHEST FREQUENCY - 5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-01] SECURITY RISKS FOR ORGANIZATIONS & BUSINESS DATA CHALLENGES
+Total Repetitions: 4 Times (Appeared in 3 out of 5 Papers)
+
+  • Paper 1 (13/06/2025 - Q.1b):
+    "What are different Security Risks for Organizations? (05)"
+
+  • Paper 2 (25/11/2024 - Q.1c):
+    "What are different Security Risks for Organizations? (05)"
+
+  • Paper 2 (25/11/2024 - Q.1d):
+    "Outline the challenges for securing data in business perspective. (05)"
+
+  • Paper 4 (26/06/2023 - Q.1d):
+    "What are different Security Risks for Organizations? (05)"
+
+--------------------------------------------------------------------------------
+1.2 REPEATED 3 TIMES (5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-02] HOW CYBERCRIMES DIFFER FROM MOST TERRESTRIAL CRIMES
+Total Repetitions: 3 Times
+
+  • Paper 1 (13/06/2025 - Q.1d):
+    "How cybercrimes differ from most terrestrial crimes? (05)"
+
+  • Paper 2 (25/11/2024 - Q.1b):
+    "How Cybercrimes differs from most terrestrial crimes? (05)"
+
+  • Paper 4 (26/06/2023 - Q.1c):
+    "How cybercrimes differs from most terrestrial crimes? (05)"
+
+
+[Q-5M-03] MOBILE DEVICE VULNERABILITIES & SECURITY CHALLENGES
+Total Repetitions: 3 Times
+
+  • Paper 1 (13/06/2025 - Q.1a):
+    "What are Mobile Vulnerabilities? (05)"
+
+  • Paper 3 (03/01/2024 - Q.1b):
+    "Explain various security challenges posed by mobile devices. (05)"
+
+  • Paper 4 (26/06/2023 - Q.1e):
+    "What are Mobile Vulnerabilities? (05)"
+
+
+[Q-5M-04] BUFFER OVERFLOW ATTACK (SHORT NOTE)
+Total Repetitions: 3 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 1 (13/06/2025 - Q.6c):
+    "Write short note on: Buffer overflow attack. (05)"
+
+  • Paper 2 (25/11/2024 - Q.6c):
+    "Write short note on: Buffer overflow attack. (05)"
+
+  • Paper 4 (26/06/2023 - Q.6c):
+    "Write short note on: Buffer overflow attack. (05)"
+
+
+[Q-5M-05] HIPAA (HEALTH INSURANCE PORTABILITY AND ACCOUNTABILITY ACT)
+Total Repetitions: 3 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 1 (13/06/2025 - Q.6b):
+    "Write short note on: HIPAA. (05)"
+
+  • Paper 2 (25/11/2024 - Q.6b):
+    "Write short note on: HIPAA. (05)"
+
+  • Paper 4 (26/06/2023 - Q.6b):
+    "Write short note on: HIPAA. (05)"
+
+--------------------------------------------------------------------------------
+1.3 REPEATED 2 TIMES (5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-06] DIFFERENCE BETWEEN VIRUS AND WORM
+Total Repetitions: 2 Times
+
+  • Paper 1 (13/06/2025 - Q.1c):
+    "Difference between virus and worm. (05)"
+
+  • Paper 4 (26/06/2023 - Q.1b):
+    "Difference between virus and worm. (05)"
+
+
+[Q-5M-07] TROJAN HORSE AND BACKDOOR
+Total Repetitions: 2 Times
+
+  • Paper 1 (13/06/2025 - Q.6f):
+    "Write short note on: Trojan horse and backdoor. (05)"
+
+  • Paper 4 (26/06/2023 - Q.6f):
+    "Write short note on: Trojan horse and backdoor. (05)"
+
+
+[Q-5M-08] BOTNETS & EXPLOITATION BY ATTACKERS
+Total Repetitions: 2 Times in 5M (Plus 1 time in 10M)
+
+  • Paper 2 (25/11/2024 - Q.6d):
+    "Write short note on: Botnets. (05)"
+
+  • Paper 3 (03/01/2024 - Q.1e):
+    "What are Botnets? How it is exploit by attacker to cause cyber-attack? (05)"
+
+
+[Q-5M-09] DOS / DDOS ATTACKS
+Total Repetitions: 2 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 2 (25/11/2024 - Q.6e):
+    "Write short note on: DOS attack. (05)"
+
+  • Paper 4 (26/06/2023 - Q.6e):
+    "Write short note on: DDOS attack. (05)"
+
+
+[Q-5M-10] E-CONTRACTS AND ITS DIFFERENT TYPES
+Total Repetitions: 2 Times in 5M (Plus 3 times in 10M)
+
+  • Paper 3 (03/01/2024 - Q.1d):
+    "Explain E-contracts and its different types. (05)"
+
+  • Paper 5 (19/12/2022 - Q.1d):
+    "Explain E-contracts and its different types. (05)"
+
+
+[Q-5M-11] OBJECTIVES OF IT ACT 2000 / NEED OF CYBER LAW IN INDIA
+Total Repetitions: 2 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 1 (13/06/2025 - Q.1e):
+    "Explain the objectives of IT Act 2000. (05)"
+
+  • Paper 3 (03/01/2024 - Q.1c):
+    "Explain need of Cyber law in India. (05)"
+
+
+[Q-5M-12] PLANNING OF CYBERATTACKS BY CRIMINALS
+Total Repetitions: 2 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 1 (13/06/2025 - Q.6d):
+    "Write short note on: Planning of cyberattacks by criminal. (05)"
+
+  • Paper 3 (03/01/2024 - Q.1a):
+    "Explain how criminals plan the attack. (05)"
+
+--------------------------------------------------------------------------------
+1.4 APPEARED 1 TIME (5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-13] DIGITAL EVIDENCE (SHORT NOTE)
+  • Paper 1 (13/06/2025 - Q.6a):
+    "Write short note on: Digital evidence. (05)"
+
+[Q-5M-14] VISHING ATTACK (SHORT NOTE)
+  • Paper 1 (13/06/2025 - Q.6e):
+    "Write short note on: Vishing attack. (05)"
+
+[Q-5M-15] WHAT IS CYBERCRIME? WHO ARE CYBERCRIMINALS?
+  • Paper 2 (25/11/2024 - Q.1a):
+    "What is Cybercrime? Who are Cybercriminals? Explain. (05)"
+
+[Q-5M-16] CYBERSTALKING AND HARASSMENT
+  • Paper 2 (25/11/2024 - Q.6a):
+    "Write short note on: Cyberstalking and harassment. (05)"
+
+[Q-5M-17] MOBILE / CELL PHONE ATTACKS
+  • Paper 2 (25/11/2024 - Q.6f):
+    "Write short note on: Mobile/Cell Phone attacks. (05)"
+
+[Q-5M-18] PASSWORD POLICY GUIDELINES
+  • Paper 4 (26/06/2023 - Q.1a):
+    "List General guidelines for password policies. (05)"
+
+[Q-5M-19] CYBERDEFAMATION
+  • Paper 4 (26/06/2023 - Q.6a):
+    "Write short note on: Cyberdefamation. (05)"
+
+[Q-5M-20] STEGANOGRAPHY
+  • Paper 4 (26/06/2023 - Q.6d):
+    "Write short note on: Steganography. (05)"
+
+[Q-5M-21] DIFFERENTIATE BETWEEN CYBERCRIME AND CYBER FRAUD
+  • Paper 5 (19/12/2022 - Q.1a):
+    "Differentiate between cybercrime and cyber fraud. (05)"
+
+[Q-5M-22] CLOUD COMPUTING SECURITY THREATS
+  • Paper 5 (19/12/2022 - Q.1b):
+    "Explain various threats associated with cloud computing. (05)"
+
+[Q-5M-23] METHODS OF PASSWORD CRACKING
+  • Paper 5 (19/12/2022 - Q.1c):
+    "Explain methods of password cracking. (05)"
+
+[Q-5M-24] ATTACK VECTORS IN CYBER SECURITY
+  • Paper 5 (19/12/2022 - Q.1e):
+    "Explain different attack vectors in cyber security. (05)"
+
+
+================================================================================
+================================================================================
+SECTION 2: 10 MARKS QUESTIONS (ORDERED BY REPETITION FREQUENCY)
+================================================================================
+================================================================================
+
+--------------------------------------------------------------------------------
+2.1 REPEATED 4 TIMES (HIGHEST FREQUENCY - 10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-01] SQL INJECTION (SQLI) ATTACK STEPS & COUNTERMEASURES / MITIGATION
+Total Repetitions: 4 Times (Appeared in 4 out of 5 Papers)
+
+  • Paper 1 (13/06/2025 - Q.3a):
+    "Explain steps for SQL Injection attack. How to prevent SQL Injection attacks? (10)"
+
+  • Paper 2 (25/11/2024 - Q.4a):
+    "Explain Steps for SQL Injection attack. How to prevent SQL Injection attacks? (10)"
+
+  • Paper 3 (03/01/2024 - Q.5a):
+    "Explain SQL injection attack. State different countermeasure to prevent the attack. [10]"
+
+  • Paper 5 (19/12/2022 - Q.6a):
+    "Explain SQL injection attack. State different countermeasure to prevent the attack. [10]"
+
+
+[Q-10M-02] CLASSIFICATION OF CYBERCRIMES & CYBERCRIMINALS
+Total Repetitions: 4 Times in 10M (Plus 1 time in 5M)
+
+  • Paper 1 (13/06/2025 - Q.4a):
+    "What is Cybercrime? Who are Cybercriminals? Explain. (10)"
+
+  • Paper 2 (25/11/2024 - Q.3a):
+    "Explain different types of Cybercrimes. (10)"
+
+  • Paper 3 (03/01/2024 - Q.2a):
+    "Explain the classification of cybercrimes with examples. [10]"
+
+  • Paper 4 (26/06/2023 - Q.4b):
+    "What is Cybercrime? Who are Cybercriminals? Explain. (10)"
+
+  • Paper 5 (19/12/2022 - Q.2a):
+    "Explain the classification of cybercrimes with examples. [10]"
+
+
+[Q-10M-03] E-COMMERCE TYPES & E-CONTRACTS
+Total Repetitions: 4 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 1 (13/06/2025 - Q.3b & Q.4b):
+    "Explain E-contracts and its different types. (10)"
+    "What is e-commerce? Discuss types of e-commerce. (10)"
+
+  • Paper 2 (25/11/2024 - Q.5b):
+    "What is e-commerce? Discuss types of e-commerce. (10)"
+
+  • Paper 4 (26/06/2023 - Q.3a & Q.3b):
+    "What is e-commerce? Discuss types of e-commerce. (10)"
+    "Explain E-contracts and its different types. (10)"
+
+--------------------------------------------------------------------------------
+2.2 REPEATED 3 TIMES (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-04] CYBER CAFE SECURITY MEASURES & ILLEGAL ACTIVITIES
+Total Repetitions: 3 Times (Appeared in 3 out of 5 Papers)
+
+  • Paper 1 (13/06/2025 - Q.5b):
+    "What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe? (10)"
+
+  • Paper 2 (25/11/2024 - Q.2a):
+    "What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe? (10)"
+
+  • Paper 4 (26/06/2023 - Q.5b):
+    "What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe? (10)"
+
+
+[Q-10M-05] SAFEGUARDING LAPTOPS AND WIRELESS DEVICES
+Total Repetitions: 3 Times (Appeared in 3 out of 5 Papers)
+
+  • Paper 1 (13/06/2025 - Q.5a):
+    "What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain. (10)"
+
+  • Paper 2 (25/11/2024 - Q.3b):
+    "What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain. (10)"
+
+  • Paper 4 (26/06/2023 - Q.4a):
+    "What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain. (10)"
+
+
+[Q-10M-06] DIGITAL EVIDENCE (DEFINITION, SOURCES & TYPES)
+Total Repetitions: 3 Times in 10M (Plus 1 time in 5M)
+
+  • Paper 2 (25/11/2024 - Q.2b):
+    "What is digital evidence? Where one can find it. (10)"
+
+  • Paper 3 (03/01/2024 - Q.6a):
+    "Explain the term evidence and different types of evidences. [10]"
+
+  • Paper 4 (26/06/2023 - Q.5a):
+    "What is digital evidence? Where one can find it. (10)"
+
+
+[Q-10M-07] INTELLECTUAL PROPERTY RIGHTS (IPR) & WIPO TREATIES IN CYBERSPACE
+Total Repetitions: 3 Times
+
+  • Paper 1 (13/06/2025 - Q.2a):
+    "What is WIPO? List treaties prepared by WIPO. (10)"
+
+  • Paper 3 (03/01/2024 - Q.4b):
+    "Write a note on Intellectual Property Aspects in cyber law. [10]"
+
+  • Paper 5 (19/12/2022 - Q.4b):
+    "Write a note on Intellectual Property Aspects in cyber law. [10]"
+
+--------------------------------------------------------------------------------
+2.3 REPEATED 2 TIMES (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-08] PLANNING OF CYBERATTACKS BY CRIMINALS (LIFECYCLE STEPS)
+Total Repetitions: 2 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 2 (25/11/2024 - Q.4b):
+    "Discuss steps involved in planning of cyberattacks by criminal. (10)"
+
+  • Paper 4 (26/06/2023 - Q.2a):
+    "Discuss steps involved in planning of cyberattacks by criminal. (10)"
+
+
+[Q-10M-09] VISHING (VOICE PHISHING) ATTACK WORKING & PROTECTION
+Total Repetitions: 2 Times in 10M (Plus 1 time in 5M)
+
+  • Paper 2 (25/11/2024 - Q.5a):
+    "What is vishing attack? How it works? How to protect from vishing attack? (10)"
+
+  • Paper 4 (26/06/2023 - Q.2b):
+    "What is vishing attack? How it works? How to protect from vishing attack? (10)"
+
+
+[Q-10M-10] BUFFER OVERFLOW ATTACKS & MITIGATION
+Total Repetitions: 2 Times in 10M (Plus 3 times in 5M)
+
+  • Paper 3 (03/01/2024 - Q.3a):
+    "Explain different buffer overflow attacks also explain how to mitigate buffer overflow attack. [10]"
+
+  • Paper 5 (19/12/2022 - Q.3a):
+    "Explain different buffer overflow attacks also explain how to mitigate buffer overflow attack. [10]"
+
+
+[Q-10M-11] ELECTRONIC BANKING IN INDIA & RELATED CYBER LAWS
+Total Repetitions: 2 Times
+
+  • Paper 3 (03/01/2024 - Q.3b):
+    "Explain electronic banking in India and what are laws related to electronic banking in India. [10]"
+
+  • Paper 5 (19/12/2022 - Q.3b):
+    "Explain electronic banking in India and what are laws related to electronic banking in India. [10]"
+
+
+[Q-10M-12] DOS AND DDOS ATTACKS
+Total Repetitions: 2 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 3 (03/01/2024 - Q.4a):
+    "What do you understand by DOS and DDOS attack? Explain in detail. [10]"
+
+  • Paper 5 (19/12/2022 - Q.4a):
+    "What do you understand by DOS and DDOS attack? Explain in detail. [10]"
+
+
+[Q-10M-13] IT ACT 2000 OBJECTIVES AND FEATURES
+Total Repetitions: 2 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 3 (03/01/2024 - Q.5b):
+    "Explain the objectives and features of IT Act 2000. [10]"
+
+  • Paper 5 (19/12/2022 - Q.5a):
+    "Explain the objectives and features of IT Act 2000. [10]"
+
+
+[Q-10M-14] HIPAA & SOX IT COMPLIANCE REQUIREMENTS
+Total Repetitions: 2 Times in 10M (Plus 3 times in 5M)
+
+  • Paper 3 (03/01/2024 - Q.6b):
+    "Write key IT requirements for SOX and HIPAA. [10]"
+
+  • Paper 5 (19/12/2022 - Q.6b):
+    "Explain what is Information Security Standard and Explain HIPAA act in detail. [10]"
+
+--------------------------------------------------------------------------------
+2.4 APPEARED 1 TIME (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-15] IMPACT OF CYBERCRIMES IN SOCIAL ENGINEERING
+  • Paper 1 (13/06/2025 - Q.2b):
+    "Explain about the impact of Cybercrimes in Social Engineering. (10)"
+
+[Q-10M-16] PHISHING AND IDENTITY THEFT IN DETAIL
+  • Paper 3 (03/01/2024 - Q.2b):
+    "Explain Phishing and Identity theft in detail. [10]"
+
+[Q-10M-17] BOTNETS & ATTACKER EXPLOITATION
+  • Paper 5 (19/12/2022 - Q.5b):
+    "What are Botnets? How it is exploit by attacker to cause cyber attack? [10]"
+
+[Q-10M-18] TYPES OF CREDIT CARD FRAUDS
+  • Paper 5 (19/12/2022 - Q.2b):
+    "Explain various types of credit card frauds. [10]"
+
+================================================================================
+END OF CYBER SECURITY & LAWS QUESTION BANK BY REPETITION FREQUENCY
+================================================================================
+

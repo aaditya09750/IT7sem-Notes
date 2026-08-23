@@ -1,0 +1,241 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: SOFTWARE TESTING & QUALITY ASSURANCE (STQA)
+SUBJECT CODE: 42676 (DLOC III)
+QUESTION BANK: ORDERED BY REPETITION FREQUENCY (5 MARKS & 10 MARKS)
+ARCHIVE COVERAGE: ALL QUESTION PAPERS
+================================================================================
+
+EXAM PAPERS ANALYZED:
+1. QUESTION PAPER 1 (QP CODE: 15346)
+2. QUESTION PAPER 2 (QP CODE: 28365)
+
+================================================================================
+SUMMARY TABLE OF CONTENTS
+================================================================================
+SECTION 1: 5 MARKS QUESTIONS (RANKED BY REPETITION FREQUENCY)
+  • 1.1 REPEATED TOPICS (5 MARKS & COMBINED SLOTS)
+  • 1.2 SINGLE-APPEARANCE 5 MARKS QUESTIONS
+
+SECTION 2: 10 MARKS QUESTIONS (RANKED BY REPETITION FREQUENCY)
+  • 2.1 REPEATED IN 100% OF PAPERS (10 MARKS)
+  • 2.2 HIGH-YIELD 10 MARKS CORE QUESTIONS & NUMERICALS
+
+================================================================================
+================================================================================
+SECTION 1: 5 MARKS QUESTIONS (ORDERED BY REPETITION FREQUENCY)
+================================================================================
+================================================================================
+
+--------------------------------------------------------------------------------
+1.1 REPEATED TOPICS (5 MARKS & COMBINED SLOTS)
+--------------------------------------------------------------------------------
+
+[Q-5M-01] MUTATION TESTING: PRIMARY VS SECONDARY MUTANTS & SCORE
+Total Repetitions: Appeared in Both Papers (1 time in 5M, 1 time in 10M)
+
+  • Paper 1 (QP Code: 15346 - Q.1b):
+    "What is Mutation testing? Differentiate between primary and secondary mutants. (05)"
+
+  • Paper 2 (QP Code: 28365 - Q.5a):
+    "What is Mutation Testing? Explain primary mutant with an example. (10)"
+
+
+[Q-5M-02] TEST AUTOMATION TOOL SELECTION CRITERIA & STATIC VS DYNAMIC TOOLS
+Total Repetitions: Appeared in Both Papers (1 time in 5M, 2 times in 10M)
+
+  • Paper 1 (QP Code: 15346 - Q.1c):
+    "What criteria you will consider for selection of test tools for automation Testing. (05)"
+
+  • Paper 2 (QP Code: 28365 - Q.4b):
+    "Why is automation important in testing? What are the guidelines for selecting testing tools? [10]"
+
+
+[Q-5M-03] STRUCTURE OF TESTING GROUP & TEST MANAGEMENT HIERARCHY
+Total Repetitions: Appeared in Both Papers (1 time in 5M, 1 time in 10M)
+
+  • Paper 1 (QP Code: 15346 - Q.1d):
+    "Explain structure of testing Group. (05)"
+
+  • Paper 2 (QP Code: 28365 - Q.3b):
+    "What are the Key elements of Test Management? Explain the structure of testing group. [10]"
+
+--------------------------------------------------------------------------------
+1.2 SINGLE-APPEARANCE 5 MARKS QUESTIONS
+--------------------------------------------------------------------------------
+
+[Q-5M-04] SOFTWARE TESTING TERMINOLOGY DEFINITIONS
+  • Paper 1 (QP Code: 15346 - Q.1a):
+    "Define each software testing terminology:
+     i) Failure, ii) Defect, iii) Error, iv) Testware and v) Test oracle. (05)"
+
+[Q-5M-05] SIX SIGMA QUALITY STANDARD
+  • Paper 1 (QP Code: 15346 - Q.1e):
+    "Discuss Six Sigma. (05)"
+
+[Q-5M-06] BOTTOM-UP INTEGRATION TESTING WITH EXAMPLE
+  • Paper 2 (QP Code: 28365 - Q.1a):
+    "Explain Bottom up Integration Testing with one example. (05)"
+
+[Q-5M-07] LOOP TESTING: TESTING SIMPLE LOOPS
+  • Paper 2 (QP Code: 28365 - Q.1b):
+    "How to test simple loop in a program? (05)"
+
+[Q-5M-08] LOGIC COVERAGE CRITERIA FOR STATEMENT COVERAGE
+  • Paper 2 (QP Code: 28365 - Q.1c):
+    "Explain Logic Coverage Criteria for Statement Coverage. (05)"
+
+[Q-5M-09] STATE TABLE BASED TESTING WITH EXAMPLE
+  • Paper 2 (QP Code: 28365 - Q.1d):
+    "Explain State Table Based testing with example. (05)"
+
+[Q-5M-10] BUGZILLA TESTING TOOL FEATURES & USAGE
+  • Paper 2 (QP Code: 28365 - Q.1e):
+    "Discuss the features and use of Bugzilla Testing Tool. (05)"
+
+
+================================================================================
+================================================================================
+SECTION 2: 10 MARKS QUESTIONS (ORDERED BY REPETITION FREQUENCY)
+================================================================================
+================================================================================
+
+--------------------------------------------------------------------------------
+2.1 REPEATED IN 100% OF QUESTION PAPERS (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-01] WHITE-BOX TESTING: DD-GRAPH, CYCLOMATIC COMPLEXITY & INDEPENDENT PATHS
+Total Repetitions: Appeared in Both Papers (3 Times in 10M)
+
+  • Paper 1 (QP Code: 15346 - Q.4b):
+    "Consider following C code.
+       main()
+       {
+          int number, index;
+       1. printf('Enter a number');
+       2. scanf('%d',&number);
+       3. index=2;
+       4. while(index<=number-1)
+       5. {
+       6.   if(number%index==0)
+       7.   {
+       8.     printf('Not a prime number');
+       9.     break;
+       10.  }
+       11.  index++;
+       12. }
+       13. if(index==number)
+       14.  printf('prime number');
+       15. } // end main
+
+       Draw DD graph, Calculate cyclomatic complexity, List out independent paths and design test cases. [10]"
+
+  • Paper 2 (QP Code: 28365 - Q.2a):
+    "Consider the program for calculating the factorial of a number.
+       main()
+       {
+          int number;
+          int fact();
+       1. clrscr();
+       2. printf('Enter the number whose factorial is to be found out');
+       3. scanf('%d', &number);
+       4. if(number <0)
+       5. printf('Factorial cannot be defined for this number');
+       6. else
+       7. printf('Factorial is %d', fact(number));
+       8. }
+       int fact(int number)
+       {
+          int index;
+          1. int product =1;
+          2. for(index=1; index<=number; index++)
+          3. product = product * index;
+          4. return(product);
+          5. }
+
+       (A) Draw the DD graph for the program.
+       (B) Calculate the individual cyclomatic complexity number for main() and fact() and then, the cyclomatic complexity for the whole program. [10]"
+
+  • Paper 2 (QP Code: 28365 - Q.4a):
+    "What are graph metrics? Explain with an example how to calculate cyclomatic complexity using graph metrics. [10]"
+
+
+[Q-10M-02] AGILE TESTING LIFE CYCLE (ATLC) & CHALLENGES
+Total Repetitions: Appeared in Both Papers (100% Occurrence)
+
+  • Paper 1 (QP Code: 15346 - Q.2b):
+    "Explain Agile Testing Life Cycle and its challenges. [10]"
+
+  • Paper 2 (QP Code: 28365 - Q.2b):
+    "What is Agile testing? Explain challenges in Agile Testing [10]"
+
+
+[Q-10M-03] TEST AUTOMATION IMPORTANCE & STATIC VS DYNAMIC TOOLS
+Total Repetitions: Appeared in Both Papers
+
+  • Paper 1 (QP Code: 15346 - Q.4a):
+    "What is the need of automation testing activities? Differentiate between static and dynamic tools? [10]"
+
+  • Paper 2 (QP Code: 28365 - Q.4b):
+    "Why is automation important in testing? What are the guidelines for selecting testing tools? [10]"
+
+--------------------------------------------------------------------------------
+2.2 HIGH-YIELD 10 MARKS CORE QUESTIONS & NUMERICALS
+--------------------------------------------------------------------------------
+
+[Q-10M-04] DEFECT SPOILAGE CALCULATION (SDLC PHASES TABLE NUMERICAL)
+  • Paper 1 (QP Code: 15346 - Q.2a):
+    "Consider a project with the following distribution of data and calculate its defect spoilage. [10]
+     +-------------------+----------------+------------+
+     | SDLC Phase        | No. of Defects | Defect Age |
+     +-------------------+----------------+------------+
+     | Requirement Specs.| 34             | 2          |
+     | HLD               | 25             | 3          |
+     | LLD               | 17             | 7          |
+     | Coding            | 10             | 8          |
+     +-------------------+----------------+------------+"
+
+[Q-10M-05] BOUNDARY VALUE ANALYSIS (BVC) & ROBUST TEST CASE DESIGN
+  • Paper 1 (QP Code: 15346 - Q.3a):
+    "A program reads three numbers A, B and C, within the range [1,100] and prints the minimum number. Design test cases for this program using BVC and Robust testing methods. [10]"
+
+[Q-10M-06] SOFTWARE MEASUREMENT & TYPES OF SOFTWARE METRICS
+  • Paper 1 (QP Code: 15346 - Q.3b):
+    "What is the need of software measurement? Discuss the various types of software metrics. [10]"
+
+[Q-10M-07] TEST PLAN COMPONENTS & HIERARCHY DIAGRAM
+  • Paper 1 (QP Code: 15346 - Q.5a):
+    "What are the components of a test plan? Illustrate test plan hierarchy with a neat diagram. [10]"
+
+[Q-10M-08] MCCALL'S SOFTWARE QUALITY FACTORS AND CRITERIA
+  • Paper 1 (QP Code: 15346 - Q.5b):
+    "Explain McCall's Quality factors and Criteria. [10]"
+
+[Q-10M-09] BUG LIFE CYCLE (STATES, TRANSITIONS & DIAGRAM)
+  • Paper 1 (QP Code: 15346 - Q.6a):
+    "Explain a bug life cycle with a neat diagram in detail. List down the states of a bug. [10]"
+
+[Q-10M-10] EFFECTIVE SOFTWARE TESTING VS EXHAUSTIVE TESTING
+  • Paper 1 (QP Code: 15346 - Q.6b):
+    "Differentiate between Effective Software Testing and Exhaustive Software Testing. [10]"
+
+[Q-10M-11] TEST SUITE PRIORITIZATION (PROCESS, TYPES & EXAMPLE)
+  • Paper 2 (QP Code: 28365 - Q.3a):
+    "Explain the process of test suite prioritization with its type in detail with example. [10]"
+
+[Q-10M-12] BUG CLASSIFICATION BASED ON SDLC PHASES
+  • Paper 2 (QP Code: 28365 - Q.5b):
+    "Classify different types of bugs based on the Software development lifecycle with example [10]"
+
+[Q-10M-13] ISO 9000:2000 QUALITY STANDARD
+  • Paper 2 (QP Code: 28365 - Q.6a):
+    "Explain ISO 9000:2000 standard. [10]"
+
+[Q-10M-14] PERFORMANCE TESTING IMPORTANCE & TYPES
+  • Paper 2 (QP Code: 28365 - Q.6b):
+    "What is performance testing? Why is performance testing important? [10]"
+
+================================================================================
+END OF SOFTWARE TESTING & QUALITY ASSURANCE QUESTION BANK BY FREQUENCY
+================================================================================
+

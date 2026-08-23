@@ -1,0 +1,486 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: INTERNET OF EVERYTHING (IOE)
+SUBJECT CODE: 42672
+QUESTION BANK: ORDERED BY REPETITION FREQUENCY (5 MARKS & 10 MARKS)
+ARCHIVE COVERAGE: ALL 6 QUESTION PAPERS (2023 - 2025)
+================================================================================
+
+EXAM PAPERS ANALYZED:
+1. 04/06/2025          (QP CODE: 10083969)
+2. 14/11/2024          (QP CODE: 10067160)
+3. NOV 2024 / 14.11.25 (QP CODE: 95963)
+4. JUNE 6, 2024        (QP CODE: 10054714)
+5. 28-DEC-2023         (QP CODE: 10038114)
+6. 16/06/2023          (QP CODE: 10026510)
+
+================================================================================
+SUMMARY TABLE OF CONTENTS
+================================================================================
+SECTION 1: 5 MARKS QUESTIONS (RANKED BY REPETITION FREQUENCY)
+  • 1.1 REPEATED 4 TIMES (HIGHEST FREQUENCY)
+  • 1.2 REPEATED 3 TIMES
+  • 1.3 REPEATED 2 TIMES
+  • 1.4 APPEARED 1 TIME
+
+SECTION 2: 10 MARKS QUESTIONS (RANKED BY REPETITION FREQUENCY)
+  • 2.1 REPEATED 6 TIMES (100% RECURRENCE - EVERY PAPER)
+  • 2.2 REPEATED 5 TIMES
+  • 2.3 REPEATED 4 TIMES
+  • 2.4 REPEATED 3 TIMES
+  • 2.5 REPEATED 2 TIMES
+  • 2.6 APPEARED 1 TIME
+
+================================================================================
+================================================================================
+SECTION 1: 5 MARKS QUESTIONS (ORDERED BY REPETITION FREQUENCY)
+================================================================================
+================================================================================
+
+--------------------------------------------------------------------------------
+1.1 REPEATED 4 TIMES (HIGHEST FREQUENCY - 5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-01] IOT DATA ANALYTICS IMPORTANCE & COMPARISON WITH NETWORK ANALYTICS
+Total Repetitions: 4 Times (Appeared in 4 out of 6 Papers)
+
+  • Paper 1 (04/06/2025 - Q.1d):
+    "Explain the importance of IoT Data Analytics. (5 marks)"
+
+  • Paper 2 (14/11/2024 - Q.1b):
+    "Explain the importance of IoT Data Analytics. (5)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.1d):
+    "Explain the importance of IoT Data Analytics. (5)"
+
+  • Paper 6 (16/06/2023 - Q.1b):
+    "Compare and contrast IoT data analytics and IoT network analytics. (5)"
+
+--------------------------------------------------------------------------------
+1.2 REPEATED 3 TIMES (5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-02] SMART OBJECT DEFINITION & CHARACTERISTICS
+Total Repetitions: 2 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 1 (04/06/2025 - Q.1a):
+    "Define Smart Object in IoT and its characteristics. (5 marks)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.1a):
+    "Define smart object and its Characteristics in brief. (5)"
+
+
+[Q-5M-03] FOG COMPUTING & INTERNET OF BEHAVIOUR (IOB)
+Total Repetitions: 3 Times in 5M (Plus 1 time in 10M)
+
+  • Paper 2 (14/11/2024 - Q.1d):
+    "Define the following i) Fog Computing ii) Internet of Behaviour (IoB). (5)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.1b):
+    "Define the following i) Fog Computing ii) Internet of Behaviour (IoB). (5)"
+
+  • Paper 6 (16/06/2023 - Q.1a):
+    "What is the Internet of Behaviour (IoB) and why is it the future? (5)"
+
+--------------------------------------------------------------------------------
+1.3 REPEATED 2 TIMES (5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-04] PHYSICAL DESIGN VS LOGICAL DESIGN OF IOT
+Total Repetitions: 2 Times
+
+  • Paper 2 (14/11/2024 - Q.1e):
+    "Differentiate briefly Physical design of IoT and Logical design of IoT. (5)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.1c):
+    "Differentiate briefly Physical design of IoT and Logical design of IoT. (5)"
+
+
+[Q-5M-05] NEAR FIELD COMMUNICATION (NFC)
+Total Repetitions: 2 Times
+
+  • Paper 2 (14/11/2024 - Q.1c):
+    "Write a short note on Near Field Communication. (5)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.1e):
+    "Write a short note on Near Field Communication. (5)"
+
+
+[Q-5M-06] FUNCTIONAL BLOCKS OF IOT
+Total Repetitions: 2 Times in 5M (Plus 1 time in 10M)
+
+  • Paper 2 (14/11/2024 - Q.1a):
+    "Explain functional blocks of IoT. (5)"
+
+  • Paper 5 (28-DEC-2023 - Q.1e):
+    "Explain functional blocks of IoT (5)"
+
+
+[Q-5M-07] BLUETOOTH LOW ENERGY (BLE) ROLE & APPLICATIONS
+Total Repetitions: 2 Times
+
+  • Paper 4 (JUNE 2024 - Q.1a):
+    "Explain Bluetooth Low Energy(BLE) role (5)"
+
+  • Paper 6 (16/06/2023 - Q.1e):
+    "Explain applications of Bluetooth Low Energy (BLE) (5)"
+
+
+[Q-5M-08] DATA RETENTION STRATEGY IN IOT
+Total Repetitions: 2 Times
+
+  • Paper 4 (JUNE 2024 - Q.1c):
+    "Explain data retention strategy. (5)"
+
+  • Paper 5 (28-DEC-2023 - Q.1c):
+    "Explain data retention strategy. (5)"
+
+
+[Q-5M-09] INDUSTRIAL IOT (I-IOT) VS STANDARD IOT
+Total Repetitions: 2 Times
+
+  • Paper 4 (JUNE 2024 - Q.1d):
+    "Explain the concept of I-IoT and its similarity with IoT (5)"
+
+  • Paper 5 (28-DEC-2023 - Q.1d):
+    "Write a short note on I-IoT (5)"
+
+
+[Q-5M-10] AMQP (ADVANCED MESSAGE QUEUING PROTOCOL) OVERVIEW
+Total Repetitions: 2 Times in 5M (Plus 2 times in 10M)
+
+  • Paper 1 (04/06/2025 - Q.1c):
+    "Draw the Architecture diagram of Advanced Message Queuing Protocol (AMQP) with advantages (5 marks)"
+
+  • Paper 6 (16/06/2023 - Q.1c):
+    "Briefly elaborate the Advanced Message Queuing Protocol(AMQP) (5)"
+
+--------------------------------------------------------------------------------
+1.4 APPEARED 1 TIME (5 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-5M-11] RADIO FREQUENCY IDENTIFICATION (RFID) SHORT NOTE
+  • Paper 1 (04/06/2025 - Q.1b):
+    "Write short note on RFID (5 marks)"
+
+[Q-5M-12] DATA ACQUISITION IN IOT
+  • Paper 1 (04/06/2025 - Q.1e):
+    "Explain data acquisition in IoT. (5 marks)"
+
+[Q-5M-13] CONSTRAINED APPLICATION PROTOCOL (COAP) BRIEF
+  • Paper 4 (JUNE 2024 - Q.1b):
+    "Briefly elaborate the COAP (5)"
+
+[Q-5M-14] CHARACTERISTICS OF IOT
+  • Paper 4 (JUNE 2024 - Q.1e):
+    "Explain the characteristic of IoT (5)"
+
+[Q-5M-15] ZIGBEE IN BRIEF
+  • Paper 5 (28-DEC-2023 - Q.1a):
+    "Explain ZigBee in brief. (5)"
+
+[Q-5M-16] NEED OF LIGHTWEIGHT NEW COMMUNICATIONS PROTOCOLS
+  • Paper 5 (28-DEC-2023 - Q.1b):
+    "Explain the Need of lightweight new communications protocols for IoT. (5)"
+
+[Q-5M-17] SMOKE DETECTION SYSTEM SENSOR PARAMETERS
+  • Paper 6 (16/06/2023 - Q.1d):
+    "While designing the IoT based smoke detection system what all parameters need to be considered before choosing the required sensor. (5)"
+
+
+================================================================================
+================================================================================
+SECTION 2: 10 MARKS QUESTIONS (ORDERED BY REPETITION FREQUENCY)
+================================================================================
+================================================================================
+
+--------------------------------------------------------------------------------
+2.1 REPEATED 6 TIMES (100% RECURRENCE - EVERY PAPER - 10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-01] MQTT (MESSAGE QUEUING TELEMETRY TRANSPORT) ARCHITECTURE & WORKING
+Total Repetitions: 6 Times (Appeared in 6 out of 6 Papers)
+
+  • Paper 1 (04/06/2025 - Q.3a):
+    "Draw and explain the architecture of MQTT with diagram. (10 marks)"
+
+  • Paper 2 (14/11/2024 - Q.4b):
+    "Explain in brief the MQTT Architecture with Advantages. (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.4b):
+    "Explain in brief the MQTT Architecture with Advantages. (10)"
+
+  • Paper 4 (JUNE 2024 - Q.5a):
+    "Explain the role of HTTP, WebSocket, and MQTT in IoT communication. Compare and contrast these protocols in terms of their characteristics, suitability for different IoT scenarios, and support for real-time data transmission. (10)"
+
+  • Paper 5 (28-DEC-2023 - Q.5a):
+    "Elaborate MQTT with its working in details and two advantages over COAP. (10)"
+
+  • Paper 6 (16/06/2023 - Q.6a):
+    "Draw and explain Architecture of MQTT with diagram (10)"
+
+--------------------------------------------------------------------------------
+2.2 REPEATED 5 TIMES (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-02] IOT DATA VISUALIZATION METHODS, ADVANTAGES, TOOLS & ALERTING
+Total Repetitions: 5 Times (Appeared in 5 out of 6 Papers)
+
+  • Paper 1 (04/06/2025 - Q.4a):
+    "Illustrate the following i) How to create and visualize alerts in IoT? ii) What are the main challenges of IoT? (10 marks)"
+
+  • Paper 2 (14/11/2024 - Q.4a):
+    "Explain effective Data Visualization methods With suitable example (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.4a):
+    "Explain effective Data Visualization methods With suitable example (10)"
+
+  • Paper 5 (28-DEC-2023 - Q.5b):
+    "Illustrate 3 methods for effective Data Visualization (10)"
+
+  • Paper 6 (16/06/2023 - Q.4b):
+    "State advantages of data visualisation. Give different tools used for it. (10)"
+
+--------------------------------------------------------------------------------
+2.3 REPEATED 4 TIMES (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-03] LORA AND LORAWAN ARCHITECTURE, CHARACTERISTICS & CLASSES
+Total Repetitions: 4 Times (Appeared in 4 out of 6 Papers)
+
+  • Paper 1 (04/06/2025 - Q.5a):
+    "Explain the architecture of LoRaWAN with its major characteristics. (10 marks)"
+
+  • Paper 2 (14/11/2024 - Q.3a):
+    "Explain the architecture of LoRaWAN with its major Characteristics (10)"
+
+  • Paper 4 (JUNE 2024 - Q.2b):
+    "Evaluate long-range communication systems and protocols such as LTE, LTE-A, LoRa, and LoRaWAN in the context of IoT connectivity. Discuss their suitability for different IoT use cases based on factors like coverage, data rate, power consumption, and scalability. (10)"
+
+  • Paper 6 (16/06/2023 - Q.3b):
+    "Explain the architecture of LoRaWAN with its major Characteristics (10)"
+
+
+[Q-10M-04] COAP (CONSTRAINED APPLICATION PROTOCOL) ARCHITECTURE & WORKING
+Total Repetitions: 4 Times in 10M (Plus 1 time in 5M)
+
+  • Paper 1 (04/06/2025 - Q.3b & Q.4b):
+    "Explain working of Constraint Application Layer protocol (CoAP). (10 marks)"
+    "Explain the following terms: i) CoAP ii) Internet of Behaviour (10 marks)"
+
+  • Paper 2 (14/11/2024 - Q.2b):
+    "Explain the following terms i) CoAP ii) Data Lakes. (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.2b):
+    "Explain the following terms i) Constrained Application Protocol ii) Streaming Text Oriented Message Protocol (10)"
+
+  • Paper 6 (16/06/2023 - Q.5b):
+    "Explain the following access technologies with applications area of each: 1) Zigbee 2) RFID 3) 6LoWPAN 4) CoAP (10)"
+
+--------------------------------------------------------------------------------
+2.4 REPEATED 3 TIMES (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-05] EDGE, FOG AND CLOUD COMPUTING HIERARCHY & COMPARISON
+Total Repetitions: 3 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 4 (JUNE 2024 - Q.4a):
+    "Compare edge, fog and cloud computing w.r.t to its hierarchy. (10)"
+
+  • Paper 5 (28-DEC-2023 - Q.4a):
+    "Differentiate and give Hierarchy between Edge, Fog, and Cloud computing (10)"
+
+  • Paper 6 (16/06/2023 - Q.2a):
+    "Compare and contrast Edge, Fog, and Cloud Computing. Explain their usage with an example. (10)"
+
+
+[Q-10M-06] NOSQL IN IOT DATA ANALYTICS CHALLENGES
+Total Repetitions: 3 Times (Appeared in 3 out of 6 Papers)
+
+  • Paper 1 (04/06/2025 - Q.6b):
+    "Explain the role of NoSQL in IoT data analytics. (10 marks)"
+
+  • Paper 2 (14/11/2024 - Q.6b):
+    "Describe the role of NoSQL in IoT Data Analytics Challenges. (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.3b):
+    "Describe the role of NoSQL in IoT Data Analytics Challenges. (10)"
+
+
+[Q-10M-07] SIMPLIFIED 3-LAYERED IOT ARCHITECTURE
+Total Repetitions: 3 Times (Appeared in 3 out of 6 Papers)
+
+  • Paper 2 (14/11/2024 - Q.6a):
+    "Elaborate briefly the simplified 3 layered IoT architecture with neat diagram, (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.3a):
+    "Elaborate briefly the simplified 3 layered IoT architecture with neat diagram, (10)"
+
+  • Paper 5 (28-DEC-2023 - Q.3b):
+    "With neat diagram, elaborate briefly the simplified 3 layered IoT architecture. (10)"
+
+
+[Q-10M-08] END-TO-END SYSTEM DESIGN: SMART HOME AUTOMATION
+Total Repetitions: 3 Times (Appeared in 3 out of 6 Papers)
+
+  • Paper 1 (04/06/2025 - Q.6a):
+    "Describe IoT enabled Smart Home Automation. (10 marks)"
+
+  • Paper 2 (14/11/2024 - Q.2a):
+    "Explain the IOT enabled Home Automation system with respect to sensors, Actuators, framework, protocols, data analysis and security. (10)"
+
+  • Paper 6 (16/06/2023 - Q.4a):
+    "Explain ecosystem for IoT enabled Smart Home Automation with respect to sensors, actuators, framework, protocols, storage, data analysis, security etc. (10)"
+
+
+[Q-10M-09] PROTOCOL COMPARISONS FOR CLOUD EDGE (HTTP, WEBSOCKET, MQTT, COAP)
+Total Repetitions: 3 Times
+
+  • Paper 2 (14/11/2024 - Q.5a):
+    "State the Comparison's of all Protocols used in IOT for cloud Edge. (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.5a):
+    "State the Comparison's of all Protocols used in IOT for cloud Edge. (10)"
+
+  • Paper 4 (JUNE 2024 - Q.5a):
+    "Explain the role of HTTP, WebSocket, and MQTT in IoT communication. Compare and contrast these protocols in terms of their characteristics, suitability for different IoT scenarios, and support for real-time data transmission. (10)"
+
+--------------------------------------------------------------------------------
+2.5 REPEATED 2 TIMES (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-10] AMQP (ADVANCED MESSAGE QUEUING PROTOCOL) ARCHITECTURE
+Total Repetitions: 2 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 2 (14/11/2024 - Q.5b):
+    "Describe the Architecture of Advanced Message Queuing Protocol (AMQP) with major application. (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.5b):
+    "Describe the Architecture of Advanced Message Queuing Protocol (AMQP) with major application. (10)"
+
+
+[Q-10M-11] IOT WORLD FORUM (IOTWF) 7-LAYER STANDARDIZED ARCHITECTURE
+Total Repetitions: 2 Times
+
+  • Paper 1 (04/06/2025 - Q.2a):
+    "Describe IoT World Forum (IoTWF) standardized architecture. (10 marks)"
+
+  • Paper 6 (16/06/2023 - Q.3a):
+    "Describe IoT World Forum (IoTWF) Standardized Architecture (10)"
+
+
+[Q-10M-12] SMART OBJECT COMPONENTS, DIAGRAM & CHARACTERISTICS
+Total Repetitions: 2 Times in 10M (Plus 2 times in 5M)
+
+  • Paper 4 (JUNE 2024 - Q.6a):
+    "Elaborate the Smart Object with diagram and describe its characteristics. (10)"
+
+  • Paper 6 (16/06/2023 - Q.5a):
+    "Elaborate the Smart Object with diagram and describe all the essential components required to make the object into the smart object. (10)"
+
+
+[Q-10M-13] IEEE 802.11 WI-FI ARCHITECTURE COMPONENTS & ADVANTAGES
+Total Repetitions: 2 Times
+
+  • Paper 2 (14/11/2024 - Q.3b):
+    "Illustrate the components of IEEE 802.11 architecture with advantages (10)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.6b):
+    "Illustrate the components of IEEE 802.11 architecture with advantages (10)"
+
+
+[Q-10M-14] DATA REFINERIES & DATA LAKES VS DATA SWAMPS
+Total Repetitions: 2 Times
+
+  • Paper 2 (14/11/2024 - Q.2b):
+    "Explain the following terms: Data Lakes. (10)"
+
+  • Paper 5 (28-DEC-2023 - Q.2b):
+    "Illustrate the role of Data refineries in preventing data lakes to turn into data swamps (10)"
+
+
+[Q-10M-15] END-TO-END SYSTEM DESIGN: SMOKE / FOREST FIRE DETECTION
+Total Repetitions: 2 Times
+
+  • Paper 1 (04/06/2025 - Q.5b):
+    "Design the Forest Fire Detection system using IoT sensors. (10 marks)"
+
+  • Paper 4 (JUNE 2024 - Q.4b):
+    "Consider smart smoke detection system. Elaborate its working and list down the different types of sensors and actuators required during the deployment scenario. (10)"
+
+
+[Q-10M-16] END-TO-END SYSTEM DESIGN: SMART FARMING / IRRIGATION
+Total Repetitions: 2 Times
+
+  • Paper 5 (28-DEC-2023 - Q.4b):
+    "Consider Smart Irrigation system. Elaborate its working with block diagram and list down the different types of sensors and actuators required during the deployment scenario. (10)"
+
+  • Paper 6 (16/06/2023 - Q.2b):
+    "Consider smart farming system. Elaborate its working and list down the different types of sensors and actuators required during the deployment scenario (10)"
+
+
+[Q-10M-17] NEED OF NEW NETWORK ARCHITECTURE IN IOT
+Total Repetitions: 2 Times
+
+  • Paper 4 (JUNE 2024 - Q.3b):
+    "Elaborate the need of new network architecture in IoT. (10)"
+
+  • Paper 6 (16/06/2023 - Q.6b):
+    "Elaborate the need of new network architecture in IoT. (10)"
+
+
+[Q-10M-18] ACCESS TECHNOLOGIES (ZIGBEE, RFID, 802.15.4, 6LOWPAN)
+Total Repetitions: Multi-part questions across papers
+
+  • Paper 1 (04/06/2025 - Q.2b):
+    "State various operating modes of Zigbee and its topologies with diagrams. (10 marks)"
+
+  • Paper 3 (NOV 2024 / 2025 - Q.6a):
+    "Explain the architecture of RFID with its major applications. (10)"
+
+  • Paper 4 (JUNE 2024 - Q.6b):
+    "Explain the following access technologies with applications area of each: 1) IEEE 802.15.4 2) Z-wave 3) LTE-A (10)"
+
+  • Paper 5 (28-DEC-2023 - Q.6b):
+    "Explain the following access technologies with applications area of each: 1) IEEE 802.15.4 2) RFID (10)"
+
+--------------------------------------------------------------------------------
+2.6 APPEARED 1 TIME (10 MARKS)
+--------------------------------------------------------------------------------
+
+[Q-10M-19] END-TO-END SYSTEM DESIGN: SMART PARKING SYSTEM
+  • Paper 3 (NOV 2024 / 2025 - Q.2a):
+    "Explain the IOT enabled Smart Parking system with respect to sensors, Actuators, framework, protocols, data analysis and security. (10)"
+
+[Q-10M-20] STREAMING TEXT ORIENTED MESSAGE PROTOCOL (STOMP)
+  • Paper 3 (NOV 2024 / 2025 - Q.2b):
+    "Explain the following terms: Streaming Text Oriented Message Protocol (10)"
+
+[Q-10M-21] IOT HEALTHCARE PATIENT DASHBOARD & ANALYTICS
+  • Paper 4 (JUNE 2024 - Q.2a):
+    "How can IoT analytics be effectively utilized within IoT-based healthcare systems? Additionally, what are some essential parameters that should be incorporated into the patient dashboard for comprehensive monitoring and management of health data? (10)"
+
+[Q-10M-22] ROLE OF ANALYTICS IN IOT & CHALLENGES
+  • Paper 4 (JUNE 2024 - Q.3a):
+    "Define the role of analytics in IoT technology and elaborate the challenges associated with it. (10)"
+
+[Q-10M-23] FUNCTIONAL BLOCKS OF IOT ARCHITECTURE (DETAILED)
+  • Paper 4 (JUNE 2024 - Q.5b):
+    "Discuss the functional blocks of IoT architecture, highlighting their roles and interactions. Provide examples to illustrate the importance of each block in the overall functionality of IoT systems. (10)"
+
+[Q-10M-24] STRATEGIES TO ORGANIZE DATA FOR IOT ANALYTICS
+  • Paper 5 (28-DEC-2023 - Q.2a):
+    "Elaborate in detail the strategies to organize Data for IoT Analytics. (10)"
+
+[Q-10M-25] LONG RANGE COMMUNICATION SYSTEMS AND PROTOCOLS IN IOT
+  • Paper 5 (28-DEC-2023 - Q.3a):
+    "Describe the communication system and protocols involved in long range communication system of IoT (10)"
+
+[Q-10M-26] SENSORS AND ACTUATORS ROLE AND CLASSIFICATIONS
+  • Paper 5 (28-DEC-2023 - Q.6a):
+    "Define sensor, actuators and their role and classifications in brief. (10)"
+
+================================================================================
+END OF INTERNET OF EVERYTHING QUESTION BANK BY REPETITION FREQUENCY
+================================================================================
+

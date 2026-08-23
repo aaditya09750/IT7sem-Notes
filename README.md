@@ -27,23 +27,28 @@ IT7sem Notes/
 ├── AI & DS II/
 │   ├── AI&DS PYQ.pdf               # PDF Source Archive (8 Pages)
 │   ├── AI&DS PYQ.txt               # Clean Text Transcription (6 Papers)
-│   └── AI&DS_Repeated_Questions.txt# Repeated Questions & Frequency Analysis (5M & 10M)
+│   ├── AI&DS_Repeated_Questions.txt# Repeated Questions & Frequency Analysis (5M & 10M)
+│   └── AI&DS_Question_Bank_By_Frequency.txt# Question Bank Ordered by Frequency (5M & 10M)
 ├── Cyber Security & Laws/
 │   ├── CS&L PYQ.pdf                # PDF Source Archive (5 Pages)
 │   ├── CS&L PYQ.txt               # Clean Text Transcription (5 Papers)
-│   └── CS&L_Repeated_Questions.txt # Repeated Questions & Statutory Laws (5M & 10M)
+│   ├── CS&L_Repeated_Questions.txt # Repeated Questions & Statutory Laws (5M & 10M)
+│   └── CS&L_Question_Bank_By_Frequency.txt# Question Bank Ordered by Frequency (5M & 10M)
 ├── Information Retrieval System/
 │   ├── IRS PYQ.pdf                 # PDF Source Archive (5 Pages)
 │   ├── IRS PYQ.txt                 # Clean Text Transcription (5 Papers)
-│   └── IRS_Repeated_Questions.txt  # Repeated Questions & Numericals (5M & 10M)
+│   ├── IRS_Repeated_Questions.txt  # Repeated Questions & Numericals (5M & 10M)
+│   └── IRS_Question_Bank_By_Frequency.txt# Question Bank Ordered by Frequency (5M & 10M)
 ├── Internet Of Everything/
 │   ├── IOE PYQ.pdf                 # PDF Source Archive (6 Pages)
 │   ├── IOE PYQ.txt                 # Clean Text Transcription (6 Papers)
-│   └── IOE_Repeated_Questions.txt  # Repeated Questions & System Designs (5M & 10M)
+│   ├── IOE_Repeated_Questions.txt  # Repeated Questions & System Designs (5M & 10M)
+│   └── IOE_Question_Bank_By_Frequency.txt# Question Bank Ordered by Frequency (5M & 10M)
 └── Software Testing & QA/
     ├── Software Testing & QA PYQ.pdf# PDF Source Archive (3 Pages)
     ├── Software Testing & QA PYQ.txt# Clean Text Transcription (2 Papers)
-    └── Software_Testing_QA_Repeated_Questions.txt# Repeated Questions & DD-Graphs (5M & 10M)
+    ├── Software_Testing_QA_Repeated_Questions.txt# Repeated Questions & DD-Graphs (5M & 10M)
+    └── Software_Testing_QA_Question_Bank_By_Frequency.txt# Question Bank Ordered by Frequency (5M & 10M)
 ```
 
 ---
@@ -54,6 +59,7 @@ IT7sem Notes/
 
 *   **[AI&DS PYQ.pdf](./AI%20%26%20DS%20II/AI%26DS%20PYQ.pdf)** | **[AI&DS PYQ.txt](./AI%20%26%20DS%20II/AI%26DS%20PYQ.txt)** (310 Lines)
 *   **[AI&DS_Repeated_Questions.txt](./AI%20%26%20DS%20II/AI%26DS_Repeated_Questions.txt)**: Frequency matrix of repeated 5-mark and 10-mark questions, step-by-step numerical templates, and 80/80 exam blueprint.
+*   **[AI&DS_Question_Bank_By_Frequency.txt](./AI%20%26%20DS%20II/AI%26DS_Question_Bank_By_Frequency.txt)**: Complete question bank strictly ordered by repetition count (6x, 5x, 4x, 3x, 2x, 1x) split into 5-mark and 10-mark sections.
 *   **Question Papers Indexed (6 Papers)**:
     1. **Paper 1**: DEC-2025 (QP Code: 10082377) — *Naive Bayes, Decision Tree, Logistic Regression, CNN, RNN*
     2. **Paper 2**: 02/06/2025 (QP Code: 10084099) — *SVM, Random Forest, K-Means, Confusion Matrix Evaluation*
@@ -66,6 +72,7 @@ IT7sem Notes/
 
 *   **[CS&L PYQ.pdf](./Cyber%20Security%20%26%20Laws/CS%26L%20PYQ.pdf)** | **[CS&L PYQ.txt](./Cyber%20Security%20%26%20Laws/CS%26L%20PYQ.txt)** (231 Lines)
 *   **[CS&L_Repeated_Questions.txt](./Cyber%20Security%20%26%20Laws/CS%26L_Repeated_Questions.txt)**: Frequency ranking of attack vectors (Buffer Overflow, SQLi), statutory compliance (HIPAA, SOX, IT Act 2000), and digital forensics.
+*   **[CS&L_Question_Bank_By_Frequency.txt](./Cyber%20Security%20%26%20Laws/CS%26L_Question_Bank_By_Frequency.txt)**: Complete question bank strictly ordered by repetition count (4x, 3x, 2x, 1x) split into 5-mark and 10-mark sections.
 *   **Question Papers Indexed (5 Papers)**:
     1. **Paper 1**: 13/06/2025 (QP Code: 10055704) — *Mobile Vulnerabilities, WIPO Treaties, SQL Injection, E-contracts, Cyber Cafe Security*
     2. **Paper 2**: 25/11/2024 (QP Code: 10055703) — *Digital Evidence, Planning Cyberattacks, Vishing Attacks, Botnets, HIPAA*
@@ -77,6 +84,7 @@ IT7sem Notes/
 
 *   **[IRS PYQ.pdf](./Information%20Retrieval%20System/IRS%20PYQ.pdf)** | **[IRS PYQ.txt](./Information%20Retrieval%20System/IRS%20PYQ.txt)** (237 Lines)
 *   **[IRS_Repeated_Questions.txt](./Information%20Retrieval%20System/IRS_Repeated_Questions.txt)**: Ranked frequency breakdown of Inverted Indexes, Vector Model TF-IDF rankings, Boyer-Moore, and Suffix Tree structures.
+*   **[IRS_Question_Bank_By_Frequency.txt](./Information%20Retrieval%20System/IRS_Question_Bank_By_Frequency.txt)**: Complete question bank strictly ordered by repetition count (4x, 3x, 2x, 1x) split into 5-mark and 10-mark sections.
 *   **Question Papers Indexed (5 Papers)**:
     1. **Paper 1**: 10/06/2025 (QP Code: 10082376) — *Vector Space Ranking, Boyer Moore Algorithm, Suffix Trees/Arrays, Visualization Techniques*
     2. **Paper 2**: 20/11/2025 (QP Code: 95849) — *Structured Text Retrieval, Meta Searchers, Mobile UX Visualization, Video & Image IR (VIR/IIR)*
@@ -88,6 +96,7 @@ IT7sem Notes/
 
 *   **[IOE PYQ.pdf](./Internet%20Of%20Everything/IOE%20PYQ.pdf)** | **[IOE PYQ.txt](./Internet%20Of%20Everything/IOE%20PYQ.txt)** (251 Lines)
 *   **[IOE_Repeated_Questions.txt](./Internet%20Of%20Everything/IOE_Repeated_Questions.txt)**: High-yield breakdown of MQTT, CoAP, AMQP, LoRaWAN, Edge/Fog/Cloud, and end-to-end IoT application templates.
+*   **[IOE_Question_Bank_By_Frequency.txt](./Internet%20Of%20Everything/IOE_Question_Bank_By_Frequency.txt)**: Complete question bank strictly ordered by repetition count (6x, 5x, 4x, 3x, 2x, 1x) split into 5-mark and 10-mark sections.
 *   **Question Papers Indexed (6 Papers)**:
     1. **Paper 1**: 04/06/2025 (QP Code: 10083969) — *Smart Objects, AMQP Architecture, IoTWF Architecture, LoRaWAN, Forest Fire Detection*
     2. **Paper 2**: 14/11/2024 (QP Code: 10067160) — *Home Automation System, CoAP & Data Lakes, IEEE 802.11 Components*
@@ -100,6 +109,7 @@ IT7sem Notes/
 
 *   **[Software Testing & QA PYQ.pdf](./Software%20Testing%20%26%20QA/Software%20Testing%20%26%20QA%20PYQ.pdf)** | **[Software Testing & QA PYQ.txt](./Software%20Testing%20%26%20QA/Software%20Testing%20%26%20QA%20PYQ.txt)** (142 Lines)
 *   **[Software_Testing_QA_Repeated_Questions.txt](./Software%20Testing%20%26%20QA/Software_Testing_QA_Repeated_Questions.txt)**: Solved DD-Graph traces, Cyclomatic Complexity calculations, Defect Spoilage tables, and BVC test case designs.
+*   **[Software_Testing_QA_Question_Bank_By_Frequency.txt](./Software%20Testing%20%26%20QA/Software_Testing_QA_Question_Bank_By_Frequency.txt)**: Complete question bank strictly ordered by repetition count split into 5-mark and 10-mark sections.
 *   **Question Papers Indexed (2 Papers)**:
     1. **Paper 1**: QP Code: 15346 — *Defect Spoilage Table Calculation, Prime Number C Code DD Graph, McCall's Quality Model, Bug Life Cycle*
     2. **Paper 2**: QP Code: 28365 — *Factorial C Code DD Graph & Cyclomatic Complexity, Bottom-up Integration, Test Suite Prioritization, ISO 9000:2000*
