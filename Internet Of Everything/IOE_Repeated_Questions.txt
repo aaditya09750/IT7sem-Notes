@@ -1,0 +1,346 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: INTERNET OF EVERYTHING (IOE)
+SUBJECT CODE: 42672
+ANALYSIS OF REPEATED QUESTIONS (6 QUESTION PAPERS ARCHIVE: 2023 - 2025)
+================================================================================
+
+SUMMARY OF ANALYZED EXAM PAPERS:
+1. 04/06/2025          (QP Code: 10083969)
+2. 14/11/2024          (QP Code: 10067160)
+3. NOV 2024 / 14.11.25 (QP Code: 95963)
+4. JUNE 6, 2024        (QP Code: 10054714)
+5. 28-DEC-2023         (QP Code: 10038114)
+6. 16/06/2023          (QP Code: 10026510)
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+4. SECTION C: END-TO-END IOT APPLICATION SYSTEM DESIGN TEMPLATES
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+================================================================================
+
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+| NO. | QUESTION / TOPIC DESCRIPTION                          | MARKS | FREQUENCY | PRIORITY / STATUS   |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+|  1  | MQTT Architecture, Pub/Sub Broker, Topics & QoS       | 10M   |  6 Times  | [MUST-SOLVE] 100%   |
+|  2  | Edge, Fog & Cloud Computing Hierarchy & Comparison    | 5M/10M|  5 Times  | [MUST-SOLVE] 83%    |
+|  3  | CoAP Architecture, Message Types (CON/NON) & Working  | 5M/10M|  5 Times  | [MUST-SOLVE] 83%    |
+|  4  | IoT Data Visualization Methods & Alert Generation     | 10M   |  5 Times  | [MUST-SOLVE] 83%    |
+|  5  | LoRa & LoRaWAN Architecture, Star Topology & Classes  | 10M   |  4 Times  | [MUST-SOLVE] 67%    |
+|  6  | Smart Objects: Components, Characteristics & Hardware | 5M/10M|  4 Times  | [MUST-SOLVE] 67%    |
+|  7  | AMQP Architecture (Exchanges, Queues, Bindings)       | 5M/10M|  4 Times  | [MUST-SOLVE] 67%    |
+|  8  | Internet of Behaviour (IoB) Definition & Analytics    | 5M/10M|  4 Times  | [VERY HIGH] 67%     |
+|  9  | RFID Architecture, Frequencies & Applications         | 5M/10M|  4 Times  | [VERY HIGH] 67%     |
+| 10  | IoT Data Analytics Importance vs Network Analytics    |  5M   |  4 Times  | [VERY HIGH] 67%     |
+| 11  | NoSQL Databases in IoT Data Analytics Challenges      | 10M   |  3 Times  | [VERY HIGH] 50%     |
+| 12  | Simplified 3-Layered IoT Architecture                 | 10M   |  3 Times  | [VERY HIGH] 50%     |
+| 13  | End-to-End System Design: Smart Home Automation       | 10M   |  3 Times  | [VERY HIGH] 50%     |
+| 14  | End-to-End System Design: Smoke / Forest Fire Alert   | 10M   |  3 Times  | [VERY HIGH] 50%     |
+| 15  | Functional Blocks of IoT Architecture                 | 5M/10M|  3 Times  | [VERY HIGH] 50%     |
+| 16  | ZigBee (IEEE 802.15.4) Topologies & Operating Modes   | 5M/10M|  3 Times  | [HIGH] 50%          |
+| 17  | IoT World Forum (IoTWF) 7-Layer Architecture          | 10M   |  2 Times  | [HIGH] 33%          |
+| 18  | Data Lakes vs Data Swamps & Role of Data Refineries   | 10M   |  2 Times  | [HIGH] 33%          |
+| 19  | Bluetooth Low Energy (BLE) Role & Applications        |  5M   |  2 Times  | [HIGH] 33%          |
+| 20  | Physical Design vs Logical Design of IoT              |  5M   |  2 Times  | [HIGH] 33%          |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+
+================================================================================
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED IN 6 OUT OF 6 PAPERS - 100% OCCURRENCE]
+TOPIC: MQTT (Message Queuing Telemetry Transport) Architecture & Working
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 6 Times
+Appeared in:
+  • 04/06/2025 (Q.3a)
+  • 14/11/2024 (Q.4b)
+  • NOV 2024 / 2025 (Q.4b)
+  • JUNE 2024 (Q.5a)
+  • 28-DEC-2023 (Q.5a)
+  • 16/06/2023 (Q.6a)
+
+Exact Question Variations:
+1. "Draw and explain Architecture of MQTT with diagram. List its advantages." (Jun 2025 Q.3a, Nov 2024 Q.4b, Jun 2023 Q.6a)
+2. "Elaborate MQTT with its working in details and two advantages over COAP." (Dec 2023 Q.5a, Jun 2024 Q.5a)
+
+What Examiners Look For:
+  • Publish / Subscribe Architecture Diagram: Publishers (Sensors/Clients) -> Central MQTT Broker -> Subscribers (Applications/Actuators).
+  • MQTT Packet Structure: Fixed Header (2 bytes), Variable Header, Payload.
+  • Quality of Service (QoS) Levels:
+      - QoS 0: At most once delivery (Fire and forget, no ACK).
+      - QoS 1: At least once delivery (Guaranteed delivery, PUBACK, potential duplicates).
+      - QoS 2: Exactly once delivery (4-step handshake: PUBLISH -> PUBREC -> PUBREL -> PUBCOMP).
+  • Advanced Features: Topics hierarchy (`home/kitchen/temp`), Wildcards (`+` single level, `#` multi level), Retained Messages, Last Will & Testament (LWT), Keep-Alive ping.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED IN 5 OUT OF 6 PAPERS - 83% OCCURRENCE]
+TOPIC: Edge, Fog and Cloud Computing Hierarchy & Comparison
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 5 Times
+Appeared in:
+  • 14/11/2024 (Q.1d - 5M)
+  • NOV 2024 / 2025 (Q.1b - 5M)
+  • JUNE 2024 (Q.4a - 10M)
+  • 28-DEC-2023 (Q.4a - 10M)
+  • 16/06/2023 (Q.2a - 10M)
+
+Exact Question Variations:
+"Compare and contrast Edge, Fog, and Cloud Computing. Explain their usage with an example / Differentiate and give Hierarchy between Edge, Fog, and Cloud computing."
+
+What Examiners Look For:
+  • 3-Tier Hierarchy Diagram:
+      - Bottom Tier (Edge Layer): End sensors, actuators, microcontrollers (ESP32/Arduino). Sub-millisecond latency, localized immediate filtering.
+      - Middle Tier (Fog Layer): Local gateways, routers, edge servers. Millisecond latency, localized aggregation, protocol translation, offline survivability.
+      - Top Tier (Cloud Layer): Centralized data centers (AWS, Azure). High latency (seconds), massive storage, historical big data analytics, deep ML model training.
+  • Comparison Table: Latency, Processing Power, Storage, Network Bandwidth usage, Security/Privacy, Deployment location.
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED IN 5 OUT OF 6 PAPERS - 83% OCCURRENCE]
+TOPIC: CoAP (Constrained Application Protocol) Architecture & Working
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 5 Times
+Appeared in:
+  • 04/06/2025 (Q.3b & Q.4b)
+  • 14/11/2024 (Q.2b)
+  • NOV 2024 / 2025 (Q.2b)
+  • JUNE 2024 (Q.1b - 5M)
+  • 16/06/2023 (Q.5b)
+
+Exact Question Variations:
+"Explain working of Constrained Application Layer protocol (CoAP) / Explain the terms CoAP with its architecture."
+
+What Examiners Look For:
+  • Protocol Stack: CoAP operates over UDP (port 5683) to eliminate TCP 3-way handshake connection overhead.
+  • RESTful Model: Uses GET, POST, PUT, DELETE methods with URIs (`coap://sensor.local/temp`).
+  • 4 Message Types:
+      1. Confirmable (CON): Requires an Acknowledgment (ACK).
+      2. Non-Confirmable (NON): Fire-and-forget message.
+      3. Acknowledgment (ACK): Confirms receipt of CON.
+      4. Reset (RST): Rejects unparseable/aborted message.
+  • Features: Resource observation (Pub/Sub extension RFC 7641), Block-wise transfer, DTLS security.
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED IN 5 OUT OF 6 PAPERS - 83% OCCURRENCE]
+TOPIC: IoT Data Visualization Methods, Tools & Alert Generation
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 5 Times
+Appeared in:
+  • 04/06/2025 (Q.4a)
+  • 14/11/2024 (Q.4a)
+  • NOV 2024 / 2025 (Q.4a)
+  • 28-DEC-2023 (Q.5b)
+  • 16/06/2023 (Q.4b)
+
+Exact Question Variations:
+"Explain effective Data Visualization methods with suitable example. State advantages of data visualization and give different tools used for it. How to create and visualize alerts in IoT?"
+
+What Examiners Look For:
+  • Visualization Methods: Time-series line charts, Heatmaps (sensor geospatial density), Gauge dials, Geographic map overlays (GIS), TreeMaps.
+  • Alert Pipeline: Threshold engine (e.g. `IF temp > 80C`) -> Webhook / Message Trigger -> Push Notification / SMS / Email -> Dashboard Visual Alert (Red blinking indicator).
+  • Industry Tools: Grafana, ThingsBoard, Kibana, Node-RED Dashboard, PowerBI.
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED IN 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: LoRa and LoRaWAN Architecture, Characteristics & Device Classes
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • 04/06/2025 (Q.5a)
+  • 14/11/2024 (Q.3a)
+  • JUNE 2024 (Q.2b)
+  • 16/06/2023 (Q.3b)
+
+Exact Question Variations:
+"Explain the architecture of LoRaWAN with its major characteristics / Evaluate long-range communication systems and protocols such as LoRa and LoRaWAN."
+
+What Examiners Look For:
+  • Physical Layer (LoRa) vs MAC/Network Layer (LoRaWAN): Chirp Spread Spectrum (CSS) modulation, ISM unlicensed bands (868 MHz / 915 MHz).
+  • 4-Tier Network Architecture Diagram: End Devices (Nodes) -> LoRa Gateways (Concentrators) -> Network Server -> Application Server.
+  • 3 End-Device Classes:
+      - Class A (All): Battery powered, uplink-triggered two short downlink receive windows (Lowest power).
+      - Class B (Beacon): Scheduled synchronized downlink receive slots via periodic beacons.
+      - Class C (Continuous): Continuously listening receiver, lowest downlink latency, mains-powered.
+
+--------------------------------------------------------------------------------
+RANK 6 [REPEATED IN 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: AMQP (Advanced Message Queuing Protocol) Architecture
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • 04/06/2025 (Q.1c - 5M)
+  • 14/11/2024 (Q.5b - 10M)
+  • NOV 2024 / 2025 (Q.5b - 10M)
+  • 16/06/2023 (Q.1c - 5M)
+
+Exact Question Variations:
+"Describe the Architecture of Advanced Message Queuing Protocol (AMQP) with major application / Draw architecture diagram of AMQP with advantages."
+
+What Examiners Look For:
+  • Architecture Diagram: Publisher -> Message Broker (Exchange -> Bindings -> Queues) -> Consumer.
+  • 4 Types of Exchanges:
+      1. Direct Exchange: Routes message based on exact routing key match.
+      2. Fanout Exchange: Broadcasts message to all bound queues unconditionally.
+      3. Topic Exchange: Pattern-based routing with wildcards (`*` single word, `#` zero or more words).
+      4. Headers Exchange: Routes based on message header attributes instead of routing key.
+
+--------------------------------------------------------------------------------
+RANK 7 [REPEATED IN 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: NoSQL Databases in IoT Data Analytics Challenges
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 04/06/2025 (Q.6b)
+  • 14/11/2024 (Q.6b)
+  • NOV 2024 / 2025 (Q.3b)
+
+Exact Question Variations:
+"Describe the role of NoSQL in IoT Data Analytics Challenges / Explain the role of NoSQL in IoT data analytics."
+
+What Examiners Look For:
+  • IoT Data Characteristics (The 5 V's: Volume, Velocity, Variety, Veracity, Value).
+  • Why Relational DBs Fail: Schema rigidity, poor horizontal scaling, bottleneck under high write ingestion rates.
+  • 4 Types of NoSQL in IoT:
+      1. Time-Series DBs (InfluxDB, TimescaleDB - optimal for timestamped sensor logs).
+      2. Document Stores (MongoDB, Couchbase - flexible JSON sensor payloads).
+      3. Key-Value Stores (Redis - high-throughput edge caching).
+      4. Wide-Column Stores (Apache Cassandra - distributed horizontal write scaling).
+
+================================================================================
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED IN 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: Internet of Behaviour (IoB) Definition & Analytics
+--------------------------------------------------------------------------------
+Marks: 5 Marks (and 10M)
+Total Appearances: 4 Times
+Appeared in:
+  • 04/06/2025 (Q.4b)
+  • 14/11/2024 (Q.1d)
+  • NOV 2024 / 2025 (Q.1b)
+  • 16/06/2023 (Q.1a)
+
+Key Points to State:
+  • Definition: Extension of IoT that captures, analyzes, and understands human behavioral data (habits, purchasing decisions, driving patterns) from connected devices.
+  • Feedback Loop: Data collection -> Behavioral Analysis -> Behavioral Modification / Targeted Intervention.
+  • Applications: Health insurance premium discounts based on fitness tracker steps, telematics for safe driver discounts.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED IN 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: IoT Data Analytics Importance vs IoT Network Analytics
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • 04/06/2025 (Q.1d)
+  • 14/11/2024 (Q.1b)
+  • NOV 2024 / 2025 (Q.1d)
+  • 16/06/2023 (Q.1b)
+
+Key Differences:
+  • IoT Data Analytics: Analyzes payload data generated by sensors (temperature, vibration, pressure) to extract business value and predictive maintenance insights.
+  • IoT Network Analytics: Analyzes communication network health (packet loss, latency, jitter, bandwidth consumption, battery drain) to optimize network topology.
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED IN 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Functional Blocks of IoT Architecture
+--------------------------------------------------------------------------------
+Marks: 5 Marks (and 10M)
+Total Appearances: 3 Times
+Appeared in:
+  • 14/11/2024 (Q.1a)
+  • JUNE 2024 (Q.5b - 10M)
+  • 28-DEC-2023 (Q.1e)
+
+Key Blocks:
+  • Device (Sensing/Actuation) -> Communication (Protocols) -> Services (Device discovery, data control) -> Management (Device monitoring) -> Security -> Application.
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED IN 2 OUT OF 6 PAPERS - 33% OCCURRENCE]
+TOPIC: Physical Design vs Logical Design of IoT
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • 14/11/2024 (Q.1e)
+  • NOV 2024 / 2025 (Q.1c)
+
+Key Differences:
+  • Physical Design: Deals with tangible hardware components (Things/Nodes, Sensors, Actuators, Microcontrollers, Communication Interfaces - Ethernet, Wi-Fi, BLE).
+  • Logical Design: Abstract conceptual representation (Functional Blocks, Communication Models - Request-Response, Pub-Sub, Push-Pull, and Communication APIs - REST, WebSocket).
+
+================================================================================
+4. SECTION C: END-TO-END IOT APPLICATION SYSTEM DESIGN TEMPLATES
+================================================================================
+
+--------------------------------------------------------------------------------
+SYSTEM DESIGN 1: SMART HOME AUTOMATION SYSTEM (10 MARKS)
+--------------------------------------------------------------------------------
+Standard Framework Structure:
+  1. Sensors: PIR Motion sensor (lighting), DHT22 (temperature/humidity), MQ-2 (gas leak), LDR (ambient light).
+  2. Actuators: Relays (fan/light control), Solenoid valves (water shutoff), Servo motors (smart door lock).
+  3. Processing Controller: Raspberry Pi / ESP32 running local Home Assistant.
+  4. Communication Protocols: ZigBee / Z-Wave (local mesh), MQTT over Wi-Fi to Home Broker.
+  5. Cloud & Storage: InfluxDB time-series storage, AWS IoT Core / Node-RED rule engine.
+  6. Security & UI: TLS 1.3 encryption, Role-based dashboard on mobile app with push alert notifications.
+
+--------------------------------------------------------------------------------
+SYSTEM DESIGN 2: FOREST FIRE / SMOKE DETECTION SYSTEM (10 MARKS)
+--------------------------------------------------------------------------------
+Standard Framework Structure:
+  1. Sensors: MQ-135 / MQ-2 (Smoke, CO, CO2 detection), Flame infrared sensors, DHT22 (ambient temp).
+  2. Actuators & Alarms: Solar-powered siren buzzers, automated water mist sprinklers.
+  3. Connectivity: LoRaWAN transmitter modules (transmitting up to 15km line-of-sight in forests).
+  4. Gateway & Processing: Solar-powered LoRa Gateway on watchtower transmitting via 4G/Satellite to Cloud.
+  5. Analytics & Alerting: Real-time threshold engine, GIS map overlay on Forest Department command console, automated SOS SMS to emergency services.
+
+================================================================================
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+================================================================================
+
++---------------------------------------------+-------------------+------------------------------------+
+| MODULE NAME                                 | AVERAGE WEIGHTAGE | HIGHEST PROBABILITY EXAM TOPICS    |
++---------------------------------------------+-------------------+------------------------------------+
+| Module 1: IoT Architecture & Smart Objects  | 20 - 25 Marks     | Smart Objects, 3-Layer, IoTWF 7-L  |
+| Module 2: Access Technologies & LPWAN       | 20 - 25 Marks     | LoRaWAN, ZigBee, RFID, BLE         |
+| Module 3: IoT Application Layer Protocols   | 25 - 30 Marks     | MQTT Architecture, CoAP, AMQP      |
+| Module 4: Edge, Fog, Cloud & Analytics      | 20 - 25 Marks     | Edge/Fog/Cloud Hierarchy, NoSQL    |
+| Module 5: End-to-End IoT System Applications| 15 - 20 Marks     | Home Automation, Fire/Smoke System |
++---------------------------------------------+-------------------+------------------------------------+
+
+================================================================================
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+================================================================================
+
+1. THE MQTT & COAP GUARANTEE:
+   • Both MQTT and CoAP appear in almost every single paper. Always draw the full Broker architecture and packet formats for guaranteed 20 marks.
+
+2. SYSTEM DESIGN QUESTIONS (10 MARKS):
+   • Never write purely descriptive paragraphs. Always use standard 6-subheading template:
+     (1) Sensors, (2) Actuators, (3) Microcontroller/Gateway, (4) Protocols, (5) Cloud/Storage, (6) Security & UI.
+
+3. ACCESS TECHNOLOGIES:
+   • Compare LoRaWAN vs ZigBee vs BLE on: Range, Data Rate, Power Consumption, Operating Frequency.
+
+================================================================================
+END OF INTERNET OF EVERYTHING REPEATED QUESTIONS ARCHIVE
+================================================================================
+

@@ -1,0 +1,553 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: AI & DS II (ARTIFICIAL INTELLIGENCE & DATA SCIENCE - II)
+SUBJECT CODE: 42671
+ANALYSIS OF REPEATED QUESTIONS (6 QUESTION PAPERS ARCHIVE: 2023 - 2025)
+================================================================================
+
+SUMMARY OF ANALYZED EXAM PAPERS:
+1. DEC 2025 / NOV 2025 (QP Code: 84098)
+2. 02/06/2025          (QP Code: 10084099 / 84099)
+3. 12/11/2024          (QP Code: 10067845)
+4. MAY / JUNE 2024     (QP Code: 10056808 / 56808)
+5. 26/12/2023          (QP Code: 10038602 / 38602)
+6. 14/06/2023          (QP Code: 10027194 / 27194)
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+4. SECTION C: COMPULSORY NUMERICALS & SYSTEM DESIGN PROBLEMS
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & TIPS
+
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+================================================================================
+
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+| NO. | QUESTION / TOPIC DESCRIPTION                          | MARKS | FREQUENCY | PRIORITY / STATUS   |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+|  1  | Classifier Evaluation Metrics & Confusion Matrix      | 10M   |  6 Times  | [MUST-SOLVE] 100%   |
+|  2  | CNN Architecture & Applications                       | 10M   |  5 Times  | [MUST-SOLVE] 83%    |
+|  3  | Data Science for Multimodal Applications              | 10M   |  5 Times  | [MUST-SOLVE] 83%    |
+|  4  | Mamdani Fuzzy Controller (Washing Machine Design)     | 10M   |  4 Times  | [MUST-SOLVE] 67%    |
+|  5  | Ensemble Methods: Bagging, Boosting, Random Forest    | 10M   |  4 Times  | [VERY HIGH] 67%     |
+|  6  | Cognitive Systems: Design Principles & Architecture   | 10M   |  4 Times  | [VERY HIGH] 67%     |
+|  7  | Bayesian Belief Networks (BBN) & Inferencing          | 10M   |  3 Times  | [VERY HIGH] 50%     |
+|  8  | Taxonomies & Ontologies for Knowledge Representation  | 10M   |  3 Times  | [VERY HIGH] 50%     |
+|  9  | Bayes' Theorem (Theory & Numericals)                  |  5M   |  5 Times  | [MUST-SOLVE] 83%    |
+| 10  | McCulloch-Pitts Neuron (AND / XOR Logic & Theory)     | 5M/10M|  4 Times  | [MUST-SOLVE] 67%    |
+| 11  | Defuzzification Methods (Centroid / MOM / SOM / LOM)  | 5M/10M|  4 Times  | [VERY HIGH] 67%     |
+| 12  | LSTM Architecture & Working Mechanism                 | 5M/10M|  3 Times  | [HIGH] 50%          |
+| 13  | Markov Decision Process (MDP)                         | 5M/10M|  3 Times  | [HIGH] 50%          |
+| 14  | Autoencoders for Dimensionality Reduction             | 10M   |  2 Times  | [HIGH] 33%          |
+| 15  | Membership Functions & Crisp vs Fuzzy Sets            | 10M   |  2 Times  | [HIGH] 33%          |
+| 16  | Utility & Expected Utility in Decision Theory         |  5M   |  2 Times  | [HIGH] 33%          |
+| 17  | Deterministic vs Probabilistic Reasoning              |  5M   |  2 Times  | [HIGH] 33%          |
+| 18  | Comparison between ANN and RNN                        |  5M   |  2 Times  | [HIGH] 33%          |
+| 19  | Components of ANN Architecture                        | 10M   |  2 Times  | [HIGH] 33%          |
+| 20  | Sampling Methods (Bootstrap / Holdout / K-Fold CV)    |  5M   |  3 Times  | [HIGH] 50%          |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+
+================================================================================
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED 6 OUT OF 6 PAPERS - 100% OCCURRENCE]
+TOPIC: Classifier Performance Evaluation Metrics & Confusion Matrix Numericals
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 6 Times
+Appeared in:
+  • DEC 2025 (Q.5a & Q.6b)
+  • JUNE 2025 (Q.5a)
+  • NOV 2024 (Q.6a)
+  • MAY 2024 (Q.6a)
+  • DEC 2023 (Q.6a)
+  • JUNE 2023 (Q.1a)
+
+Exact Question Variations:
+1. "Explain any 4 Metrics for evaluating classifier performance. Discuss on Hold out method and random sampling / cross validation methods." (Dec 2025 Q.5a, Jun 2025 Q.5a, Jun 2023 Q.1a)
+2. "Let's consider a binary classification problem where we have built a classifier to predict whether a transaction is fraudulent (positive class) or legitimate (negative class). Calculate Accuracy, Precision, Recall, Sensitivity, Specificity, and F1-score given the confusion matrix." (May 2024 Q.6a, Nov 2024 Q.6a, Dec 2023 Q.6a)
+
+What Examiners Look For:
+  • Formulae:
+      - Accuracy = (TP + TN) / (TP + TN + FP + FN)
+      - Precision = TP / (TP + FP)
+      - Recall / Sensitivity = TP / (TP + FN)
+      - Specificity = TN / (TN + FP)
+      - F1-Score = 2 * (Precision * Recall) / (Precision + Recall)
+  • Step-by-step substitution of values from given confusion matrix.
+  • Interpretation of results (e.g., impact of False Negatives in fraud detection/medical).
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED 5 OUT OF 6 PAPERS - 83% OCCURRENCE]
+TOPIC: Convolutional Neural Network (CNN) Architecture & Applications
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 5 Times
+Appeared in:
+  • DEC 2025 (Q.4a)
+  • JUNE 2025 (Q.4a)
+  • MAY 2024 (Q.5b)
+  • DEC 2023 (Q.3a)
+  • JUNE 2023 (Q.1b)
+
+Exact Question Variations:
+1. "Explain Architecture of CNN in detail. List any two applications of it." (Dec 2025 Q.4a, Jun 2025 Q.4a)
+2. "Describe the architecture of a typical CNN. What are the main components, and how do they contribute to the network's performance in image recognition tasks?" (May 2024 Q.5b, Dec 2023 Q.3a, Jun 2023 Q.1b)
+
+What Examiners Look For:
+  • Layer-by-layer architectural diagram: Input Layer -> Convolution Layer -> Activation (ReLU) -> Pooling Layer (Max/Avg Pooling) -> Flattening -> Fully Connected (Dense) Layer -> Output (Softmax).
+  • Mathematical role of Convolution (kernel/filter matrix multiplication, stride, padding).
+  • Role of Pooling (downsampling, translation invariance, feature dimension reduction).
+  • Real-world applications (Image classification, Facial recognition, Medical imaging).
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED 5 OUT OF 6 PAPERS - 83% OCCURRENCE]
+TOPIC: Data Science for Multimodal Applications
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 5 Times
+Appeared in:
+  • DEC 2025 (Q.6a)
+  • JUNE 2025 (Q.6a)
+  • MAY 2024 (Q.6b)
+  • DEC 2023 (Q.6b)
+  • JUNE 2023 (Q.5b)
+
+Exact Question Variations:
+1. "Explain the role of machine learning in multimodal applications. Discuss how different data modalities (text, audio, image, and video) are integrated to improve the performance and user experience of these systems with real time applications." (Dec 2025 Q.6a, Jun 2025 Q.6a)
+2. "Briefly explain Data science for Multimodal applications." (May 2024 Q.6b, Dec 2023 Q.6b, Jun 2023 Q.5b)
+
+What Examiners Look For:
+  • Definition of Multimodal Data Science (combining distinct modalities: text, vision, audio, tabular).
+  • Fusion Techniques: Early Fusion (feature-level), Late Fusion (decision-level), and Hybrid Fusion.
+  • Challenges: Heterogeneity, asynchronous alignment, missing modality handling.
+  • Use Cases: Autonomous vehicles, Healthcare diagnostics (combining MRI + clinical notes), Video search engines.
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: Mamdani Fuzzy Model Controller Design (Washing Machine Problem)
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • DEC 2025 (Q.3b)
+  • JUNE 2025 (Q.3b)
+  • MAY 2024 (Q.4a)
+  • JUNE 2023 (Q.4a)
+
+Exact Question Variations:
+"Using Mamdani fuzzy model design a fuzzy model controller to determine the wash time of domestic washing machine. Assume the inputs are dirt & grease on cloths. Use three descriptors for each input variable & five descriptors for output variables. Derive necessary membership functions & required fuzzy rules for the application."
+
+What Examiners Look For:
+  • Definition of Variables:
+      - Input 1: Dirt on clothes (Descriptors: Small, Medium, Large)
+      - Input 2: Grease on clothes (Descriptors: No Grease, Medium, Large)
+      - Output: Wash Time (Descriptors: Very Short, Short, Medium, Long, Very Long)
+  • Membership function diagrams (Triangular/Trapezoidal shapes with standard ranges e.g. 0-100%).
+  • Rule Matrix / Table (3 x 3 = 9 IF-THEN rules):
+      - Rule 1: IF Dirt is Small AND Grease is No Grease THEN Wash Time is Very Short.
+      - Rule 9: IF Dirt is Large AND Grease is Large THEN Wash Time is Very Long.
+  • Inference steps: Fuzzification -> Rule Evaluation (MIN operation) -> Aggregation (MAX operation) -> Defuzzification (Centroid/COA method).
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: Ensemble Methods (Bagging, Boosting, Random Forest & AdaBoost)
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • DEC 2025 (Q.5b)
+  • JUNE 2025 (Q.5b)
+  • NOV 2024 (Q.2a)
+  • MAY 2024 (Q.2a)
+  • DEC 2023 (Q.2a)
+  • JUNE 2023 (Q.2b)
+
+Exact Question Variations:
+1. "How Bagging and Boosting handle bias-variance trade-off differently, and analyze their effectiveness in dealing with noisy data and overfitting. Explain with algorithmic such as Random Forest and AdaBoost." (Dec 2025 Q.5b, Jun 2025 Q.5b)
+2. "How do you explain random forest? Does random forest need pruning, explain in detail?" (May 2024 Q.2a, Jun 2023 Q.2b)
+3. "Explain Ensemble Methods and describe any one." (Nov 2024 Q.2a, Dec 2023 Q.2a)
+
+What Examiners Look For:
+  • Conceptual difference between Parallel (Bagging) vs Sequential (Boosting) ensembles.
+  • Bias-Variance analysis: Bagging reduces variance (prevents overfitting); Boosting reduces bias.
+  • Random Forest mechanism: Bootstrap aggregating + Random feature subspace selection; why pruning is typically not required (OOB error stabilization).
+  • AdaBoost mechanism: Sequential weight updating for misclassified samples.
+
+--------------------------------------------------------------------------------
+RANK 6 [REPEATED 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: Cognitive Systems (Design Principles, Architecture & Building Process)
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • DEC 2025 (Q.2a)
+  • NOV 2024 (Q.2b)
+  • MAY 2024 (Q.5a)
+  • DEC 2023 (Q.5a)
+  • JUNE 2023 (Q.3b)
+
+Exact Question Variations:
+1. "List Design Principles of Cognitive system and justify the role of NLP in enabling adaptability, contextual understanding, and user interaction within cognitive architectures." (Dec 2025 Q.2a, Nov 2024 Q.5a)
+2. "Define Cognitive Computing. Draw a neat diagram of components of the cognitive system and explain the components." (Nov 2024 Q.2b, Dec 2023 Q.5a)
+3. "What is cognitive computing, and how does it differ from traditional computing? List the process of building a cognitive application." (May 2024 Q.5a, Jun 2023 Q.3b)
+
+What Examiners Look For:
+  • 4 Core Design Principles: Adaptive, Interactive, Iterative & Stateful, Contextual.
+  • Architecture Diagram: Ingestion -> Corpus Processing -> Knowledge Graph/Ontology -> NLP Understanding -> Evidence-based Reasoning -> Continuous Learning.
+  • Traditional vs Cognitive Computing comparison table (deterministic rules vs probabilistic reasoning).
+
+--------------------------------------------------------------------------------
+RANK 7 [REPEATED 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Taxonomies & Ontologies for Knowledge Representation
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • DEC 2025 (Q.2b)
+  • JUNE 2025 (Q.2b)
+  • DEC 2023 (Q.2b)
+
+Exact Question Variations:
+"Explain the role of representing knowledge in taxonomies and ontologies, and how advanced analytics can be applied to cognitive systems." (Dec 2025 Q.2b, Jun 2025 Q.2b, Dec 2023 Q.2b)
+
+What Examiners Look For:
+  • Taxonomy: Hierarchical tree classification (is-a relationships, e.g., Vehicle -> Car -> Sedan).
+  • Ontology: Rich formal semantic network (classes, properties, relations, axioms, e.g., OWL/RDF triples).
+  • Role in Cognitive Systems: Disambiguation, semantic reasoning, query expansion, automated inference.
+
+--------------------------------------------------------------------------------
+RANK 8 [REPEATED 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Bayesian Belief Networks (BBN) & Inferencing
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • JUNE 2025 (Q.4b)
+  • NOV 2024 (Q.4b)
+  • DEC 2023 (Q.4b)
+
+Exact Question Variations:
+"What is Bayesian Belief Network? Illustrate inferencing in Bayesian Belief Network with an example." (Jun 2025 Q.4b, Nov 2024 Q.4b, Dec 2023 Q.4b)
+
+What Examiners Look For:
+  • Definition: Directed Acyclic Graph (DAG) representing conditional dependencies + Conditional Probability Tables (CPT).
+  • Standard Example (e.g., Burglar Alarm, Wet Grass / Sprinkler, or Medical diagnosis).
+  • Joint probability distribution formula: P(X1, X2, ..., Xn) = Product P(Xi | Parents(Xi)).
+  • Types of Inferencing: Diagnostic (bottom-up), Causal (top-down), Intercausal (explaining away).
+
+--------------------------------------------------------------------------------
+RANK 9 [REPEATED 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Markov Decision Process (MDP)
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 3 Times
+Appeared in:
+  • DEC 2025 (Q.1e - 5M)
+  • MAY 2024 (Q.4b - 10M)
+  • JUNE 2023 (Q.3a - 10M)
+
+Exact Question Variations:
+"What is a Markov Decision Process (MDP)? List its primary components. Explain in detail." (May 2024 Q.4b, Jun 2023 Q.3a, Dec 2025 Q.1e)
+
+What Examiners Look For:
+  • 5-Tuple Formulation: (S, A, P, R, gamma) where S = States, A = Actions, P = Transition Probability P(s'|s,a), R = Reward function, gamma = Discount factor.
+  • Markov Property: P(S_{t+1} | S_t, A_t, S_{t-1}, ...) = P(S_{t+1} | S_t, A_t).
+  • Bellman Optimality Equation.
+  • Applications: Robotics navigation, Automated game playing, Financial portfolio management.
+
+--------------------------------------------------------------------------------
+RANK 10 [REPEATED 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Long Short-Term Memory (LSTM) Networks
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 3 Times
+Appeared in:
+  • DEC 2025 (Q.4b - 10M)
+  • NOV 2024 (Q.5b - 10M)
+  • JUNE 2023 (Q.6b - 5M)
+
+Exact Question Variations:
+"What are all the objective of using LSTM? Explain its architecture." (Dec 2025 Q.4b, Nov 2024 Q.5b, Jun 2023 Q.6b)
+
+What Examiners Look For:
+  • Why LSTM is needed: Solves Vanishing and Exploding Gradient problems of standard RNNs.
+  • Cell State & Hidden State diagram.
+  • 3 Gates explanation with equations:
+      - Forget Gate: f_t = sigma(W_f * [h_{t-1}, x_t] + b_f)
+      - Input Gate: i_t = sigma(W_i * [h_{t-1}, x_t] + b_i), C~_t = tanh(...)
+      - Output Gate: o_t = sigma(W_o * [h_{t-1}, x_t] + b_o), h_t = o_t * tanh(C_t)
+
+--------------------------------------------------------------------------------
+RANK 11 [REPEATED 2 OUT OF 6 PAPERS - 33% OCCURRENCE]
+TOPIC: Autoencoders for Dimensionality Reduction
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • MAY 2024 (Q.3a)
+  • JUNE 2023 (Q.4b)
+
+Exact Question Variations:
+"Explain how an autoencoder can be used for dimensionality reduction. Include a brief description of how the encoder and decoder parts of the network work in this context. Which activation function is best for autoencoder?" (May 2024 Q.3a, Jun 2023 Q.4b)
+
+What Examiners Look For:
+  • Architecture Diagram: Input Layer -> Hidden Bottleneck Layer (Latent Code z) -> Output Reconstruction Layer.
+  • Encoder function: z = f(W*x + b); Decoder function: x_hat = g(W'*z + b').
+  • Loss function: Reconstruction error (Mean Squared Error).
+  • Difference with PCA: Autoencoders capture non-linear manifolds using non-linear activations.
+
+================================================================================
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED 5 OUT OF 6 PAPERS - 83% OCCURRENCE]
+TOPIC: Bayes' Theorem (Theory, Concept & Numericals)
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 5 Times
+Appeared in:
+  • DEC 2025 (Q.1c - Theory & Q.1f - Medical Test Numerical)
+  • NOV 2024 (Q.1a - Theory)
+  • MAY 2024 (Q.1a - Card Probability Numerical)
+  • DEC 2023 (Q.1a - Joint Probability Cavity Numerical)
+  • JUNE 2023 (Q.6e - Short Note)
+
+Question Types:
+  1. Theory: "How does Bayes Theorem determine the probability of an event with uncertain knowledge? Give one example."
+  2. Medical Test Numerical (Dec 2025): Accuracy = 99%, Base rate = 1/10,000. Calculate P(Disease | Positive).
+  3. Card Deck Numerical (May 2024): Single card drawn. P(King)=4/52. Calculate posterior probability P(King | Face).
+  4. Joint Probability Table Numerical (Dec 2023): Find P(~Cavity | Toothache) from given 2x4 table.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED 4 OUT OF 6 PAPERS - 67% OCCURRENCE]
+TOPIC: McCulloch-Pitts Neuron Model (AND / XOR Logic Implementation)
+--------------------------------------------------------------------------------
+Marks: 5 Marks (and 10M)
+Total Appearances: 4 Times
+Appeared in:
+  • JUNE 2025 (Q.1a - Implement AND function)
+  • NOV 2024 (Q.1c - Explain McCulloch-Pitts with example)
+  • DEC 2023 (Q.1c - Implement AND function with binary data)
+  • JUNE 2023 (Q.2a - Implement XOR function using binary data - 10M)
+
+Key Technical Requirements:
+  • Model Equation: y = 1 if sum(w_i * x_i) >= theta, else 0 (assuming excitatory weights w_i = 1 and threshold theta).
+  • For AND Gate: Inputs (0,0),(0,1),(1,0),(1,1). Set w1=1, w2=1, Threshold theta = 2.
+  • For XOR Gate (Non-linear): Prove single neuron failure; construct 2-layer network: XOR(x1, x2) = (x1 AND NOT x2) OR (NOT x1 AND x2) with inhibitory weights (-1).
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Defuzzification (Definitions, Methods & Centroid Formula)
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • MAY 2024 (Q.1b - Centroid Method formula & advantages)
+  • DEC 2023 (Q.1b - Definition & Necessity)
+  • JUNE 2023 (Q.6c - Defuzzification Methods Short Note)
+
+Key Technical Requirements:
+  • Definition: Mapping from fuzzy set output space to a single crisp numeric value.
+  • Necessity: Real-world actuators (motors, valves, heaters) require single discrete voltage/time inputs.
+  • Centroid Method (COA) Formula: z* = [ Integral(z * mu(z) dz) ] / [ Integral(mu(z) dz) ]
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED 3 OUT OF 6 PAPERS - 50% OCCURRENCE]
+TOPIC: Sampling & Model Validation (Bootstrap, Holdout, Cross-Validation)
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • DEC 2025 (Q.5a)
+  • NOV 2024 (Q.1d - Bootstrap sampling)
+  • JUNE 2023 (Q.6a - Holdout method)
+
+Key Technical Requirements:
+  • Holdout Method: Splitting data into Train (70-80%) and Test (20-30%) sets.
+  • Bootstrap Sampling: Sampling with replacement (Uniform random sampling of size N from dataset of size N). Approximately 63.2% unique instances in sample, ~36.8% out-of-bag (OOB) instances.
+  • K-Fold Cross Validation: Dividing data into K equal partitions, training on K-1 folds, testing on 1 fold, repeated K times.
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED 2 OUT OF 6 PAPERS - 33% OCCURRENCE]
+TOPIC: Utility & Expected Utility in Decision Theory
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • DEC 2025 (Q.1a)
+  • JUNE 2025 (Q.1e)
+
+Key Technical Requirements:
+  • Utility: Numerical score assigned to an outcome representing agent preferences.
+  • Principle of Maximum Expected Utility (MEU): EU(a) = Sum_{s'} P(Result(a)=s' | a, e) * U(s').
+  • Rational agent chooses action a* = argmax_a EU(a).
+
+--------------------------------------------------------------------------------
+RANK 6 [REPEATED 2 OUT OF 6 PAPERS - 33% OCCURRENCE]
+TOPIC: Deterministic Approaches vs Probabilistic Reasoning
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • DEC 2025 (Q.1b)
+  • JUNE 2025 (Q.1b)
+
+Key Technical Requirements:
+  • Deterministic Limitations: Inability to handle incomplete information, noisy sensor data, unbounded non-determinism, qualification problem.
+  • Probabilistic Reasoning: Represents degrees of belief using probability theory, enables principled decision-making under uncertainty.
+
+--------------------------------------------------------------------------------
+RANK 7 [REPEATED 2 OUT OF 6 PAPERS - 33% OCCURRENCE]
+TOPIC: Comparison between ANN and RNN
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • DEC 2025 (Q.1d)
+  • JUNE 2025 (Q.1d)
+
+Key Comparison Points:
+  • Architecture: ANN is strictly feedforward (no feedback loops); RNN has recurrent cycles.
+  • Data Type: ANN suits fixed-size tabular/independent inputs; RNN suits sequential/time-series data.
+  • Memory: ANN has no internal memory of previous inputs; RNN maintains hidden state vector h_t.
+  • Backpropagation: ANN uses standard Backpropagation; RNN uses Backpropagation Through Time (BPTT).
+
+================================================================================
+4. SECTION C: COMPULSORY NUMERICALS & SYSTEM DESIGN PROBLEMS
+================================================================================
+
+--------------------------------------------------------------------------------
+NUMERICAL TYPE 1: CONFUSION MATRIX & PERFORMANCE METRICS EVALUATION
+--------------------------------------------------------------------------------
+Standard 10-Mark Question (Repeated in May 2024, Nov 2024, Dec 2023)
+
+Sample Problem Template (May 2024):
+  +----------------------+--------------------+--------------------+
+  |                      | Actual Legitimate  | Actual Fraudulent  |
+  +----------------------+--------------------+--------------------+
+  | Predicted Legitimate |       850 (TN)     |         30 (FN)    |
+  | Predicted Fraudulent |        20 (FP)     |        100 (TP)    |
+  +----------------------+--------------------+--------------------+
+
+Formulas & Calculations:
+  • Total Samples = 850 + 30 + 20 + 100 = 1000
+  • TP = 100, TN = 850, FP = 20, FN = 30
+  • Accuracy    = (TP + TN) / Total = (100 + 850) / 1000 = 950 / 1000 = 0.95 (95%)
+  • Precision   = TP / (TP + FP) = 100 / (100 + 20) = 100 / 120 = 0.833 (83.33%)
+  • Recall      = TP / (TP + FN) = 100 / (100 + 30) = 100 / 130 = 0.769 (76.92%)
+  • Sensitivity = Recall = 76.92%
+  • Specificity = TN / (TN + FP) = 850 / (850 + 20) = 850 / 870 = 0.977 (97.70%)
+  • F1-Score    = 2 * (Precision * Recall) / (Precision + Recall)
+                = 2 * (0.833 * 0.769) / (0.833 + 0.769) = 1.281 / 1.602 = 0.7996 (~80%)
+
+--------------------------------------------------------------------------------
+NUMERICAL TYPE 2: BAYES' THEOREM MEDICAL TEST POSTERIOR PROBABILITY
+--------------------------------------------------------------------------------
+Standard 5-Mark Question (Repeated in Dec 2025 Q.1f)
+
+Problem Statement:
+  A medical test is 99% accurate (gives correct results 99% of time). Disease affects 1 in 10,000 people.
+  Calculate the probability that a person who tests positive actually has the disease.
+
+Step-by-Step Solution:
+  • Let D = Person has disease, ~D = Person is healthy.
+  • Let + = Test is positive.
+  • Given:
+      - Prior Probability: P(D) = 1/10,000 = 0.0001
+      - P(~D) = 1 - 0.0001 = 0.9999
+      - Sensitivity: P(+ | D) = 0.99
+      - False Positive Rate: P(+ | ~D) = 1 - 0.99 = 0.01
+  • Total Probability of testing positive P(+):
+      P(+) = P(+ | D)*P(D) + P(+ | ~D)*P(~D)
+           = (0.99 * 0.0001) + (0.01 * 0.9999)
+           = 0.000099 + 0.009999 = 0.010098
+  • Posterior Probability P(D | +):
+      P(D | +) = [ P(+ | D) * P(D) ] / P(+)
+               = 0.000099 / 0.010098 = 0.009804 (approx 0.98%)
+  • Interpretation: Even with a 99% accurate test, because the disease is extremely rare,
+    a positive test result only gives a ~0.98% chance of actually having the disease (due to false positives dominating).
+
+--------------------------------------------------------------------------------
+NUMERICAL TYPE 3: FUZZY SET OPERATIONS (ALGEBRAIC & BOUNDED)
+--------------------------------------------------------------------------------
+Standard 5-Mark Question (Repeated in Nov 2024 Q.1b)
+
+Problem Statement:
+  A = 0.3/1 + 0.4/2 + 0.5/3 + 0.6/4
+  B = 0.1/1 + 0.2/2 + 0.2/3 + 0.1/4
+
+Formulas & Step-by-Step Solution:
+  1. Algebraic Sum (mu_{A + B}(x) = mu_A(x) + mu_B(x) - mu_A(x)*mu_B(x)):
+     • x=1: 0.3 + 0.1 - (0.3*0.1) = 0.4 - 0.03 = 0.37
+     • x=2: 0.4 + 0.2 - (0.4*0.2) = 0.6 - 0.08 = 0.52
+     • x=3: 0.5 + 0.2 - (0.5*0.2) = 0.7 - 0.10 = 0.60
+     • x=4: 0.6 + 0.1 - (0.6*0.1) = 0.7 - 0.06 = 0.64
+     => A + B = 0.37/1 + 0.52/2 + 0.60/3 + 0.64/4
+
+  2. Algebraic Product (mu_{A . B}(x) = mu_A(x) * mu_B(x)):
+     • x=1: 0.3 * 0.1 = 0.03
+     • x=2: 0.4 * 0.2 = 0.08
+     • x=3: 0.5 * 0.2 = 0.10
+     • x=4: 0.6 * 0.1 = 0.06
+     => A . B = 0.03/1 + 0.08/2 + 0.10/3 + 0.06/4
+
+  3. Bounded Sum (mu_{A (+) B}(x) = min(1, mu_A(x) + mu_B(x))):
+     • x=1: min(1, 0.3 + 0.1) = 0.4
+     • x=2: min(1, 0.4 + 0.2) = 0.6
+     • x=3: min(1, 0.5 + 0.2) = 0.7
+     • x=4: min(1, 0.6 + 0.1) = 0.7
+     => A (+) B = 0.4/1 + 0.6/2 + 0.7/3 + 0.7/4
+
+  4. Bounded Difference (mu_{A (-) B}(x) = max(0, mu_A(x) - mu_B(x))):
+     • x=1: max(0, 0.3 - 0.1) = 0.2
+     • x=2: max(0, 0.4 - 0.2) = 0.2
+     • x=3: max(0, 0.5 - 0.2) = 0.3
+     • x=4: max(0, 0.6 - 0.1) = 0.5
+     => A (-) B = 0.2/1 + 0.2/2 + 0.3/3 + 0.5/4
+
+================================================================================
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+================================================================================
+
++---------------------------------------------+-------------------+------------------------------------+
+| MODULE NAME                                 | AVERAGE WEIGHTAGE | HIGHEST PROBABILITY EXAM TOPICS    |
++---------------------------------------------+-------------------+------------------------------------+
+| Module 1: Decision Theory & Uncertainty     | 15 - 20 Marks     | Bayes Theorem, BBN Inferencing, MDP|
+| Module 2: Fuzzy Systems & Fuzzy Logic       | 20 - 25 Marks     | Mamdani Washing Machine, Defuzz    |
+| Module 3: Deep Neural Networks              | 20 - 25 Marks     | CNN Architecture, LSTM, Autoencoder|
+| Module 4: Classifier Evaluation & Ensembles | 20 - 25 Marks     | Confusion Matrix, Bagging/Boosting |
+| Module 5: Cognitive Systems & Multimodal AI | 15 - 20 Marks     | Multimodal ML, Cognitive Principles|
++---------------------------------------------+-------------------+------------------------------------+
+
+================================================================================
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & TIPS
+================================================================================
+
+1. GUARANTEED 30 MARKS IN FIRST 45 MINUTES:
+   • Start with the Mamdani Washing Machine design question (10 Marks). Draw neat 3-input and 5-output membership triangles and the 9-rule matrix.
+   • Solve the Confusion Matrix numerical question (10 Marks). Write all formulas explicitly before substituting values.
+   • Solve the McCulloch-Pitts neuron or Bayes Theorem numerical in Question 1 (10 Marks).
+
+2. DIAGRAM CHECKLIST FOR FULL MARKS:
+   • CNN Architecture: Show all 6 stages clearly (Input -> Conv -> ReLU -> Pool -> FC -> Softmax).
+   • LSTM Cell: Show cell state horizontal line, forget gate, input gate, candidate cell state, and output gate.
+   • Autoencoder: Show hourglass shape (Input d-dim -> Latent Bottleneck k-dim -> Output d-dim).
+   • Cognitive Architecture: Show ingestion, ontology knowledge graph, NLP pipeline, and reasoning loop.
+
+3. HANDLING THE COMPULSORY QUESTION 1 (20 MARKS):
+   • Usually contains 4 sub-questions (5 marks each).
+   • Standard combo: (1) Bayes Theorem, (2) McCulloch-Pitts AND logic, (3) ANN vs RNN / Activation Functions, (4) Defuzzification / Utility theory.
+
+================================================================================
+END OF AI & DS II REPEATED QUESTIONS ARCHIVE
+================================================================================
+

@@ -1,0 +1,346 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: SOFTWARE TESTING & QUALITY ASSURANCE (STQA)
+SUBJECT CODE: 42676 (DLOC III)
+ANALYSIS OF REPEATED QUESTIONS & CORE TOPIC BLUEPRINT
+================================================================================
+
+SUMMARY OF ANALYZED EXAM PAPERS:
+1. QUESTION PAPER 1 (QP Code: 15346)
+2. QUESTION PAPER 2 (QP Code: 28365)
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+4. SECTION C: COMPULSORY NUMERICALS & PROGRAM DD-GRAPH TRACES
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+================================================================================
+
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+| NO. | QUESTION / TOPIC DESCRIPTION                          | MARKS | FREQUENCY | PRIORITY / STATUS   |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+|  1  | DD Graph, Cyclomatic Complexity V(G) & Paths in Code  | 10M   |  2 Papers | [MUST-SOLVE] 100%   |
+|  2  | Agile Testing Life Cycle, Principles & Challenges     | 10M   |  2 Papers | [MUST-SOLVE] 100%   |
+|  3  | Mutation Testing: Primary/Secondary Mutants & Score   | 5M/10M|  2 Papers | [MUST-SOLVE] 100%   |
+|  4  | Test Automation Tool Selection Criteria (Static/Dyn)  | 5M/10M|  2 Papers | [MUST-SOLVE] 100%   |
+|  5  | Structure of Testing Group & Test Management Elements | 5M/10M|  2 Papers | [MUST-SOLVE] 100%   |
+|  6  | Defect Spoilage Calculation (Table Numerical)         | 10M   |  1 Paper  | [VERY HIGH] 100%    |
+|  7  | Boundary Value Analysis (BVC) & Robust Testing Tables | 10M   |  1 Paper  | [VERY HIGH] 100%    |
+|  8  | McCall's Quality Factors & Quality Criteria           | 10M   |  1 Paper  | [VERY HIGH] 100%    |
+|  9  | Bug Life Cycle: States, Transitions & Diagram         | 10M   |  1 Paper  | [VERY HIGH] 100%    |
+| 10  | Test Suite Prioritization (Types & Process)           | 10M   |  1 Paper  | [VERY HIGH] 100%    |
+| 11  | ISO 9000:2000 Quality Management Standards            | 10M   |  1 Paper  | [HIGH] 50%          |
+| 12  | Six Sigma Quality Principles & DMAIC Methodology      |  5M   |  1 Paper  | [HIGH] 50%          |
+| 13  | Bugzilla Defect Tracking Tool Features & Workflow     |  5M   |  1 Paper  | [HIGH] 50%          |
+| 14  | Bottom-Up Integration Testing vs Top-Down (Stubs/Drv) |  5M   |  1 Paper  | [HIGH] 50%          |
+| 15  | Testing Terminology (Error, Fault, Bug, Failure)      |  5M   |  1 Paper  | [HIGH] 50%          |
+| 16  | Loop Testing (Simple, Nested, Concatenated Loops)     |  5M   |  1 Paper  | [HIGH] 50%          |
+| 17  | Logic Coverage Criteria (Statement, Branch, Condition)|  5M   |  1 Paper  | [HIGH] 50%          |
+| 18  | State Table Based Testing with Transition Diagrams    |  5M   |  1 Paper  | [HIGH] 50%          |
+| 19  | Software Measurement & Product/Process Metrics        | 10M   |  1 Paper  | [HIGH] 50%          |
+| 20  | Performance Testing Types (Load, Stress, Endurance)   | 10M   |  1 Paper  | [HIGH] 50%          |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+
+================================================================================
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [APPEARED IN 100% OF QUESTION PAPERS]
+TOPIC: White-Box Testing: DD-Graph, Cyclomatic Complexity & Independent Paths
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: Both Papers
+Appeared in:
+  • QP Code: 15346 (Q.4b - Prime Number Program)
+  • QP Code: 28365 (Q.2a - Factorial Program with sub-function `fact()`)
+  • QP Code: 28365 (Q.4a - Graph Metrics Definition & Region Method)
+
+Exact Question Variations:
+"Consider following C code. Draw DD graph, Calculate cyclomatic complexity using all methods, List out independent paths and design test cases."
+
+What Examiners Look For:
+  • Construction of Control Flow Graph (CFG) / Decision-to-Decision (DD) Graph with labeled nodes and directed edges.
+  • Calculation of Cyclomatic Complexity V(G) using 3 Methods:
+      1. Formula 1: V(G) = E - N + 2P (where E = edges, N = nodes, P = connected components = 1).
+      2. Formula 2: V(G) = P_nodes + 1 (where P_nodes = count of predicate/decision nodes).
+      3. Formula 3: V(G) = Total Enclosed Regions + 1.
+  • Independent Basis Paths Enumeration (e.g. Path 1: 1-2-3-4-13-14-15, Path 2: ...).
+  • Test Case Table (Test Case ID, Input Values, Expected Output, Path Covered).
+
+--------------------------------------------------------------------------------
+RANK 2 [APPEARED IN 100% OF QUESTION PAPERS]
+TOPIC: Agile Testing Life Cycle (ATLC) & Challenges
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: Both Papers
+Appeared in:
+  • QP Code: 15346 (Q.2b)
+  • QP Code: 28365 (Q.2b)
+
+Exact Question Variations:
+"Explain Agile Testing Life Cycle and its challenges / What is Agile testing? Explain challenges in Agile Testing."
+
+What Examiners Look For:
+  • Definition: Continuous testing practice synchronized with Agile development sprints (SCRUM/Kanban).
+  • 4 Phases of Agile Testing Life Cycle:
+      1. Phase 1: Impact Assessment (Gathering requirements, user stories).
+      2. Phase 2: Agile Testing Planning (Sprint test plan, estimating story points).
+      3. Phase 3: Release Readiness (Continuous test execution, automation runs).
+      4. Phase 4: Daily Scrums & Retrospective (Sprint review, velocity tracking).
+  • Agile Testing Quadrants (Q1: Unit/Component, Q2: Functional/Story, Q3: Exploratory/Usability, Q4: Performance/Security).
+  • Key Challenges: Frequent requirement changes, time constraints within 2-week sprints, lack of complete documentation, regression overhead requiring high automation.
+
+--------------------------------------------------------------------------------
+RANK 3 [APPEARED IN 100% OF QUESTION PAPERS]
+TOPIC: Mutation Testing (Primary vs Secondary Mutants, Score & Mutant Killing)
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: Both Papers
+Appeared in:
+  • QP Code: 15346 (Q.1b - 5M)
+  • QP Code: 28365 (Q.5a - 10M)
+
+Exact Question Variations:
+"What is Mutation Testing? Differentiate between primary and secondary mutants. Explain primary mutant with an example."
+
+What Examiners Look For:
+  • Definition: Fault-based white-box testing technique where deliberate small syntactic changes (mutants) are injected into the source code to evaluate test suite adequacy.
+  • Primary Mutant: Mutant generated by applying a single mutation operator once (e.g. changing `+` to `-`).
+  • Secondary / Higher-Order Mutant: Mutant created by applying multiple mutation operators simultaneously.
+  • Mutation Operators: Arithmetic operator replacement (`+` to `*`), Relational operator replacement (`>` to `>=`), Logical connector replacement (`&&` to `||`).
+  • Mutation Score Formula:
+      Mutation Score = [ D / (N - E) ] * 100%
+      (where D = Killed Mutants, N = Total Mutants Generated, E = Equivalent Mutants).
+
+--------------------------------------------------------------------------------
+RANK 4 [APPEARED IN 100% OF QUESTION PAPERS]
+TOPIC: Test Automation: Selection Guidelines, Criteria & Static vs Dynamic Tools
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: Both Papers
+Appeared in:
+  • QP Code: 15346 (Q.1c - 5M & Q.4a - 10M)
+  • QP Code: 28365 (Q.4b - 10M)
+
+Exact Question Variations:
+"Why is automation important in testing? What criteria you will consider for selection of test tools for automation Testing? Differentiate between static and dynamic tools."
+
+What Examiners Look For:
+  • Need for Automation: Rapid regression testing, high test repeatability, eliminating human fatigue in repetitive executions, performance load simulation.
+  • Tool Selection Criteria:
+      1. Application technology compatibility (Web, Mobile, Desktop APIs).
+      2. Ease of test script maintenance and object repository support.
+      3. Integration capability with CI/CD pipelines (Jenkins, GitHub Actions).
+      4. Cost of licenses, support, and learning curve for team.
+      5. Reporting and logging capabilities.
+  • Static vs Dynamic Tools Comparison:
+      - Static Tools: Analyze source code without execution (Linters, SonarQube, syntax checkers).
+      - Dynamic Tools: Execute code with runtime inputs (Selenium, JMeter, JUnit).
+
+--------------------------------------------------------------------------------
+RANK 5 [APPEARED IN 100% OF QUESTION PAPERS]
+TOPIC: Test Management & Structure of Testing Group
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: Both Papers
+Appeared in:
+  • QP Code: 15346 (Q.1d - 5M)
+  • QP Code: 28365 (Q.3b - 10M)
+
+Exact Question Variations:
+"What are the Key elements of Test Management? Explain the structure of testing group."
+
+What Examiners Look For:
+  • Key Elements of Test Management: Test Estimation (Work Breakdown Structure), Test Planning, Resource Allocation, Test Execution Monitoring, Defect Tracking, Test Metrics Reporting.
+  • Structure of Testing Group Hierarchy Diagram:
+      - QA Director / Test Manager (Overall governance, budget, client coordination).
+      - Test Lead (Test plan creation, task assignment, daily triage).
+      - Senior Automation Engineer / Performance Specialist (Framework development).
+      - Test Engineers (Test case execution, defect logging).
+  • Independence Levels: Developers testing own code -> In-house QA team -> Independent third-party testing agency.
+
+================================================================================
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+TOPIC 1: Software Testing Terminology Distinctions
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Appeared in: QP Code: 15346 (Q.1a)
+
+Key Definitions to Write:
+  • Error (Mistake): A human action that produces an incorrect result (e.g. developer misinterprets requirement).
+  • Fault / Defect / Bug: A flaw or imperfection in a software component that can cause the component to fail to perform its required function.
+  • Failure: The deviation of software from its expected delivery or service at runtime (manifestation of a defect).
+  • Testware: All testing artifacts produced during testing (test cases, test scripts, test data, test plans).
+  • Test Oracle: A mechanism or standard against which a tester can compare the actual output with the expected outcome.
+
+--------------------------------------------------------------------------------
+TOPIC 2: Six Sigma Quality Standard & DMAIC
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Appeared in: QP Code: 15346 (Q.1e)
+
+Key Points:
+  • Goal: 99.99966% defect-free output (No more than 3.4 Defects Per Million Opportunities - DPMO).
+  • DMAIC Methodology: Define -> Measure -> Analyze -> Improve -> Control.
+
+--------------------------------------------------------------------------------
+TOPIC 3: Bottom-Up Integration Testing with Drivers
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Appeared in: QP Code: 28365 (Q.1a)
+
+Key Points:
+  • Strategy: Testing begins with lowest-level modules/units, aggregated upward into subsystems.
+  • Test Driver: A temporary dummy calling program written to simulate the higher-level calling module.
+  • Advantage: Early verification of core utility modules; no stubs required.
+
+--------------------------------------------------------------------------------
+TOPIC 4: Bugzilla Defect Tracking Tool Features
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Appeared in: QP Code: 28365 (Q.1e)
+
+Key Features:
+  • Web-based open-source defect tracking system.
+  • Bug fields: Bug ID, Summary, Component, Severity, Priority, Assignee, Status (New, Assigned, Fixed, Closed).
+  • Features: Email notifications on bug state changes, dependency tracking (bug blocks bug), advanced search queries, audit trail history.
+
+================================================================================
+4. SECTION C: COMPULSORY NUMERICALS & PROGRAM DD-GRAPH TRACES
+================================================================================
+
+--------------------------------------------------------------------------------
+NUMERICAL 1: DEFECT SPOILAGE CALCULATION (10 MARKS)
+--------------------------------------------------------------------------------
+Given Data (QP Code: 15346 Q.2a):
+  +-------------------+----------------+------------+-------------------------+
+  | SDLC Phase        | No. of Defects | Defect Age | Weighted Defects (D * A)|
+  +-------------------+----------------+------------+-------------------------+
+  | Requirement Specs.|       34       |     2      |       34 * 2 =  68      |
+  | HLD               |       25       |     3      |       25 * 3 =  75      |
+  | LLD               |       17       |     7      |       17 * 7 = 119      |
+  | Coding            |       10       |     8      |       10 * 8 =  80      |
+  +-------------------+----------------+------------+-------------------------+
+  | TOTAL             |   Sum(D) = 86  |            |   Sum(D * A) = 342      |
+  +-------------------+----------------+------------+-------------------------+
+
+Formula & Calculation:
+  Defect Spoilage = [ Sum_{i} (Defects Discovered_i * Defect Age_i) ] / [ Total Defects Discovered ]
+                  = 342 / 86
+                  = 3.9767 (approx 3.98)
+
+Interpretation:
+  A higher defect spoilage value indicates defects are staying longer in the lifecycle before detection,
+  which exponentially increases rework and defect remediation costs.
+
+--------------------------------------------------------------------------------
+NUMERICAL 2: BOUNDARY VALUE ANALYSIS (BVC) & ROBUST TEST CASE DESIGN
+--------------------------------------------------------------------------------
+Given Range (QP Code: 15346 Q.3a):
+  Variables A, B, C in range [1, 100]. Program outputs the minimum number.
+
+Test Case Design Formulas:
+  • For n variables:
+      - BVC Test Cases = 4n + 1 = 4(3) + 1 = 13 Test Cases.
+      - Robust Test Cases = 6n + 1 = 6(3) + 1 = 19 Test Cases.
+  • Boundary Points for range [a, b] = [1, 100]:
+      - min = 1, min+ = 2, nom = 50, max- = 99, max = 100.
+      - Robust boundary points: min- = 0, max+ = 101.
+
+Sample BVC Test Cases (Single Fault Assumption):
+  TC1:  (50, 50, 50)  -> Output: 50 (Nominal)
+  TC2:  (1,  50, 50)  -> Output: 1  (A = min)
+  TC3:  (2,  50, 50)  -> Output: 2  (A = min+)
+  TC4:  (99, 50, 50)  -> Output: 50 (A = max-)
+  TC5:  (100,50, 50)  -> Output: 50 (A = max)
+  TC6:  (50, 1,  50)  -> Output: 1  (B = min)
+  ...
+  TC13: (50, 50, 100) -> Output: 50 (C = max)
+
+--------------------------------------------------------------------------------
+PROGRAM TRACE: PRIME NUMBER DD-GRAPH & CYCLOMATIC COMPLEXITY
+--------------------------------------------------------------------------------
+Given C Code (QP Code: 15346 Q.4b):
+  1.  printf("Enter a number");
+  2.  scanf("%d", &number);
+  3.  index = 2;
+  4.  while (index <= number - 1)
+  5.  {
+  6.    if (number % index == 0)
+  7.    {
+  8.      printf("Not a prime number");
+  9.      break;
+  10.   }
+  11.   index++;
+  12. }
+  13. if (index == number)
+  14.   printf("prime number");
+  15. // end main
+
+DD-Graph Construction:
+  • Node 1: Statements 1, 2, 3 (Sequential block)
+  • Node 2: Statement 4 (While loop predicate `index <= number - 1`)
+  • Node 3: Statement 6 (If condition `number % index == 0`)
+  • Node 4: Statements 8, 9 (Not prime output & break jump to 13)
+  • Node 5: Statement 11 (Increment `index++` and loop back to Node 2)
+  • Node 6: Statement 13 (If condition `index == number`)
+  • Node 7: Statement 14 (Prime number output)
+  • Node 8: Statement 15 (End program)
+
+Cyclomatic Complexity Calculations:
+  • Decision Nodes (P): Node 2, Node 3, Node 6 => P = 3.
+  • V(G) = P + 1 = 3 + 1 = 4.
+  • Edges E = 10, Nodes N = 8 => V(G) = 10 - 8 + 2(1) = 4.
+
+Independent Basis Paths (4 Paths):
+  • Path 1: 1 -> 2 (False) -> 6 (False) -> 8
+  • Path 2: 1 -> 2 (False) -> 6 (True) -> 7 -> 8
+  • Path 3: 1 -> 2 (True) -> 3 (True) -> 4 -> 6 -> 8
+  • Path 4: 1 -> 2 (True) -> 3 (False) -> 5 -> 2 -> ... -> 8
+
+================================================================================
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+================================================================================
+
++---------------------------------------------+-------------------+------------------------------------+
+| MODULE NAME                                 | AVERAGE WEIGHTAGE | HIGHEST PROBABILITY EXAM TOPICS    |
++---------------------------------------------+-------------------+------------------------------------+
+| Module 1: Testing Fundamentals & Defect Mgmt| 15 - 20 Marks     | Bug Life Cycle, Defect Spoilage    |
+| Module 2: Black Box Testing Techniques      | 20 - 25 Marks     | BVC & Robust, State Table Testing  |
+| Module 3: White Box Testing & Graph Theory  | 25 - 30 Marks     | DD Graph, Cyclomatic Complexity V(G|
+| Module 4: Mutation & Integration Testing    | 15 - 20 Marks     | Mutation Score, Agile Testing ATLC |
+| Module 5: Quality Models & Standards        | 20 - 25 Marks     | McCall's Model, ISO 9000, Six Sigma|
++---------------------------------------------+-------------------+------------------------------------+
+
+================================================================================
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+================================================================================
+
+1. ZERO-DEDUCTION NUMERICALS (20 MARKS):
+   • Defect Spoilage Table: Always show the formula and intermediate product column `D * A`.
+   • Cyclomatic Complexity: Calculate using both `V(G) = E - N + 2` and `V(G) = P + 1` to verify your answer.
+
+2. MCCALL'S QUALITY MODEL (10 MARKS):
+   • Group factors under the 3 standard pillars:
+     1. Product Operation (Correctness, Reliability, Efficiency, Integrity, Usability).
+     2. Product Revision (Maintainability, Flexibility, Testability).
+     3. Product Transition (Portability, Reusability, Interoperability).
+
+3. BUG LIFE CYCLE DIAGRAM:
+   • Draw all states clearly: New -> Assigned -> Open -> Fixed -> Pending Retest -> Retest -> Verified -> Closed (and branches for Reopened, Deferred, Rejected).
+
+================================================================================
+END OF SOFTWARE TESTING & QUALITY ASSURANCE REPEATED QUESTIONS ARCHIVE
+================================================================================
+

@@ -1,0 +1,411 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: INFORMATION RETRIEVAL SYSTEM (IRS)
+SUBJECT CODE: 42680 (DLOC - IV)
+ANALYSIS OF REPEATED QUESTIONS (5 QUESTION PAPERS ARCHIVE: 2023 - 2025)
+================================================================================
+
+SUMMARY OF ANALYZED EXAM PAPERS:
+1. 10/06/2025          (QP Code: 10082376 / 82376)
+2. NOV 2025 / 20.11.25 (QP Code: 95849)
+3. 14/12/2024          (QP Code: 10065526 / 65526)
+4. JUNE 12, 2024       (QP Code: 10056741 / 56741)
+5. 22/06/2023          (QP Code: 10029885 / 29885)
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+4. SECTION C: COMPULSORY NUMERICALS & ALGORITHMIC TRACE TEMPLATES
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+================================================================================
+
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+| NO. | QUESTION / TOPIC DESCRIPTION                          | MARKS | FREQUENCY | PRIORITY / STATUS   |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+|  1  | Inverted Index Construction & Block Addressing        | 10M   |  4 Times  | [MUST-SOLVE] 80%    |
+|  2  | User Relevance Feedback (Rocchio Algorithm & Models)  | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  3  | Keyword-Based Queries (Phrase, Proximity, Wildcard)   | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  4  | Natural Language Modelling Issues & Solutions         | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  5  | Multimedia IR: VIR & IIR Techniques, Indexing/Search  | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  6  | HCI Design Principles & Search Result Visualization   | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  7  | Objectives of IR System & Retrieval Process Pipeline  |  5M   |  4 Times  | [MUST-SOLVE] 80%    |
+|  8  | Vector Space Model & Cosine Ranking (Numericals)      | 10M   |  3 Times  | [MUST-SOLVE] 60%    |
+|  9  | Search Engine Architecture, Crawling & Indexing       |  5M   |  3 Times  | [VERY HIGH] 60%     |
+| 10  | Suffix Data Structures (Suffix Trie, Tree, Array)     | 10M   |  2 Times  | [VERY HIGH] 40%     |
+| 11  | Text Preprocessing Phases (Tokenization, Stemming)    | 10M   |  2 Times  | [VERY HIGH] 40%     |
+| 12  | Huffman Text Compression Algorithm & Code Trees       | 5M/10M|  2 Times  | [VERY HIGH] 40%     |
+| 13  | Structured Text Retrieval Models                      | 5M/10M|  2 Times  | [HIGH] 40%          |
+| 14  | Automatic Local & Global Analysis for Query Expansion | 10M   |  2 Times  | [HIGH] 40%          |
+| 15  | Query Specification (Direct Manipulation vs Boolean)  | 10M   |  2 Times  | [HIGH] 40%          |
+| 16  | Information Retrieval (IR) vs Data Retrieval (DR)     |  5M   |  2 Times  | [HIGH] 40%          |
+| 17  | Meta Search Engines & Meta Searchers                  | 5M/10M|  2 Times  | [HIGH] 40%          |
+| 18  | Markup Languages in IR (XML, SGML, HTML)              | 5M/10M|  2 Times  | [HIGH] 40%          |
+| 19  | Starting Points in Information Access (Overviews)     | 5M/10M|  2 Times  | [HIGH] 40%          |
+| 20  | Document Clustering (Scalar vs Metric Clusters)       | 5M/10M|  2 Times  | [HIGH] 40%          |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+
+================================================================================
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Inverted Index Construction, Postings Lists & Block Addressing
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • NOV 2025 (Q.4a)
+  • 14/12/2024 (Q.4b)
+  • JUNE 2024 (Q.5b)
+  • 22/06/2023 (Q.5a)
+
+Exact Question Variations:
+1. "Describe the process of creating an inverted index with an example. How can this process be optimized using block addressing?" (Nov 2025 Q.4a, Jun 2024 Q.5b, Jun 2023 Q.5a)
+2. "What is inverted Index? Describe the process of creating an inverted index without stop words for the following example: 'This is a text. A text has many words. Words are made from letters.'" (Dec 2024 Q.4b)
+
+What Examiners Look For:
+  • Definition: Mapping from terms/words to the documents (and positions) in which they occur.
+  • Components: Vocabulary/Dictionary + Postings List (DocID, Term Frequency, Token Positions).
+  • Construction Steps: Tokenization -> Stop-word filtering -> Stemming -> Sorting by Term -> Grouping into Postings.
+  • Block Addressing Optimization: Dividing text collection into fixed-size blocks (e.g. 64KB). Postings store BlockIDs instead of exact byte offsets, reducing index pointer size by up to 80%.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: User Relevance Feedback (Rocchio Algorithm & Feedback Models)
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • NOV 2025 (Q.6a - 10M)
+  • 14/12/2024 (Q.6a - 5M)
+  • JUNE 2024 (Q.2a - 10M)
+  • 22/06/2023 (Q.2a - 10M)
+
+Exact Question Variations:
+"Explain Relevance Feedback. Discuss how a user relevance feedback model can be applied to improve search results in search recommendation engine." (Jun 2024 Q.2a, Jun 2023 Q.2a, Nov 2025 Q.6a)
+
+What Examiners Look For:
+  • Concept: Iterative query reformulation based on user marking of relevant and non-relevant documents.
+  • Rocchio Formula:
+      q_m = (alpha * q_0) + (beta * 1/|D_r| * sum_{d in D_r} d) - (gamma * 1/|D_{nr}| * sum_{d in D_{nr}} d)
+      where alpha = original query weight, beta = relevant doc weight, gamma = non-relevant doc weight.
+  • Feedback Types: Explicit feedback, Implicit feedback (clicks, dwell time), Pseudo-relevance (blind) feedback.
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Keyword-Based Queries & Query Formulations
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • 10/06/2025 (Q.4a - 10M)
+  • NOV 2025 (Q.3a - 10M)
+  • 14/12/2024 (Q.1d - 5M)
+  • JUNE 2024 (Q.4a - 10M)
+
+Exact Question Variations:
+"What is the purpose of using keyword based query? Briefly explain any 3 types of keyword based queries."
+
+What Examiners Look For:
+  • Definition & Purpose: Direct text query interface allowing users to express search needs without learning formal database query languages.
+  • Types to Explain (Must Describe with Syntax):
+      1. Single Word Queries (e.g. `python`).
+      2. Phrase Queries (Enclosed in quotes, e.g. `"machine learning"` requiring exact sequential word match).
+      3. Proximity Queries (e.g. `retrieval NEAR/5 model` requiring terms within k words of each other).
+      4. Wildcard / Pattern Queries (e.g. `comput*`, `wom?n` using prefix/suffix trees or B-trees).
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Natural Language Modelling Issues & Solutions in IR
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • 10/06/2025 (Q.3b - 10M)
+  • NOV 2025 (Q.6b - 10M)
+  • 14/12/2024 (Q.2b - 10M)
+  • 22/06/2023 (Q.1b - 5M)
+
+Exact Question Variations:
+"Explain Natural language modelling issues and its solution in IR / Summarize different issues for modelling natural language."
+
+What Examiners Look For:
+  • Core Linguistic Issues:
+      1. Polysemy (One word having multiple meanings, e.g. "Bank" = river bank vs financial institution).
+      2. Synonymy (Multiple words sharing identical meaning, e.g. "Buy" and "Purchase").
+      3. Word Sense Ambiguity & Context Dependence.
+      4. Morphological Variations (Tenses, pluralization).
+  • Solutions:
+      1. Thesaurus & Ontologies (WordNet query expansion).
+      2. Latent Semantic Analysis (LSA) / Singular Value Decomposition (SVD).
+      3. Word Embeddings (Word2Vec, BERT embeddings for contextual semantics).
+      4. Morphological Stemming (Porter Stemmer) & Lemmatization.
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Multimedia Information Retrieval (VIR & IIR Techniques)
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • NOV 2025 (Q.5a - 10M)
+  • 14/12/2024 (Q.3b - 10M)
+  • JUNE 2024 (Q.6d - 5M)
+  • 22/06/2023 (Q.3a - 10M)
+
+Exact Question Variations:
+"Explain the concept of Video Information Retrieval (VIR) and Image Information Retrieval (IIR). Describe at least three techniques used in VIR and three techniques used in IIR."
+
+What Examiners Look For:
+  • Image IR (IIR) Techniques:
+      1. Color Histogram Analysis (RGB/HSV color distribution matching).
+      2. Texture Extraction (Gabor filters, GLCM - Gray Level Co-occurrence Matrix).
+      3. Shape Analysis (Edge detection, Fourier descriptors, Contour matching).
+  • Video IR (VIR) Techniques:
+      1. Shot Boundary Detection (Hard cuts vs Dissolves/Fades).
+      2. Keyframe Extraction (Representative still frames per shot).
+      3. Optical Flow / Motion Vector Analysis.
+      4. Audio/Speech Track Transcription & Synchronization.
+
+--------------------------------------------------------------------------------
+RANK 6 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: HCI Design Principles & Information Access Interface Visualization
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • 10/06/2025 (Q.5a - 10M)
+  • NOV 2025 (Q.1c - 5M UX Case)
+  • JUNE 2024 (Q.3b - 10M & Q.5a - 10M)
+  • 22/06/2023 (Q.3b - 10M)
+
+Exact Question Variations:
+1. "What is human-computer interaction? List and discuss any four design principles for information access interfaces." (Jun 2024 Q.3b, Jun 2023 Q.3b)
+2. "Summarize various visualization techniques with respect to user interface design." (Jun 2025 Q.5a, Jun 2024 Q.5a)
+
+What Examiners Look For:
+  • 4 Core HCI Design Principles:
+      1. Offer informative feedback (search progress, result count).
+      2. Reduce short-term memory load (search history, query suggestions).
+      3. Support direct manipulation and easy reversal of actions.
+      4. Strive for visual consistency.
+  • Visualization Techniques: TileBars (document section relevance), Perspective Wall, Treemaps, Scatter plots, Faceted navigation.
+
+--------------------------------------------------------------------------------
+RANK 7 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Vector Space Model & Document Ranking Numericals (TF-IDF & Cosine)
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 10/06/2025 (Q.2b)
+  • NOV 2025 (Q.2b)
+  • 14/12/2024 (Q.2a)
+
+Exact Question Variations:
+"Consider collection C consisting of documents d1, d2, d3. Given query q, calculate the rank of each document using vector space retrieval model. (Compute score using TF-IDF and cosine similarity measure.)"
+
+What Examiners Look For:
+  • Building Vocabulary Table across all documents and query.
+  • Calculation of Term Frequencies (TF) and Inverse Document Frequencies (IDF = log(N/df)).
+  • Document and Query Vector Weight computation: w_{t,d} = tf_{t,d} * idf_t.
+  • Dot Product and Vector Magnitudes ||d|| and ||q||.
+  • Cosine Similarity formula and final descending rank order.
+
+--------------------------------------------------------------------------------
+RANK 8 [REPEATED IN 2 OUT OF 5 PAPERS - 40% OCCURRENCE]
+TOPIC: Suffix Data Structures (Suffix Trie, Tree, Array & Supra Index)
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • 10/06/2025 (Q.5b)
+  • 14/12/2024 (Q.3a)
+
+Exact Question Variations:
+"Construct Suffixes, Suffix Trie, Suffix Tree, Suffix Array and Supra Index for the sample text: 'Roses are red. Red roses are beautiful. Many people like red roses.'"
+
+What Examiners Look For:
+  • Suffix Trie: Branching tree where each edge represents a single character ending in string terminator $.
+  • Suffix Tree: Compacted suffix trie where edges with single outgoing branches are collapsed into string labels.
+  • Suffix Array: Lexicographically sorted integer array of starting positions of all suffixes.
+  • Supra Index: High-level indexing structure on suffix arrays for fast secondary storage lookup.
+
+================================================================================
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Objectives of Information Retrieval & The Retrieval Process Pipeline
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • 10/06/2025 (Q.1a)
+  • NOV 2025 (Q.1d - Retrieval Process Diagram)
+  • 14/12/2024 (Q.1a)
+  • JUNE 2024 (Q.1a)
+
+Key Technical Requirements:
+  • Primary Objective: Minimize information overload by retrieving documents relevant to user information need while rejecting irrelevant content.
+  • Retrieval Process Diagram: Document Collection -> Text Operations (Preprocessing) -> Indexing -> Index Database; User Information Need -> Query Operations -> Query Formulation -> Matching / Ranking -> Retrieved Ranked List -> User Feedback Loop.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Search Engine Architecture & Search Operation Steps
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 10/06/2025 (Q.1c)
+  • JUNE 2024 (Q.1d)
+  • 22/06/2023 (Q.1d)
+
+Key Architectural Blocks:
+  • Web Crawler (Spider/Bot) -> Document Ingestion & URL Frontier.
+  • Indexer & Parser -> Inverted Index builder with PageRank score computation.
+  • Query Engine / Search Handler -> Query parsing, posting list intersection, ranking & snippet generator.
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED IN 2 OUT OF 5 PAPERS - 40% OCCURRENCE]
+TOPIC: Information Retrieval (IR) vs Data Retrieval (DR)
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • 10/06/2025 (Q.1b)
+  • NOV 2025 (Q.1a)
+
+Key Comparison Parameters:
+  • Matching: DR uses Exact matching (SQL queries); IR uses Partial/Probabilistic matching.
+  • Query Language: DR requires structured formal syntax (SQL/Relational); IR accepts free-form natural language.
+  • Data Model: DR operates on structured relational tables; IR operates on unstructured/semi-structured text.
+  • Error Tolerance: DR has zero error tolerance (single wrong condition returns empty set); IR is error-tolerant and provides ranked results.
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED IN 2 OUT OF 5 PAPERS - 40% OCCURRENCE]
+TOPIC: Meta-Search Engines & Meta-Searchers
+--------------------------------------------------------------------------------
+Marks: 5 Marks (and 10M)
+Total Appearances: 2 Times
+Appeared in:
+  • NOV 2025 (Q.1b & Q.3b)
+
+Key Points to State:
+  • Definition: Search engine that does not maintain its own web index, but forwards queries to multiple underlying search engines (Google, Bing, Yahoo), aggregates results, eliminates duplicates, and re-ranks them.
+  • Merits: Broader web coverage, single query interface, resilience against individual engine failure.
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED IN 2 OUT OF 5 PAPERS - 40% OCCURRENCE]
+TOPIC: Document Clustering (Scalar vs Metric Clusters)
+--------------------------------------------------------------------------------
+Marks: 5 Marks (and 10M)
+Total Appearances: 2 Times
+Appeared in:
+  • JUNE 2024 (Q.6b)
+  • 22/06/2023 (Q.4b)
+
+Key Points to State:
+  • Cluster Hypothesis: Closely associated documents tend to be relevant to the same requests.
+  • Metric Clusters: Formed based on distance metrics (Euclidean distance, cosine distance) satisfying triangular inequality.
+  • Scalar Clusters: Formed based on similarity coefficients or threshold matrix values without strict geometric metric constraints.
+
+================================================================================
+4. SECTION C: COMPULSORY NUMERICALS & ALGORITHMIC TRACE TEMPLATES
+================================================================================
+
+--------------------------------------------------------------------------------
+NUMERICAL TYPE 1: VECTOR SPACE MODEL TF-IDF COSINE SIMILARITY RANKING
+--------------------------------------------------------------------------------
+Standard 10-Mark Problem (Repeated in Jun 2025 Q.2b, Nov 2025 Q.2b, Dec 2024 Q.2a)
+
+Sample Problem Template:
+  Collection C:
+    d1: "beautiful garden"
+    d2: "evening garden time"
+    d3: "garden time is beautiful"
+  Query:
+    q: "garden time"
+
+Step-by-Step Execution Blueprint:
+  1. Extract Vocabulary V: {beautiful, evening, garden, is, time} (Total N = 3 documents).
+  2. Document Term Frequency (TF) Table:
+       Term      | d1 | d2 | d3 | q | Document Freq (df) | IDF = log10(N/df)
+       ----------+----+----+----+---+--------------------+-------------------
+       beautiful |  1 |  0 |  1 | 0 |        2           | log10(3/2) = 0.176
+       evening   |  0 |  1 |  0 | 0 |        1           | log10(3/1) = 0.477
+       garden    |  1 |  1 |  1 | 1 |        3           | log10(3/3) = 0.000
+       is        |  0 |  0 |  1 | 0 |        1           | log10(3/1) = 0.477
+       time      |  0 |  1 |  1 | 1 |        2           | log10(3/2) = 0.176
+  3. Compute TF-IDF Weight Vectors: w_{t,d} = tf_{t,d} * idf_t.
+  4. Compute Query Vector: w_{t,q} = tf_{t,q} * idf_t.
+  5. Compute Dot Products (q . d1), (q . d2), (q . d3).
+  6. Compute Magnitudes ||q||, ||d1||, ||d2||, ||d3||.
+  7. Compute Cosine Score = (q . d) / (||q|| * ||d||).
+  8. Rank Documents in descending order of Cosine Score.
+
+--------------------------------------------------------------------------------
+ALGORITHMIC TRACE: BOYER-MOORE BAD MATCH (BAD CHARACTER) TABLE
+--------------------------------------------------------------------------------
+Standard 10-Mark Problem (Repeated in Jun 2025 Q.4b)
+
+Given:
+  Pattern P: "SMART" (Length m = 5)
+  Alphabet: All characters in alphabet Sigma.
+
+Bad Character Rule Shift Formula:
+  Shift(c) = m - 1 - last_occurrence_index(c) for c in Pattern
+  Shift(c) = m for any character not in Pattern
+
+Bad Match Table for "SMART" (Indices: S=0, M=1, A=2, R=3, T=4):
+  • 'S': 5 - 1 - 0 = 4
+  • 'M': 5 - 1 - 1 = 3
+  • 'A': 5 - 1 - 2 = 2
+  • 'R': 5 - 1 - 3 = 1
+  • 'T': 5 - 1 - 4 = 0 (or m = 5 if looking past match)
+  • Any other character *: 5
+
+Matching Execution:
+  Align Pattern with String; compare right-to-left.
+  Upon mismatch at character 'c', shift pattern right by max(1, Shift(c)).
+
+================================================================================
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+================================================================================
+
++---------------------------------------------+-------------------+------------------------------------+
+| MODULE NAME                                 | AVERAGE WEIGHTAGE | HIGHEST PROBABILITY EXAM TOPICS    |
++---------------------------------------------+-------------------+------------------------------------+
+| Module 1: Foundations & IR Architecture     | 15 - 20 Marks     | IR vs DR, Search Engine Arch       |
+| Module 2: Classic & Probabilistic IR Models | 25 - 30 Marks     | Vector Model (TF-IDF Cosine), BBN  |
+| Module 3: Indexing & Text Preprocessing     | 20 - 25 Marks     | Inverted Index, Block Addressing   |
+| Module 4: String Matching & Suffix Trees    | 15 - 20 Marks     | Boyer-Moore Table, Suffix Tree/Trie|
+| Module 5: Multimedia, HCI & Visual IR       | 20 - 25 Marks     | VIR/IIR, Rocchio Feedback, UI UX   |
++---------------------------------------------+-------------------+------------------------------------+
+
+================================================================================
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+================================================================================
+
+1. NUMERICAL SCORING POWER:
+   • Solve the Vector Space TF-IDF Cosine Similarity Ranking numerical (10 Marks). Show the complete TF-IDF matrix table for full marks.
+   • Boyer-Moore Bad Match Table: Always show the formula `Shift = m - 1 - index` clearly.
+
+2. DIAGRAM CHECKLIST:
+   • Inverted Index: Draw the two-tier structure (Lexicon / Vocabulary -> Postings Linked Lists).
+   • Retrieval Process Pipeline: Show the dual paths (Document Indexing path + User Query path) converging at the Matching engine.
+   • Suffix Tree: Show edge labels with character spans or substring text clearly.
+
+================================================================================
+END OF INFORMATION RETRIEVAL SYSTEM REPEATED QUESTIONS ARCHIVE
+================================================================================
+

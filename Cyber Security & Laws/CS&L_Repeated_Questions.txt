@@ -1,0 +1,460 @@
+================================================================================
+MUMBAI UNIVERSITY - TE IT SEMESTER VII (R-19 C-SCHEME)
+SUBJECT: CYBER SECURITY & LAWS (CS&L)
+SUBJECT CODE: 42686 / 42384 / 41984
+ANALYSIS OF REPEATED QUESTIONS (5 QUESTION PAPERS ARCHIVE: 2022 - 2025)
+================================================================================
+
+SUMMARY OF ANALYZED EXAM PAPERS:
+1. 13/06/2025 (QP Code: 10055704)
+2. 25/11/2024 (QP Code: 10055703)
+3. 03/01/2024 (QP Code: 10038595)
+4. 26/06/2023 (QP Code: 10026426)
+5. 19/12/2022 (QP Code: 10015878)
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+4. SECTION C: STATUTORY LAWS, STANDARDS & TECHNICAL ATTACK BLUEPRINTS
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+
+================================================================================
+1. MASTER FREQUENCY TABLE (QUICK GLANCE)
+================================================================================
+
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+| NO. | QUESTION / TOPIC DESCRIPTION                          | MARKS | FREQUENCY | PRIORITY / STATUS   |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+|  1  | Buffer Overflow Attack Mechanisms & Mitigation (ASLR) | 5M/10M|  5 Times  | [MUST-SOLVE] 100%   |
+|  2  | HIPAA & SOX Regulatory Compliance & IT Requirements   | 5M/10M|  5 Times  | [MUST-SOLVE] 100%   |
+|  3  | E-Contracts Types & E-Commerce Security Models        | 5M/10M|  5 Times  | [MUST-SOLVE] 100%   |
+|  4  | Classification of Cybercrimes & Cybercriminal Profiles| 5M/10M|  5 Times  | [MUST-SOLVE] 100%   |
+|  5  | SQL Injection (SQLi) Steps, Bypass & Countermeasures  | 10M   |  4 Times  | [MUST-SOLVE] 80%    |
+|  6  | Digital Evidence: Definition, Sources & Admissibility | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  7  | Planning of Cyberattacks by Criminals (Lifecycle)     | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  8  | DoS & DDoS Attack Mechanisms, Amplification & Defense | 5M/10M|  4 Times  | [MUST-SOLVE] 80%    |
+|  9  | Security Risks for Organizations & Data Challenges    |  5M   |  4 Times  | [VERY HIGH] 80%     |
+| 10  | Cyber Cafe Illegal Activities & Security Precautions  | 10M   |  3 Times  | [VERY HIGH] 60%     |
+| 11  | Laptop & Wireless Device Safeguards                   | 10M   |  3 Times  | [VERY HIGH] 60%     |
+| 12  | Vishing (Voice Phishing) Attack Lifecycle & Defense   | 5M/10M|  3 Times  | [VERY HIGH] 60%     |
+| 13  | IT Act 2000: Objectives, Key Sections & Penalties     | 5M/10M|  3 Times  | [VERY HIGH] 60%     |
+| 14  | Botnets: Architecture, Exploitation & Mitigation     | 5M/10M|  3 Times  | [VERY HIGH] 60%     |
+| 15  | WIPO Treaties & IPR in Cyberspace                     | 10M   |  3 Times  | [VERY HIGH] 60%     |
+| 16  | Terrestrial Crimes vs Cybercrimes Distinction         |  5M   |  3 Times  | [VERY HIGH] 60%     |
+| 17  | Mobile Device Vulnerabilities & Attack Vectors        |  5M   |  3 Times  | [VERY HIGH] 60%     |
+| 18  | Electronic Banking Laws & Frauds in India             | 10M   |  2 Times  | [HIGH] 40%          |
+| 19  | Virus vs Worm vs Trojan Horse Distinction             |  5M   |  3 Times  | [HIGH] 60%          |
+| 20  | Password Cracking Techniques & Password Policies      |  5M   |  2 Times  | [HIGH] 40%          |
++-----+-------------------------------------------------------+-------+-----------+---------------------+
+
+================================================================================
+2. SECTION A: REPEATED 10-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED IN 5 OUT OF 5 PAPERS - 100% OCCURRENCE]
+TOPIC: Buffer Overflow Attacks and Mitigation Strategies
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M in Short Notes)
+Total Appearances: 5 Times
+Appeared in:
+  • 13/06/2025 (Q.6c - 5M)
+  • 25/11/2024 (Q.6c - 5M)
+  • 03/01/2024 (Q.3a - 10M)
+  • 26/06/2023 (Q.6c - 5M)
+  • 19/12/2022 (Q.3a - 10M)
+
+Exact Question Variations:
+"Explain different buffer overflow attacks. Also explain how to mitigate buffer overflow attack." (03/01/2024 Q.3a, 19/12/2022 Q.3a, Short notes in other 3 papers)
+
+What Examiners Look For:
+  • Stack Frame Architecture: Local variables, Frame Pointer (EBP), Return Address (EIP).
+  • Attack Mechanism: Writing beyond allocated buffer boundaries (`strcpy`, `gets`) to overwrite EIP with shellcode pointer.
+  • Variations: Stack-based overflow, Heap-based overflow, Format string vulnerabilities.
+  • Mitigation Techniques (Must Explain All 4):
+      1. Safe Coding: Using bounds-checked functions (`strncpy`, `snprintf`, `fgets`).
+      2. Stack Canaries / Cookies: Random values placed before return address verified before function returns.
+      3. ASLR (Address Space Layout Randomization): Randomizes stack, heap, and library base addresses.
+      4. DEP / NX-Bit (Data Execution Prevention / Non-Executable Stack): Marks stack memory as non-executable.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED IN 5 OUT OF 5 PAPERS - 100% OCCURRENCE]
+TOPIC: Statutory Compliance: HIPAA & SOX Regulatory Requirements
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M in Short Notes)
+Total Appearances: 5 Times
+Appeared in:
+  • 13/06/2025 (Q.6b - 5M)
+  • 25/11/2024 (Q.6b - 5M)
+  • 03/01/2024 (Q.6b - 10M)
+  • 26/06/2023 (Q.6b - 5M)
+  • 19/12/2022 (Q.6b - 10M)
+
+Exact Question Variations:
+1. "Write key IT requirements for SOX and HIPAA." (03/01/2024 Q.6b)
+2. "Explain what is Information Security Standard and Explain HIPAA act in detail." (19/12/2022 Q.6b)
+
+What Examiners Look For:
+  • HIPAA (Health Insurance Portability and Accountability Act):
+      - Objective: Protect Protected Health Information (PHI) and electronic PHI (ePHI).
+      - 3 Core Security Safeguards:
+          a. Administrative Safeguards (Security management process, workforce training, access control policies).
+          b. Physical Safeguards (Facility access, workstation security, device media controls).
+          c. Technical Safeguards (Access control, audit controls, integrity controls, transmission encryption).
+      - Privacy Rule vs Security Rule vs Breach Notification Rule.
+  • SOX (Sarbanes-Oxley Act):
+      - Objective: Protect investors by improving financial reporting accuracy and corporate governance.
+      - Key IT Sections: Section 302 (Corporate Responsibility for Financial Reports) & Section 404 (Management Assessment of Internal Controls).
+      - IT Audit Requirements: Access logging, change management tracking, disaster recovery, data tampering prevention.
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED IN 5 OUT OF 5 PAPERS - 100% OCCURRENCE]
+TOPIC: E-Contracts, Legal Validity & E-Commerce Models
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 5 Times
+Appeared in:
+  • 13/06/2025 (Q.3b - 10M & Q.4b - 10M)
+  • 25/11/2024 (Q.5b - 10M)
+  • 03/01/2024 (Q.1d - 5M)
+  • 26/06/2023 (Q.3a - 10M & Q.3b - 10M)
+  • 19/12/2022 (Q.1d - 5M)
+
+Exact Question Variations:
+1. "Explain E-contracts and its different types." (13/06/2025 Q.3b, 03/01/2024 Q.1d, 26/06/2023 Q.3b, 19/12/2022 Q.1d)
+2. "What is e-commerce? Discuss types of e-commerce." (13/06/2025 Q.4b, 25/11/2024 Q.5b, 26/06/2023 Q.3a)
+
+What Examiners Look For:
+  • Definition of E-Contracts: Contracts modeled, executed, and enforced electronically.
+  • 3 Primary Types of E-Contracts:
+      1. Click-Wrap Agreements (User clicks "I Agree" / "Accept" button).
+      2. Shrink-Wrap Agreements (Terms accepted upon opening packaging or installing software).
+      3. Browse-Wrap Agreements (Terms bound simply by browsing/navigating website pages).
+  • Essential Elements for Validity under Indian Contract Act 1872 & IT Act 2000 (Sec 10A): Offer, Acceptance, Consideration, Free Consent, Lawful Object.
+  • E-Commerce Models: B2B, B2C, C2C, C2B, G2C with security challenges.
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED IN 5 OUT OF 5 PAPERS - 100% OCCURRENCE]
+TOPIC: Classification of Cybercrimes & Cybercriminals
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 5 Times
+Appeared in:
+  • 13/06/2025 (Q.4a - 10M)
+  • 25/11/2024 (Q.1a - 5M & Q.3a - 10M)
+  • 03/01/2024 (Q.2a - 10M)
+  • 26/06/2023 (Q.4b - 10M)
+  • 19/12/2022 (Q.2a - 10M)
+
+Exact Question Variations:
+1. "Explain the classification of cybercrimes with examples." (03/01/2024 Q.2a, 19/12/2022 Q.2a, 25/11/2024 Q.3a)
+2. "What is Cybercrime? Who are Cybercriminals? Explain." (13/06/2025 Q.4a, 26/06/2023 Q.4b)
+
+What Examiners Look For:
+  • Classification Taxonomy:
+      1. Crimes Against Individuals / Persons (Cyberstalking, Harassment, Defamation, Identity Theft, Phishing).
+      2. Crimes Against Property (Credit card frauds, Ransomware, Intellectual Property theft, Wire transfer fraud).
+      3. Crimes Against Organizations / Governments (Cyberterrorism, Corporate espionage, DDoS on critical infrastructure).
+      4. Crimes Against Society at Large (Cyber trafficking, Web defacement, Piracy).
+  • Profiling Cybercriminals: Script Kiddies, Insider Threats, Organized Cybercrime Syndicates, Hacktivists, Nation-State Actors.
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: SQL Injection (SQLi) Attacks, Lifecycle & Mitigation
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • 13/06/2025 (Q.3a - 10M)
+  • 25/11/2024 (Q.4a - 10M)
+  • 03/01/2024 (Q.5a - 10M)
+  • 19/12/2022 (Q.6a - 10M)
+
+Exact Question Variations:
+"Explain steps for SQL Injection attack. State different countermeasures / How to prevent SQL Injection attacks?"
+
+What Examiners Look For:
+  • Vulnerability Root Cause: Direct concatenation of unvalidated user inputs into backend SQL query strings.
+  • Attack Steps & Syntax Examples:
+      - Tautology / Authentication Bypass: `' OR '1'='1' --`
+      - Union-based SQLi: `' UNION SELECT username, password FROM users --`
+      - Blind SQLi (Boolean-based & Time-based using `WAITFOR DELAY` or `sleep()`).
+  • Prevention & Countermeasures (Must List 4):
+      1. Parameterized Queries / Prepared Statements (e.g., `PreparedStatement` in Java, PDO in PHP).
+      2. Stored Procedures (Properly parameterized).
+      3. Input Validation & Whitelisting.
+      4. Principle of Least Privilege for DB user accounts.
+      5. Web Application Firewalls (WAF).
+
+--------------------------------------------------------------------------------
+RANK 6 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Digital Evidence: Definition, Storage Locations, Types & Admissibility
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M in Short Notes)
+Total Appearances: 4 Times
+Appeared in:
+  • 13/06/2025 (Q.6a - 5M)
+  • 25/11/2024 (Q.2b - 10M)
+  • 03/01/2024 (Q.6a - 10M)
+  • 26/06/2023 (Q.5a - 10M)
+
+Exact Question Variations:
+1. "What is digital evidence? Where one can find it." (25/11/2024 Q.2b, 26/06/2023 Q.5a)
+2. "Explain the term evidence and different types of evidences." (03/01/2024 Q.6a)
+
+What Examiners Look For:
+  • Definition: Information of probative value stored or transmitted in binary form.
+  • Sources & Storage Locations:
+      - Volatile Memory (RAM, CPU cache, active network connections, ARP cache).
+      - Non-Volatile Memory (Hard drives, SSDs, Flash USBs, Optical media).
+      - Network Devices (Router logs, Firewall access logs, DHCP servers, DNS cache).
+      - Cloud & Mobile (Call records, SMS, GPS logs, App databases).
+  • Characteristics / Legal Admissibility (LOCARD's principle, Chain of Custody, Hash verification MD5/SHA256).
+
+--------------------------------------------------------------------------------
+RANK 7 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Planning of Cyberattacks by Criminals (Attack Lifecycle)
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M)
+Total Appearances: 4 Times
+Appeared in:
+  • 13/06/2025 (Q.6d - 5M)
+  • 25/11/2024 (Q.4b - 10M)
+  • 03/01/2024 (Q.1a - 5M)
+  • 26/06/2023 (Q.2a - 10M)
+
+Exact Question Variations:
+"Discuss steps involved in planning of cyberattacks by criminal / Explain how criminals plan the attack."
+
+What Examiners Look For:
+  • The 7-Stage Cyber Kill Chain / Attack Lifecycle:
+      1. Reconnaissance (OSINT, footprinting, WHOIS lookup, Google dorking).
+      2. Weaponization (Embedding exploit with malware payload into PDF/executable).
+      3. Delivery (Phishing email, watering-hole attack, infected USB).
+      4. Exploitation (Triggering vulnerability e.g. buffer overflow, zero-day).
+      5. Installation (Installing backdoor, Trojan, persistent rootkit).
+      6. Command & Control (C2 channel communication with beaconing).
+      7. Actions on Objectives (Data exfiltration, ransomware encryption, disruption).
+
+--------------------------------------------------------------------------------
+RANK 8 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Denial of Service (DoS) & Distributed DoS (DDoS) Attacks
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M in Short Notes)
+Total Appearances: 4 Times
+Appeared in:
+  • 25/11/2024 (Q.6e - 5M)
+  • 03/01/2024 (Q.4a - 10M)
+  • 26/06/2023 (Q.6e - 5M)
+  • 19/12/2022 (Q.4a - 10M)
+
+Exact Question Variations:
+"What do you understand by DOS and DDOS attack? Explain in detail." (03/01/2024 Q.4a, 19/12/2022 Q.4a)
+
+What Examiners Look For:
+  • Conceptual Difference: DoS (single attacking source) vs DDoS (distributed botnet swarm).
+  • Attack Categories:
+      1. Volumetric Attacks (UDP Floods, ICMP Floods, NTP/DNS Amplification).
+      2. Protocol / Network Layer Attacks (SYN Flood, Ping of Death, Smurf Attack).
+      3. Application Layer Attacks (HTTP GET/POST Flood, Slowloris).
+  • Defense Mechanisms: Anycast DNS, Rate limiting, Cloud DDoS scrubbers (Cloudflare/Akamai), SYN cookies.
+
+--------------------------------------------------------------------------------
+RANK 9 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Cyber Cafe Security: Illegal Activities & Protective Measures
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 13/06/2025 (Q.5b - 10M)
+  • 25/11/2024 (Q.2a - 10M)
+  • 26/06/2023 (Q.5b - 10M)
+
+Exact Question Variations:
+"What are illegal activities observed in Cyber Cafe? What are safety and security measures while using the computer in Cyber Cafe?"
+
+What Examiners Look For:
+  • Illegal Activities: Anonymous cyberbullying, identity fraud, transmitting pirated software/content, launching cyberattacks using cafe IP to evade tracking, financial theft via unlogged sessions.
+  • Vulnerabilities: Hardware keyloggers, unpatched operating systems, saved browser credentials, unencrypted shared LAN.
+  • Safety & Security Measures: Use virtual keyboards for passwords, Incognito browsing, log out of all sessions, clear cookies/cache, avoid online banking on public machines, verify physical cables.
+
+--------------------------------------------------------------------------------
+RANK 10 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Safeguarding Laptops and Wireless Devices
+--------------------------------------------------------------------------------
+Marks: 10 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 13/06/2025 (Q.5a - 10M)
+  • 25/11/2024 (Q.3b - 10M)
+  • 26/06/2023 (Q.4a - 10M)
+
+Exact Question Variations:
+"What are basic security precautions to be taken to safeguard Laptops and Wireless devices? Explain."
+
+What Examiners Look For:
+  • Physical Security: Kensington cable locks, screen privacy filters, safe transit guidelines.
+  • Device & OS Security: Full-disk encryption (BitLocker/FileVault), BIOS/UEFI passwords, remote wipe/tracking enabled.
+  • Wireless Security: Disabling auto-connect to open Wi-Fi, using VPN on public networks, disabling Bluetooth discovery, MAC address filtering, WPA3 encryption.
+
+--------------------------------------------------------------------------------
+RANK 11 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Vishing (Voice Phishing) Attacks
+--------------------------------------------------------------------------------
+Marks: 10 Marks (and 5M in Short Notes)
+Total Appearances: 3 Times
+Appeared in:
+  • 13/06/2025 (Q.6e - 5M)
+  • 25/11/2024 (Q.5a - 10M)
+  • 26/06/2023 (Q.2b - 10M)
+
+Exact Question Variations:
+"What is vishing attack? How it works? How to protect from vishing attack?"
+
+What Examiners Look For:
+  • Definition: Phone-based social engineering leveraging VoIP caller ID spoofing to extract sensitive financial/credentials data.
+  • How it Works: Caller spoofing (Bank/Tax authority) -> Creating urgency/panic -> Pretexting scenario -> Extraction of OTP/CVV/Password.
+  • Protective Measures: Never share OTP over voice calls, verify caller through official independent bank numbers, enable spam call filtering.
+
+================================================================================
+3. SECTION B: REPEATED 5-MARK QUESTIONS (RANKED BY FREQUENCY)
+================================================================================
+
+--------------------------------------------------------------------------------
+RANK 1 [REPEATED IN 4 OUT OF 5 PAPERS - 80% OCCURRENCE]
+TOPIC: Security Risks for Organizations & Challenges in Securing Business Data
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 4 Times
+Appeared in:
+  • 13/06/2025 (Q.1b)
+  • 25/11/2024 (Q.1c & Q.1d)
+  • 26/06/2023 (Q.1d)
+
+Key Points to State:
+  • Primary Risks: Ransomware & data extortion, insider threats, cloud configuration leaks, supply chain vulnerabilities.
+  • Business Challenges: BYOD policy enforcement, compliance maintenance across borders, skill shortage, dynamic attack surface.
+
+--------------------------------------------------------------------------------
+RANK 2 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Terrestrial Crimes vs Cybercrimes Distinction
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 13/06/2025 (Q.1d)
+  • 25/11/2024 (Q.1b)
+  • 26/06/2023 (Q.1c)
+
+Key Comparison Parameters:
+  • Jurisdiction / Boundary: Terrestrial has physical borders; Cybercrime is borderless & cross-jurisdictional.
+  • Scale & Speed: Terrestrial is localized and physical; Cybercrime can target thousands in milliseconds.
+  • Evidence: Physical traces (fingerprints, DNA) vs Volatile digital logs and timestamps.
+  • Identity: Attacker is physically present vs Anonymized via VPNs, Tor, and proxy chains.
+
+--------------------------------------------------------------------------------
+RANK 3 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Mobile Device Vulnerabilities & Threat Landscape
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 13/06/2025 (Q.1a)
+  • 03/01/2024 (Q.1b)
+  • 26/06/2023 (Q.1e)
+
+Key Points to State:
+  • Threat Vectors: Malicious app side-loading, insecure permissions, unencrypted storage, SMS smishing, rogue Wi-Fi interception, fake base stations (IMSI catchers).
+
+--------------------------------------------------------------------------------
+RANK 4 [REPEATED IN 3 OUT OF 5 PAPERS - 60% OCCURRENCE]
+TOPIC: Virus vs Worm vs Trojan Horse Distinction
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 3 Times
+Appeared in:
+  • 13/06/2025 (Q.1c - Virus vs Worm & Q.6f - Trojan and Backdoor)
+  • 26/06/2023 (Q.1b - Virus vs Worm & Q.6f - Trojan and Backdoor)
+
+Key Differences:
+  • Virus: Requires host file execution and human interaction to spread.
+  • Worm: Self-replicating, autonomous, spreads across networks without human intervention by exploiting vulnerabilities.
+  • Trojan Horse: Disguises as legitimate/beneficial software but executes malicious payload upon installation.
+
+--------------------------------------------------------------------------------
+RANK 5 [REPEATED IN 2 OUT OF 5 PAPERS - 40% OCCURRENCE]
+TOPIC: Password Cracking Methods & Password Policies
+--------------------------------------------------------------------------------
+Marks: 5 Marks
+Total Appearances: 2 Times
+Appeared in:
+  • 26/06/2023 (Q.1a - Password Policy Guidelines)
+  • 19/12/2022 (Q.1c - Methods of Password Cracking)
+
+Key Points to State:
+  • Cracking Methods: Dictionary attack, Brute-force attack, Rainbow tables, Hybrid attack, Credential stuffing, Keylogging.
+  • Policy Guidelines: Minimum 12-16 characters, mix of character classes, mandatory MFA, expiry policy, banning dictionary words.
+
+================================================================================
+4. SECTION C: STATUTORY LAWS, STANDARDS & TECHNICAL ATTACK BLUEPRINTS
+================================================================================
+
+--------------------------------------------------------------------------------
+STATUTORY BLUEPRINT: IT ACT 2000 (KEY SECTIONS TO MEMORIZE)
+--------------------------------------------------------------------------------
+1. Section 43: Penalty and compensation for damage to computer systems, downloading data without permission.
+2. Section 65: Tampering with computer source documents (Imprisonment up to 3 years or fine up to 2 lakh).
+3. Section 66: Hacking with computer systems, fraudulent/dishonest activities.
+4. Section 66C: Identity theft using password/electronic signature.
+5. Section 66D: Cheating by personation using computer resource.
+6. Section 66E: Violation of privacy (capturing/publishing private images without consent).
+7. Section 67: Publishing or transmitting obscene material in electronic form.
+8. Section 72: Penalty for breach of confidentiality and privacy.
+
+--------------------------------------------------------------------------------
+INTERNATIONAL TREATIES: WIPO (WORLD INTELLECTUAL PROPERTY ORGANIZATION)
+--------------------------------------------------------------------------------
+Core Treaties in Cyber Context:
+  1. WIPO Copyright Treaty (WCT): Protects computer programs as literary works and database arrangements.
+  2. WIPO Performances and Phonograms Treaty (WPPT): Protects digital sound recordings.
+  3. Madrid System: International registration of trademarks.
+  4. Patent Cooperation Treaty (PCT): Unified patent filing across member states.
+  5. UDRP (Uniform Domain-Name Dispute-Resolution Policy): Resolves cybersquatting disputes.
+
+================================================================================
+5. SECTION D: MODULE-WISE HIGH-YIELD TOPIC WEIGHTAGE
+================================================================================
+
++---------------------------------------------+-------------------+------------------------------------+
+| MODULE NAME                                 | AVERAGE WEIGHTAGE | HIGHEST PROBABILITY EXAM TOPICS    |
++---------------------------------------------+-------------------+------------------------------------+
+| Module 1: Cybercrime Landscape & Basics     | 15 - 20 Marks     | Terrestrial vs Cyber, Planning     |
+| Module 2: Technical Attack Vectors          | 25 - 30 Marks     | SQLi, Buffer Overflow, DoS/DDoS    |
+| Module 3: Operational & Mobile Security     | 15 - 20 Marks     | Cyber Cafe, Laptop/Wireless Safety |
+| Module 4: Digital Evidence & Forensics      | 15 - 20 Marks     | Digital Evidence types & sources   |
+| Module 5: Cyber Laws & Global Compliance    | 20 - 25 Marks     | IT Act 2000, HIPAA, SOX, WIPO      |
++---------------------------------------------+-------------------+------------------------------------+
+
+================================================================================
+6. SECTION E: HIGH-SCORING EXAM STRATEGY & SCORING TIPS
+================================================================================
+
+1. THE "COMPLIANCE & LEGAL" ADVANTAGE:
+   • HIPAA & SOX requirements appear in almost every single paper. Prepare exact 3-pillar points (Administrative, Physical, Technical) to secure full 10 marks easily.
+   • IT Act 2000: Always quote exact sections (Sec 43, 65, 66, 66C, 66D, 67) for top-bracket marks.
+
+2. TECHNICAL ATTACK ANSWER STRUCTURING:
+   • Buffer Overflow: Always draw the Stack Memory diagram showing Buffer -> Saved EBP -> Return Address (EIP).
+   • SQL Injection: Write the exact SQL string (e.g. `' OR 1=1 --`) and the corresponding parameterized Prepared Statement solution in code.
+
+3. ANSWERING SHORT NOTES (QUESTION 6):
+   • Short notes in CS&L almost always feature: (1) Buffer Overflow, (2) HIPAA/SOX, (3) DoS/Botnets, (4) Vishing/Social Engineering.
+
+================================================================================
+END OF CYBER SECURITY & LAWS REPEATED QUESTIONS ARCHIVE
+================================================================================
+
