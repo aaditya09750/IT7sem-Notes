@@ -567,23 +567,100 @@ These questions appeared once in the past papers or represent **novel priority q
 
 ## 9. Compulsory Numericals & Design Blueprints
 
-### 1. Confusion Matrix Evaluation (10-Mark Numerical Blueprint)
-**Standard Exam Problem:**
-Given a classification matrix for Fraudulent (Positive) vs Legitimate (Negative) transactions:
-- $\text{True Positive (TP)} = 100$
-- $\text{True Negative (TN)} = 850$
-- $\text{False Positive (FP)} = 20$
-- $\text{False Negative (FN)} = 30$
-- $\text{Total Transactions} = 1000$
+### 1. Confusion Matrix Evaluation: All University PYQ Numericals Solved
+
+#### PYQ Numerical A: Dec 2023 Paper (QP Code: 10038602, Q.6a - 10 Marks)
+**Exam Problem Statement:**  
+Calculate Accuracy, Precision, Recall, Sensitivity and Specificity for the following example:
+
+| Predicted Class \ Actual Class | **Buys_Computer = yes (+)** | **Buys_Computer = no (-)** |
+| :--- | :---: | :---: |
+| **Buys_Computer = yes (+)** | 6954 | 46 |
+| **Buys_Computer = no (-)** | 412 | 2588 |
+
+**Step 0: Identify the 4 Core Values:**
+- $\text{True Positive (TP)} = \mathbf{6954}$ *(Actual Yes, Predicted Yes)*
+- $\text{False Positive (FP)} = \mathbf{46}$ *(Actual No, Predicted Yes - False Alarm)*
+- $\text{False Negative (FN)} = \mathbf{412}$ *(Actual Yes, Predicted No)*
+- $\text{True Negative (TN)} = \mathbf{2588}$ *(Actual No, Predicted No)*
+- $\text{Total } (N) = 6954 + 46 + 412 + 2588 = \mathbf{10,000}$
+
+**Calculations:**
+1. **Accuracy:**
+   $$\text{Accuracy} = \frac{TP + TN}{\text{Total}} = \frac{6954 + 2588}{10000} = \frac{9542}{10000} = \mathbf{0.9542 \ (95.42\%)}$$
+2. **Precision:**
+   $$\text{Precision} = \frac{TP}{TP + FP} = \frac{6954}{6954 + 46} = \frac{6954}{7000} = \mathbf{0.9934 \ (99.34\%)}$$
+3. **Recall (Sensitivity):**
+   $$\text{Recall} = \frac{TP}{TP + FN} = \frac{6954}{6954 + 412} = \frac{6954}{7366} = \mathbf{0.9441 \ (94.41\%)}$$
+   $$\mathbf{\text{Sensitivity} = \text{Recall} = 94.41\%}$$
+4. **Specificity:**
+   $$\text{Specificity} = \frac{TN}{TN + FP} = \frac{2588}{2588 + 46} = \frac{2588}{2634} = \mathbf{0.9825 \ (98.25\%)}$$
+
+---
+
+#### PYQ Numerical B: Nov 2024 Paper (QP Code: 10067845, Q.6a - 10 Marks)
+**Exam Problem Statement:**  
+Define Accuracy, Precision, and Recall. Evaluate the performance of **Classifier 1** and **Classifier 2** on the basis of the above evaluation parameters, given following confusion matrix where $F = \text{actual fraud}$, $F' = \text{predicted fraud}$, $N = \text{actual no fraud}$, $N' = \text{predicted no fraud}$:
+
+**Classifier 1 Matrix:**
+| | **$F'$ (Pred Fraud)** | **$N'$ (Pred No Fraud)** |
+| :--- | :---: | :---: |
+| **$F$ (Actual Fraud)** | 20 | 10 |
+| **$N$ (Actual No Fraud)**| 10 | 60 |
+
+**Classifier 2 Matrix:**
+| | **$F'$ (Pred Fraud)** | **$N'$ (Pred No Fraud)** |
+| :--- | :---: | :---: |
+| **$F$ (Actual Fraud)** | 0 | 15 |
+| **$N$ (Actual No Fraud)**| 5 | 80 |
+
+**Part 1: Definitions (Mandatory 3 Marks):**
+- **Accuracy:** Proportion of all correct decisions made by the classifier: $\frac{TP + TN}{Total}$.
+- **Precision:** Exactness of positive predictions: $\frac{TP}{TP + FP}$.
+- **Recall:** Completeness of capturing true positive instances: $\frac{TP}{TP + FN}$.
+
+**Part 2: Classifier 1 Evaluation ($N = 20 + 10 + 10 + 60 = 100$):**
+- $TP = 20, FN = 10, FP = 10, TN = 60$
+- $\text{Accuracy}_1 = \frac{20 + 60}{100} = \mathbf{80\%}$
+- $\text{Precision}_1 = \frac{20}{20 + 10} = \frac{20}{30} = \mathbf{66.67\%}$
+- $\text{Recall}_1 = \frac{20}{20 + 10} = \frac{20}{30} = \mathbf{66.67\%}$
+
+**Part 3: Classifier 2 Evaluation ($N = 0 + 15 + 5 + 80 = 100$):**
+- $TP = 0, FN = 15, FP = 5, TN = 80$
+- $\text{Accuracy}_2 = \frac{0 + 80}{100} = \mathbf{80\%}$
+- $\text{Precision}_2 = \frac{0}{0 + 5} = \mathbf{0\%}$
+- $\text{Recall}_2 = \frac{0}{0 + 15} = \mathbf{0\%}$
+
+**Part 4: Comparison & Conclusion (2 Marks):**
+| Parameter | Classifier 1 | Classifier 2 | Winner / Decision |
+| :--- | :---: | :---: | :---: |
+| **Accuracy** | 80% | 80% | Identical / Tie |
+| **Precision** | **66.67%** | 0% | **Classifier 1** |
+| **Recall** | **66.67%** | 0% | **Classifier 1** |
+
+> **Conclusion Statement:** While both classifiers exhibit identical 80% accuracy, **Classifier 2 is completely non-functional for fraud detection** as it failed to detect a single fraudulent transaction ($Recall = 0\%$). **Classifier 1 is overwhelmingly superior**, proving that accuracy alone is a misleading metric for imbalanced datasets.
+
+---
+
+#### PYQ Numerical C: May 2024 Paper (QP Code: 10056808, Q.6a - 10 Marks)
+**Exam Problem Statement:**  
+Consider a binary classification problem for transaction fraud detection. After testing on a dataset, we obtain:
+
+| | **Actual Legitimate (-)** | **Actual Fraudulent (+)** |
+| :--- | :---: | :---: |
+| **Predicted Legitimate (-)** | 850 | 30 |
+| **Predicted Fraudulent (+)** | 20 | 100 |
+
+Calculate Accuracy, Precision, Recall, and F1-score.
+
+**Values:** $TN = 850, FP = 20, FN = 30, TP = 100, \text{Total} = 1000$.
 
 **Calculations:**
 $$\text{Accuracy} = \frac{TP + TN}{\text{Total}} = \frac{100 + 850}{1000} = \frac{950}{1000} = \mathbf{0.95 \ (95.0\%)}$$
 
 $$\text{Precision} = \frac{TP}{TP + FP} = \frac{100}{100 + 20} = \frac{100}{120} = \mathbf{0.8333 \ (83.33\%)}$$
 
-$$\text{Recall / Sensitivity} = \frac{TP}{TP + FN} = \frac{100}{100 + 30} = \frac{100}{130} = \mathbf{0.7692 \ (76.92\%)}$$
-
-$$\text{Specificity} = \frac{TN}{TN + FP} = \frac{850}{850 + 20} = \frac{850}{870} = \mathbf{0.9770 \ (97.70\%)}$$
+$$\text{Recall} = \frac{TP}{TP + FN} = \frac{100}{100 + 30} = \frac{100}{130} = \mathbf{0.7692 \ (76.92\%)}$$
 
 $$\text{F1-Score} = 2 \times \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}} = 2 \times \frac{0.8333 \times 0.7692}{0.8333 + 0.7692} = \frac{1.2818}{1.6025} = \mathbf{0.7998 \ (\approx 80.0\%)}$$
 
